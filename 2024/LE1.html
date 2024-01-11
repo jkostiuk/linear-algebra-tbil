@@ -110,7 +110,7 @@ window.MathJax = {
 <body id="tbilla" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="linear-algebra-for-team-based-inquiry-learning.html"><span class="title">Linear Algebra for Team-Based Inquiry Learning:</span> <span class="subtitle">2024 Edition PREVIEW (Jordan’s Edited Version)</span></a></h1>
+<h1 class="heading"><a href="linear-algebra-for-team-based-inquiry-learning.html"><span class="title">Linear Algebra for Team-Based Inquiry Learning:</span> <span class="subtitle">Spring 2024 Math 0520 Edition</span></a></h1>
 <p class="byline">Steven Clontz, Drew Lewis</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
@@ -543,13 +543,125 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="p-25">
+<div class="para">A <dfn class="terminology">Euclidean vector</dfn> is an ordered list of real numbers</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[\begin{array}{c}
+a_1 \\
+a_2 \\
+\vdots \\
+a_n
+\end{array}\right]\text{.}
+\end{equation*}
+</div>
+<div class="para">We will find it useful to almost always typeset Euclidean vectors vertically, but the notation <span class="process-math">\(\left[\begin{array}{cccc}a_1 &amp; a_2 &amp; \cdots &amp; a_n\end{array}\right]^T\)</span> is also valid when vertical typesetting is inconvenient. The set of all Euclidean vectors with <span class="process-math">\(n\)</span> components is denoted as <span class="process-math">\(\mathbb R^n\text{,}\)</span> and vectors are often described using the notation <span class="process-math">\(\vec v\text{.}\)</span>
+</div>
+</div> <div class="para logical" id="p-26">
+<div class="para">Each number in the list is called a <dfn class="terminology">component</dfn>, and we use the following definitions for the sum of two vectors, and the product of a real number and a vector:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[\begin{array}{c}
+a_1 \\
+a_2 \\
+\vdots \\
+a_n
+\end{array}\right]+
+\left[\begin{array}{c}
+b_1 \\
+b_2 \\
+\vdots \\
+b_n
+\end{array}\right]=
+\left[\begin{array}{c}
+a_1+b_1 \\
+a_2+b_2 \\
+\vdots \\
+a_n+b_n
+\end{array}\right]
+\hspace{3em}
+c
+\left[\begin{array}{c}
+a_1 \\
+a_2 \\
+\vdots \\
+a_n
+\end{array}\right]=
+\left[\begin{array}{c}
+ca_1 \\
+ca_2 \\
+\vdots \\
+ca_n
+\end{array}\right]
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-27">
+<div class="para">Following are some examples of addition and scalar multiplication in <span class="process-math">\(\mathbb R^4\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[\begin{array}{c}
+3 \\
+-3 \\
+0 \\
+4
+\end{array}\right]+
+\left[\begin{array}{c}
+0 \\
+2 \\
+7 \\
+1
+\end{array}\right]=
+\left[\begin{array}{c}
+3+0 \\
+-3+2 \\
+0+7 \\
+4+1
+\end{array}\right]=
+\left[\begin{array}{c}
+3 \\
+-1 \\
+7 \\
+5
+\end{array}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-4
+\left[\begin{array}{c}
+0 \\
+2 \\
+-2 \\
+3
+\end{array}\right]=
+\left[\begin{array}{c}
+-4(0) \\
+-4(2)\\
+-4(-2) \\
+-4(3)
+\end{array}\right]=
+\left[\begin{array}{c}
+0 \\
+-8 \\
+8 \\
+-12
+\end{array}\right]
+\end{equation*}
+</div>
+</div></article><article class="definition definition-like" id="definition-2"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-28">
 <div class="para">A <dfn class="terminology">linear equation</dfn> is an equation of the variables <span class="process-math">\(x_i\)</span> of the form</div>
 <div class="displaymath process-math">
 \begin{equation*}
 a_1x_1+a_2x_2+\dots+a_nx_n=b\text{.}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-26">
+</div> <div class="para logical" id="p-29">
 <div class="para">A <dfn class="terminology">solution</dfn> for a linear equation is a Euclidean vector</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -567,14 +679,14 @@ s_n
 a_1s_1+a_2s_2+\dots+a_ns_n=b
 \end{equation*}
 </div>
-<div class="para">(that is, a Euclidean vector that can be plugged into the equation).</div>
+<div class="para">(that is, a Euclidean vector whose components can be plugged into the equation).</div>
 </div></article><article class="remark remark-like" id="remark-1"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-27">In previous classes you likely used the variables <span class="process-math">\(x,y,z\)</span> in equations. However, since this course often deals with equations of four or more variables, we will often write our variables as <span class="process-math">\(x_i\text{,}\)</span> and assume <span class="process-math">\(x=x_1,y=x_2,z=x_3,w=x_4\)</span> when convenient.</div></article><article class="definition definition-like" id="definition-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+<div class="para" id="p-30">In previous classes you likely used the variables <span class="process-math">\(x,y,z\)</span> in equations. However, since this course often deals with equations of four or more variables, we will often write our variables as <span class="process-math">\(x_i\text{,}\)</span> and assume <span class="process-math">\(x=x_1,y=x_2,z=x_3,w=x_4\)</span> when convenient.</div></article><article class="definition definition-like" id="definition-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-28">
+<div class="para logical" id="p-31">
 <div class="para">A <dfn class="terminology">system of linear equations</dfn> (or a <dfn class="terminology">linear system</dfn> for short) is a collection of one or more linear equations.</div>
 <div class="displaymath process-math" id="md-1">
 \begin{alignat*}{5}
@@ -585,7 +697,7 @@ a_{m1}x_1 &amp;\,+\,&amp; a_{m2}x_2 &amp;\,+\,&amp; \dots  &amp;\,+\,&amp; a_{mn
 \end{alignat*}
 </div>
 </div>
-<div class="para logical" id="p-29">
+<div class="para logical" id="p-32">
 <div class="para">Its <dfn class="terminology">solution set</dfn> is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -609,10 +721,10 @@ s_n
 \end{equation*}
 </div>
 </div></article><article class="remark remark-like" id="remark-2"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-30">When variables in a large linear system are missing, we prefer to write the system in one of the following standard forms:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;">
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-31">
+<div class="para" id="p-33">When variables in a large linear system are missing, we prefer to write the system in one of the following standard forms:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-34">
 <div class="para">Original linear system:</div>
 <div class="displaymath process-math" id="md-2">
 \begin{alignat*}{2}
@@ -622,7 +734,7 @@ x_1 + 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-32">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-35">
 <div class="para">Verbose standard form:</div>
 <div class="displaymath process-math" id="md-3">
 \begin{alignat*}{4}
@@ -632,7 +744,7 @@ x_1 + 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-33">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-36">
 <div class="para">Concise standard form:</div>
 <div class="displaymath process-math" id="md-4">
 \begin{alignat*}{4}
@@ -643,9 +755,9 @@ x_1 &amp;     &amp;      &amp;\,+\,&amp; 3x_3 &amp;\,=\,&amp; 3\\
 </div>
 </div></div>
 </div></div></article><article class="remark remark-like" id="remark-3"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-34">It will often be convenient to think of a system of equations as a vector equation.</div> <div class="para logical" id="p-35">
+<div class="para" id="p-37">It will often be convenient to think of a system of equations as a vector equation.</div> <div class="para logical" id="p-38">
 <div class="para">By applying vector operations and equating components, it is straightforward to see that the vector equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -661,13 +773,13 @@ x_1 &amp;     &amp;      &amp;\,+\,&amp; 3x_3 &amp;\,=\,&amp; 3\\
 &amp;\,-\,&amp;  x_2 &amp;\,+\,&amp;  x_3 &amp;\,=\,&amp; -2
 \end{alignat*}
 </div>
-</div></article><article class="definition definition-like" id="definition-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
+</div></article><article class="definition definition-like" id="definition-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-36">A linear system is <dfn class="terminology">consistent</dfn> if its solution set is non-empty (that is, there exists a solution for the system). Otherwise it is <dfn class="terminology">inconsistent</dfn>.</div></article><article class="fact theorem-like" id="fact-1"><h4 class="heading">
-<span class="type">Fact</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
+<div class="para" id="p-39">A linear system is <dfn class="terminology">consistent</dfn> if its solution set is non-empty (that is, there exists a solution for the system). Otherwise it is <dfn class="terminology">inconsistent</dfn>.</div></article><article class="fact theorem-like" id="fact-1"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-37">All linear systems are one of the following:</div> <ol class="decimal">
+<div class="para" id="p-40">All linear systems are one of the following:</div> <ol class="decimal">
 <li id="li-18"><div class="para" id="p-derived-li-18">
 <em class="emphasis">Consistent with one solution:</em> its solution set contains a single vector, e.g. <span class="process-math">\(\setList{\left[\begin{array}{c}1\\2\\3\end{array}\right]}\)</span>
 </div></li>
@@ -683,19 +795,19 @@ a\in\IR
 <em class="emphasis">Inconsistent</em>: its solution set is the empty set, denoted by either <span class="process-math">\(\{\}\)</span> or <span class="process-math">\(\emptyset\text{.}\)</span>
 </div></li>
 </ol></article><article class="activity project-like" id="activity-1"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-38">All inconsistent linear systems contain a logical <dfn class="terminology">contradiction</dfn>. Find a contradiction in this system to show that its solution set is the empty set.</div>
+<div class="para" id="p-41">All inconsistent linear systems contain a logical <dfn class="terminology">contradiction</dfn>. Find a contradiction in this system to show that its solution set is the empty set.</div>
 <div class="displaymath process-math" id="md-6">
 \begin{align*}
 -x_1+2x_2  &amp;=  5\\
 2x_1-4x_2  &amp;=  6
 \end{align*}
 </div></article><article class="activity project-like" id="activity-2"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="introduction-3">
-<div class="para" id="p-39">Consider the following consistent linear system.</div>
+<div class="para" id="p-42">Consider the following consistent linear system.</div>
 <div class="displaymath process-math" id="md-7">
 \begin{align*}
 -x_1+2x_2  &amp;= -3\\
@@ -704,8 +816,8 @@ a\in\IR
 </div>
 </div>
 <article class="task exercise-like" id="task-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-40">Find three different solutions for this system.</div></article><article class="task exercise-like" id="task-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-41">Let <span class="process-math">\(x_2=a\)</span> where <span class="process-math">\(a\)</span> is an arbitrary real number, then find an expression for <span class="process-math">\(x_1\)</span> in terms of <span class="process-math">\(a\text{.}\)</span> Use this to write the solution set <span class="process-math">\(\setBuilder
+<div class="para" id="p-43">Find three different solutions for this system.</div></article><article class="task exercise-like" id="task-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-44">Let <span class="process-math">\(x_2=a\)</span> where <span class="process-math">\(a\)</span> is an arbitrary real number, then find an expression for <span class="process-math">\(x_1\)</span> in terms of <span class="process-math">\(a\text{.}\)</span> Use this to write the solution set <span class="process-math">\(\setBuilder
 {
 \left[\begin{array}{c}
 \unknown \\
@@ -714,16 +826,16 @@ a
 }{
 a \in \IR
 }\)</span> for the linear system.</div></article></article><article class="activity project-like" id="activity-3"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-42">Consider the following linear system.</div>
+<div class="para" id="p-45">Consider the following linear system.</div>
 <div class="displaymath process-math" id="md-8">
 \begin{alignat*}{5}
 x_1 &amp;\,+\,&amp; 2x_2 &amp;\, \,&amp;     &amp;\,-\,&amp;  x_4 &amp;\,=\,&amp; 3\\
 &amp;\, \,&amp;      &amp;\, \,&amp; x_3 &amp;\,+\,&amp; 4x_4 &amp;\,=\,&amp; -2
 \end{alignat*}
 </div>
-<div class="para logical" id="p-43">
+<div class="para logical" id="p-46">
 <div class="para">Describe the solution set</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -743,9 +855,9 @@ a,b \in \IR
 <div class="para">to the linear system by setting <span class="process-math">\(x_2=a\)</span> and <span class="process-math">\(x_4=b\text{,}\)</span> and then solving for <span class="process-math">\(x_1\)</span> and <span class="process-math">\(x_3\text{.}\)</span>
 </div>
 </div></article><article class="observation remark-like" id="observation-1"><h4 class="heading">
-<span class="type">Observation</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+<span class="type">Observation</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-44">
+<div class="para logical" id="p-47">
 <div class="para">Solving linear systems of two variables by graphing or substitution is reasonable for two-variable systems, but these simple techniques won’t usually cut it for equations with more than two variables or more than two equations. For example,</div>
 <div class="displaymath process-math" id="md-9">
 \begin{alignat*}{5}
@@ -756,10 +868,10 @@ x_1 &amp;\,+\,&amp; 2x_2 &amp;\,+\,&amp;  x_3 &amp;\,+\,&amp;  8x_4 &amp;\,=\,&a
 </div>
 <div class="para">has the exact same solution set as the system in the previous activity, but we’ll want to learn new techniques to compute these solutions efficiently.</div>
 </div></article><article class="remark remark-like" id="remark-4"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-45">The only important information in a linear system are its coefficients and constants.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;">
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-46">
+<div class="para" id="p-48">The only important information in a linear system are its coefficients and constants.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-49">
 <div class="para">Original linear system:</div>
 <div class="displaymath process-math" id="md-10">
 \begin{alignat*}{2}
@@ -769,7 +881,7 @@ x_1 + 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-47">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-50">
 <div class="para">Verbose standard form:</div>
 <div class="displaymath process-math" id="md-11">
 \begin{alignat*}{4}
@@ -779,7 +891,7 @@ x_1 + 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-48">
+<div class="sbspanel middle" style="width:33.1103678929766%;"><div class="para logical" id="p-51">
 <div class="para">Coefficients/constants:</div>
 <div class="displaymath process-math" id="md-12">
 \begin{alignat*}{4}
@@ -789,10 +901,10 @@ x_1 + 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-</div></div></article><article class="definition definition-like" id="definition-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span>
+</div></div></article><article class="definition definition-like" id="definition-5"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-49">A system of <span class="process-math">\(m\)</span> linear equations with <span class="process-math">\(n\)</span> variables is often represented by writing its coefficients and constants in an <dfn class="terminology">augmented matrix</dfn>.</div>
+<div class="para" id="p-52">A system of <span class="process-math">\(m\)</span> linear equations with <span class="process-math">\(n\)</span> variables is often represented by writing its coefficients and constants in an <dfn class="terminology">augmented matrix</dfn>.</div>
 <div class="displaymath process-math" id="md-13">
 \begin{alignat*}{5}
 a_{11}x_1 &amp;\,+\,&amp; a_{12}x_2 &amp;\,+\,&amp; \dots  &amp;\,+\,&amp; a_{1n}x_n &amp;\,=\,&amp; b_1\\
@@ -810,11 +922,11 @@ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} &amp; b_2\\
 a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn} &amp; b_m
 \end{array}\right]
 \end{equation*}
-</div></article><article class="example example-like" id="example-1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
+</div></article><article class="example example-like" id="example-2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-50">The corresponding augmented matrix for this system is obtained by simply writing the coefficients and constants in matrix form.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.5%;margin-right:0.5%;">
-<div class="sbspanel middle" style="width:49.4949494949495%;"><div class="para logical" id="p-51">
+<div class="para" id="p-53">The corresponding augmented matrix for this system is obtained by simply writing the coefficients and constants in matrix form.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.5%;margin-right:0.5%;">
+<div class="sbspanel middle" style="width:49.4949494949495%;"><div class="para logical" id="p-54">
 <div class="para">Linear system:</div>
 <div class="displaymath process-math" id="md-14">
 \begin{alignat*}{4}
@@ -824,7 +936,7 @@ x_1 &amp;&amp; &amp;\,+\,&amp; 3x_3 &amp;\,=\,&amp; 3\\
 \end{alignat*}
 </div>
 </div></div>
-<div class="sbspanel middle" style="width:49.4949494949495%;"><div class="para logical" id="p-52">
+<div class="sbspanel middle" style="width:49.4949494949495%;"><div class="para logical" id="p-55">
 <div class="para">Augmented matrix:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -836,7 +948,7 @@ x_1 &amp;&amp; &amp;\,+\,&amp; 3x_3 &amp;\,=\,&amp; 3\\
 \end{equation*}
 </div>
 </div></div>
-</div></div> <div class="para logical" id="p-53">
+</div></div> <div class="para logical" id="p-56">
 <div class="para">Vector equation:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -850,16 +962,16 @@ x_1 \left[\begin{array}{c} 1 \\ 3 \\ 0 \end{array}\right]+ x_2 \left[\begin{arra
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1<span class="period">.</span></span><span class="space"> </span>Video: Converting between systems, vector equations, and augmented matrices</figcaption></figure></section><section class="subsection" id="subsection-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Slideshow</span>
 </h3>
-<div class="para" id="p-54">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/LE1.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/LE1.slides.html</code></a>.</div></section><section class="exercises" id="exercises-1"><h3 class="heading hide-type">
+<div class="para" id="p-57">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/LE1.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/LE1.slides.html</code></a>.</div></section><section class="exercises" id="exercises-1"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<div class="para" id="p-55">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/LE1/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/LE1/</code></a>.</div></section><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
+<div class="para" id="p-58">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/LE1/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/LE1/</code></a>.</div></section><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="space"> </span><span class="title">Mathematical Writing Explorations</span>
 </h3>
 <article class="exploration project-like" id="exploration-1"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.15</span><span class="period">.</span>
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-56">Choose a value for the real constant <span class="process-math">\(k\)</span> such that the following system has one, many, or no solutions. In each case, write the solution set.</div> <div class="para logical" id="p-57">
+<div class="para" id="p-59">Choose a value for the real constant <span class="process-math">\(k\)</span> such that the following system has one, many, or no solutions. In each case, write the solution set.</div> <div class="para logical" id="p-60">
 <div class="para">Consider the linear system:</div>
 <div class="displaymath process-math" id="md-15">
 \begin{alignat*}{2}
@@ -868,11 +980,11 @@ x_1 - x_2 &amp;\,=\,&amp; 1\\
 \end{alignat*}
 </div>
 </div></article><article class="exploration project-like" id="exploration-2"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.16</span><span class="period">.</span>
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.18</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-58">
+<div class="para logical" id="p-61">
 <div class="para">
-<div class="para logical" id="p-59">
+<div class="para logical" id="p-62">
 <div class="para">Consider the linear system:</div>
 <div class="displaymath process-math" id="md-16">
 \begin{alignat*}{2}
@@ -886,10 +998,10 @@ cx_1 + dx_2 &amp;\,=\,&amp; k
 <li id="li-22"><div class="para" id="p-derived-li-22">Prove that, if <span class="process-math">\(ad-bc \neq 0\text{,}\)</span> the system is consistent with exactly one solution.</div></li>
 </ul>
 </div></article><article class="exploration project-like" id="equiv_relation"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.17</span><span class="period">.</span>
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.19</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-60">Given a set <span class="process-math">\(S\text{,}\)</span> we can define a relation between two arbitrary elements <span class="process-math">\(a,b \in S\text{.}\)</span> If the two elements are related, we denote this <span class="process-math">\(a \sim b\text{.}\)</span>
-</div> <div class="para logical" id="p-61">
+<div class="para" id="p-63">Given a set <span class="process-math">\(S\text{,}\)</span> we can define a relation between two arbitrary elements <span class="process-math">\(a,b \in S\text{.}\)</span> If the two elements are related, we denote this <span class="process-math">\(a \sim b\text{.}\)</span>
+</div> <div class="para logical" id="p-64">
 <div class="para">Any relation on a set <span class="process-math">\(S\)</span> that satisfies the properties below is an <dfn class="terminology">equivalence relation</dfn>.</div>
 <ul class="disc">
 <li id="li-23"><div class="para" id="p-derived-li-23">
@@ -902,7 +1014,7 @@ cx_1 + dx_2 &amp;\,=\,&amp; k
 <dfn class="terminology">Transitive:</dfn> for any <span class="process-math">\(a,b,c \in S, a \sim b \mbox{ and } b \sim c \mbox{ implies } a\sim c\)</span>
 </div></li>
 </ul>
-</div> <div class="para logical" id="p-62">
+</div> <div class="para logical" id="p-65">
 <div class="para">For each of the following relations, show that it is or is not an equivalence relation.</div>
 <ul class="disc">
 <li id="li-26"><div class="para" id="p-derived-li-26">For <span class="process-math">\(a,b, \in \mathbb{R}\text{,}\)</span> <span class="process-math">\(a \sim b\)</span> if an only if <span class="process-math">\(a \leq b\text{.}\)</span>
@@ -913,7 +1025,7 @@ cx_1 + dx_2 &amp;\,=\,&amp; k
 </div></article></section><section class="subsection" id="subsection-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="space"> </span><span class="title">Sample Problem and Solution</span>
 </h3>
-<div class="para" id="p-63">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-LE1.html" title="Example B.1.1: LE1">Example B.1.1</a>.</div></section></section></div>
+<div class="para" id="p-66">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-LE1.html" title="Example B.1.1: LE1">Example B.1.1</a>.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="LE.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="LE2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
