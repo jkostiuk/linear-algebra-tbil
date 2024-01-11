@@ -3,7 +3,7 @@
     <xi:include href="meta/docinfo.ptx"/>
     <book xml:id="linear-algebra-for-team-based-inquiry-learning">
         <title>Linear Algebra for Team-Based Inquiry Learning</title>
-        <subtitle component="main">2024 Early Edition</subtitle>
+        <subtitle component="main">Spring 2024 Math 0520 Edition</subtitle>
         <subtitle component="instructor">2024 Early Edition (Instructor Version)</subtitle>
 
         <xi:include href="meta/frontmatter.ptx"/>
