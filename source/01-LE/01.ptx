@@ -519,7 +519,16 @@ All inconsistent linear systems contain a logical <term>contradiction</term>.
       \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots\\
       a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn} &amp; b_m
     \end{array}\right]
-            </me>
+            </me> 
+            Often, we will want to refer only to the coefficients of the linear system; the <term>coefficient matrix</term><idx>coeefficient matrix</idx> is the <m>m\times n</m> array consisting of these coefficients:
+            <me>
+                \left[\begin{array}{cccc}
+                  a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n}\\
+                  a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n}\\
+                  \vdots &amp; \vdots &amp; \ddots &amp; \vdots\\
+                  a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
+                \end{array}\right]
+                        </me>
         </statement>
     </definition>
 
