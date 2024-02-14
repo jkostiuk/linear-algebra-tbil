@@ -100,17 +100,17 @@
             </task>
         <task>
         <p>
-    Note that if <m>\left[\begin{array}{c} a_1 \\ \vdots \\ a_n \end{array}\right] </m> and
-    <m>\left[\begin{array}{c} b_1 \\ \vdots \\ b_n \end{array}\right] </m> are both solutions,
+    Note that if <m>\left[\begin{array}{c} x_1 \\ \vdots \\ x_n \end{array}\right] </m> and
+    <m>\left[\begin{array}{c} y_1 \\ \vdots \\ y_n \end{array}\right] </m> are both solutions,
     we know that
-    <me>a_1 \vec{v}_1+\cdots+a_n \vec{v}_n = \vec{0}
+    <me>x_1 \vec{v}_1+\cdots+x_n \vec{v}_n = \vec{0}
     \text{ and }
-    b_1 \vec{v}_1+\cdots+b_n \vec{v}_n = \vec{0} </me>.
+    y_1 \vec{v}_1+\cdots+y_n \vec{v}_n = \vec{0} </me>.
     Therefore by adding these equations:
-    <me>(a_1 + b_1) \vec{v}_1+\cdots+(a_n+b_n) \vec{v}_n = \vec{0},</me>
+    <me>(x_1 + y_1) \vec{v}_1+\cdots+(x_n+y_n) \vec{v}_n = \vec{0},</me>
             </p>
         <p>
-    we may conclude that the vector <m>\left[\begin{array}{c} a_1+ b_1 \\ \vdots \\ a_n+b_n \end{array}\right] </m> 
+    we may conclude that the vector <m>\left[\begin{array}{c} x_1+ y_1 \\ \vdots \\ x_n+y_n \end{array}\right] </m> 
     is...
         </p>
     <ol marker="A.">
@@ -134,7 +134,7 @@
         <task>
         <p>
     Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: <me>
-        (ca_1)\vec{v}_1+\cdots+(ca_n)\vec{v}_n=\vec{0},
+        (cx_1)\vec{v}_1+\cdots+(cx_n)\vec{v}_n=\vec{0},
     </me>
     we may conclude that the vector <m>\left[\begin{array}{c} ca_1 \\ \vdots \\ ca_n \end{array}\right] </m> is...
         </p>
