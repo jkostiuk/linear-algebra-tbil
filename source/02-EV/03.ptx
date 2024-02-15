@@ -56,7 +56,7 @@
             </p>
             <p>
       This system is equivalent to the vector equation:
-      <me>x_1 \vec{v}_1 + \cdots+x_n \vec{v}_n = \vec{0}</me>
+      <me>x_1 \left[\begin{array}{c} a_{11} \\ \vdots \\ a_{m1} \end{array}\right] + \cdots+x_n \left[\begin{array}{c} a_{1n} \\ \vdots \\ a_{mn} \end{array}\right] = \vec{0}</me>
       and the augmented matrix:
       <me>
         \left[\begin{array}{cccc|c}
@@ -136,7 +136,7 @@
     Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: <me>
         (cx_1)\vec{v}_1+\cdots+(cx_n)\vec{v}_n=\vec{0},
     </me>
-    we may conclude that the vector <m>\left[\begin{array}{c} ca_1 \\ \vdots \\ ca_n \end{array}\right] </m> is...
+    we may conclude that the vector <m>\left[\begin{array}{c} cx_1 \\ \vdots \\ cx_n \end{array}\right] </m> is...
         </p>
     <ol marker="A.">
     <li>
