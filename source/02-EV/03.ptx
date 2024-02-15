@@ -77,28 +77,6 @@
             </p>
         </introduction>
         <task>
-            <p>
-        Is this equation consistent?
-                </p>
-        <ol marker="A.">
-        <li>
-            <p>
-                no.
-            </p>
-          </li>
-        <li>
-            <p>
-                yes.
-            </p>
-          </li>
-          <li>
-              <p>
-                  more information is required.
-              </p>
-            </li>
-        </ol>
-            </task>
-        <task>
         <p>
     Note that if <m>\left[\begin{array}{c} x_1 \\ \vdots \\ x_n \end{array}\right] </m> and
     <m>\left[\begin{array}{c} y_1 \\ \vdots \\ y_n \end{array}\right] </m> are both solutions,
@@ -106,11 +84,21 @@
     <me>x_1 \vec{v}_1+\cdots+x_n \vec{v}_n = \vec{0}
     \text{ and }
     y_1 \vec{v}_1+\cdots+y_n \vec{v}_n = \vec{0} </me>.
-    Therefore by adding these equations:
-    <me>(x_1 + y_1) \vec{v}_1+\cdots+(x_n+y_n) \vec{v}_n = \vec{0},</me>
+    Adding these equations, we obtain:
+    <md>
+        <mrow>
+            x_1 \vec{v}_1+\cdots+x_n \vec{v}_n &amp;=\vec{0}
+        </mrow>
+        <mrow>
+            y_1 \vec{v}_1+\cdots+y_n \vec{v}_n &amp;=\vec{0}
+        </mrow>
+        <mrow>
+            (x_1+y_1)\vec{v}_1+\cdots+(x_n+y_n) \vec{v}_n &amp;=\vec{0}.
+        </mrow>
+    </md>
             </p>
         <p>
-    we may conclude that the vector <m>\left[\begin{array}{c} x_1+ y_1 \\ \vdots \\ x_n+y_n \end{array}\right] </m> 
+    Therefore, we may conclude that the vector <m>\left[\begin{array}{c} x_1+ y_1 \\ \vdots \\ x_n+y_n \end{array}\right] </m> 
     is...
         </p>
     <ol marker="A.">
@@ -133,9 +121,15 @@
         </task>
         <task>
         <p>
-    Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: <me>
-        (cx_1)\vec{v}_1+\cdots+(cx_n)\vec{v}_n=\vec{0},
-    </me>
+    Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: 
+    <md>
+        <mrow>
+            c(x_1 \vec{v}_1+\cdots+x_n \vec{v}_n )&amp;=c\cdot \vec{0}
+        </mrow>
+        <mrow>
+            (cx_1) \vec{v}_1+\cdots+(cx_n) \vec{v}_n &amp;=\vec{0}
+        </mrow>
+    </md>
     we may conclude that the vector <m>\left[\begin{array}{c} cx_1 \\ \vdots \\ cx_n \end{array}\right] </m> is...
         </p>
     <ol marker="A.">
@@ -154,13 +148,30 @@
           is equal to <m>\vec{0}</m>.
           </p>
         </li>
-    <li>
-        <p>
-        The empty set.
-        </p>
-      </li>
     </ol>
         </task>
+        <task>
+            <p>
+        Is this equation consistent?
+                </p>
+        <ol marker="A.">
+        <li>
+            <p>
+                no.
+            </p>
+          </li>
+        <li>
+            <p>
+                yes.
+            </p>
+          </li>
+          <li>
+              <p>
+                  more information is required.
+              </p>
+            </li>
+        </ol>
+            </task>
     </activity>
 
     <observation>
