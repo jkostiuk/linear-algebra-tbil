@@ -208,7 +208,7 @@
                 </li>
                 <li>
                     <p>
-                        the set <m>\vspan(S)</m> is closed under scalar multiplication: for any <m>\vec{u}\in W</m> and scalar <m>c\in\IR</m>, the product <m>c\vec{u}</m> is also in <m>W</m>.    
+                        the set <m>W</m> is closed under scalar multiplication: for any <m>\vec{u}\in W</m> and scalar <m>c\in\IR</m>, the product <m>c\vec{u}</m> is also in <m>W</m>.    
                     </p>
                 </li>
             </ul>
@@ -514,7 +514,7 @@ by doing <em>all</em> of the following:
   <li>
     <p>
 For all <m>\vec v,\vec w\in W</m> (not just specific values), 
-<m>\vec u+\vec v\in W</m>.
+<m>\vec v+\vec w\in W</m>.
     </p>
   </li>
   <li>
