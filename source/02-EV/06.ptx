@@ -67,8 +67,20 @@ What would be the result of removing the vector that gave us this column?
     <statement>
         <p>
   Let <m>W</m> be a subspace of a vector space. A <term>basis</term> for
-  <m>W</m> is a linearly independent set of vectors that spans <m>W</m>
-  (but not necessarily the entire vector space).
+  <m>W</m> is a linearly independent set of vectors <m>S</m> that spans <m>W</m>
+  (but not necessarily the entire vector space). That is, for the set <m>S</m> to be a basis of <m>W</m>, we are saying two things:
+  <ol>
+    <li>
+        <p>
+            The set <m>S</m> is linearly independent.
+        </p>
+    </li>
+    <li>
+        <p>
+            We have <m>W=\vspan(S)</m>.
+        </p>
+    </li>
+</ol>
         </p>
   </statement>
 </definition>
