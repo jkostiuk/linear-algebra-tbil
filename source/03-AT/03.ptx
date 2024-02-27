@@ -133,10 +133,16 @@ the set of all vectors that transform into <m>\vec 0</m>?
     <introduction>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be the linear transformation given by the
-standard matrix
-<me>T\left( \left[\begin{array}{c} x \\ y \\ z \end{array}\right]\right) = \left[\begin{array}{c} 3x+4y-z \\ x+2y+z \end{array}\right]</me>
+standard matrix <m>\left[\begin{array}{ccc} 3 &amp; 4 &amp; -1 \\ 1 &amp; 2 &amp; 1 \end{array}\right]</m>.
         </p>
     </introduction>
+    <task>
+      <statement>
+        <p>
+          Compute <m>T\left( \left[\begin{array}{c} x \\ y \\ z \end{array}\right]\right)</m>.
+        </p>
+      </statement>
+    </task>
 <task>
     <p>
 Set
@@ -386,6 +392,9 @@ An arbitrary vector <m>\left[\begin{array}{c}\unknown\\\unknown\\\unknown\end{ar
       </statement>
   </task>
 </activity>
+<sage language="octave">
+</sage>
+
 
 <observation>
     <statement>
