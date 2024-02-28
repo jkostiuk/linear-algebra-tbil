@@ -14,7 +14,8 @@
 <observation>
         <p>
 Recall from section <xref ref="EV3"></xref> that a <term>subspace</term> of a vector space is
-the result of spanning a set of vectors from that vector space.
+a non-empty subset that is closed under vector addition and scalar multiplication.
+If <m>S</m> is a set of vectors in <m>\IR^m</m>, we observed that <m>\vspan(S)</m> is a subspace of <m>\IR^m</m>.
         </p>
         <p>
 Recall also that a linearly dependent set contains <q>redundant</q> vectors. For example,
