@@ -87,7 +87,19 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script>// Make *any* pre with class 'sagecell-octave' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "pre.sagecell-octave",
+  "linked": true,
+  "linkKey": "linked-octave",
+  "autoeval": false,
+  "languages": [
+    "octave"
+  ],
+  "evalButtonText": "Evaluate (Octave)"
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
 <script>js_version = 0.32</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.32/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.32/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.32/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -562,6 +574,80 @@ window.MathJax = {
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="p-999">
+<div class="para">Consider the set <span class="process-math">\(S=\{t^2,t^2-1,1+t\}\)</span> of polynomials in the vector space <span class="process-math">\(\P^3\)</span> and the following statements about the set <span class="process-math">\(S\text{:}\)</span>
+</div>
+<ol class="decimal">
+<li id="li-617"><div class="para" id="p-1000">The polynomial <span class="process-math">\(t^2-t-1\)</span> is an element of <span class="process-math">\(\vspan(S)\text{.}\)</span>
+</div></li>
+<li id="li-618"><div class="para" id="p-1001">The set of polynomials <span class="process-math">\(S\)</span> spans all of <span class="process-math">\(\P^3\text{.}\)</span>
+</div></li>
+<li id="li-619"><div class="para" id="p-1002">The set of polynomials <span class="process-math">\(S\)</span> is linearly independent.</div></li>
+</ol>
+<div class="para">For each of the statements above, which of the following statements about a vector equation would help you decide if the given statement is true or false?</div>
+<ol class="upper-alpha">
+<li id="li-620"><div class="para logical" id="p-1003">
+<div class="para">The vector equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_1t^2+x_2(t^2-1)+x_3(1+t)=p(t)
+\end{equation*}
+</div>
+<div class="para">is consistent for all polynomials <span class="process-math">\(p(t)\in\P^3\text{.}\)</span>
+</div>
+</div></li>
+<li id="li-621"><div class="para logical" id="p-1004">
+<div class="para">The vector equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_1t^2+x_2(t^2-1)+x_3(1+t)=0
+\end{equation*}
+</div>
+<div class="para">has no non-trivial solution in <span class="process-math">\(x_1,x_2,x_3\text{.}\)</span>
+</div>
+</div></li>
+<li id="li-622"><div class="para logical" id="p-1005">
+<div class="para">The vector equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_1t^2+x_2(t^2-1)+x_3(1+t)=t^2-t-1
+\end{equation*}
+</div>
+<div class="para">has at least one solution in <span class="process-math">\(x_1,x_2,x_3\text{.}\)</span>
+</div>
+</div></li>
+</ol>
+</div></article><article class="activity project-like" id="activity-116"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="introduction-52"><div class="para logical" id="p-1006">
+<div class="para">Let <span class="process-math">\(S=\{t^2,t^2-1,1+t\}\text{.}\)</span> To determine whether or not <span class="process-math">\(t^2-t-1\)</span> is an element of <span class="process-math">\(\vspan(S)\text{,}\)</span> we must decide whether or not the vector equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_1t^2+x_2(t^2-1)+x_3(1+t)=t^2-t-1
+\end{equation*}
+</div>
+<div class="para">is consistent.</div>
+</div></div>
+<article class="task exercise-like" id="task-144"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-1007">Determine a system of linear equations in the variables <span class="process-math">\(x_1,x_2,x_3\)</span> that helps you make this determination.</div></article><article class="task exercise-like" id="task-145"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-1008">Is your system of linear equations consistent? If yes, express <span class="process-math">\(t^2-t-1\)</span> as a linear combination of the polynomials in <span class="process-math">\(S\text{.}\)</span>
+</div></article><article class="task exercise-like" id="task-146"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="p-1009">
+<div class="para">Based on your calculations, what else can you conclude about the set <span class="process-math">\(S\text{?}\)</span>
+</div>
+<ol class="upper-alpha">
+<li id="li-623"><div class="para" id="p-1010">The set <span class="process-math">\(S\)</span> spans all of <span class="process-math">\(\P^3\text{.}\)</span>
+</div></li>
+<li id="li-624"><div class="para" id="p-1011">The set <span class="process-math">\(S\)</span> is linearly independent.</div></li>
+<li id="li-625"><div class="para" id="p-1012">The set <span class="process-math">\(S\)</span> is a basis for <span class="process-math">\(\P^3\text{.}\)</span>
+</div></li>
+<li id="li-626"><div class="para" id="p-1013">We cannot conclude anything further about <span class="process-math">\(S\)</span> without additional information.</div></li>
+</ol>
+</div></article></article><pre id="sage-31" class="ptx-sagecell sagecell-octave"><script type="text/x-sage"></script></pre>
+<article class="activity project-like" id="activity-117"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-1014">
 <div class="para">Let <span class="process-math">\(V\)</span> be a vector space with the basis <span class="process-math">\(\{\vec v_1,\vec v_2,\vec v_3\}\text{.}\)</span> Which of these completes the following definition for a bijective linear map <span class="process-math">\(T:V\to\mathbb R^3\text{?}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -572,20 +658,20 @@ T(\vec v)=T(a\vec v_1+b\vec v_2+c\vec v_3)=\left[\begin{array}{c}
 \end{equation*}
 </div>
 <ol class="upper-alpha cols3">
-<li id="li-617"><div class="para" id="p-1000"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
+<li id="li-627"><div class="para" id="p-1015"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
 0\\ 0\\ 0
 \end{array}\right]\)</span></div></li>
-<li id="li-618"><div class="para" id="p-1001"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
+<li id="li-628"><div class="para" id="p-1016"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
 a+b+c\\ 0\\ 0
 \end{array}\right]\)</span></div></li>
-<li id="li-619"><div class="para" id="p-1002"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
+<li id="li-629"><div class="para" id="p-1017"><span class="process-math">\(\displaystyle \left[\begin{array}{c}
 a\\ b\\ c
 \end{array}\right]\)</span></div></li>
 </ol>
 </div></article><article class="fact theorem-like" id="fact-17"><h4 class="heading">
-<span class="type">Fact</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-1003">
+<div class="para logical" id="p-1018">
 <div class="para">Every vector space with finite dimension, that is, every vector space <span class="process-math">\(V\)</span> with a basis of the form <span class="process-math">\(\{\vec v_1,\vec v_2,\dots,\vec v_n\}\)</span> has a linear bijection <span class="process-math">\(T\)</span> with Euclidean space <span class="process-math">\(\IR^n\)</span> that simply swaps its basis with the standard basis <span class="process-math">\(\{\vec e_1,\vec e_2,\dots,\vec e_n\}\)</span> for <span class="process-math">\(\IR^n\text{:}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -601,11 +687,11 @@ c_1\\c_2\\\vdots\\c_n
 </div>
 <div class="para">This transformation (in fact, any linear bijection between vector spaces) is called an <dfn class="terminology">isomorphism</dfn>, and <span class="process-math">\(V\)</span> is said to be <dfn class="terminology">isomorphic</dfn> to <span class="process-math">\(\IR^n\text{.}\)</span>
 </div>
-</div> <div class="para" id="p-1004">Note, in particular, that <em class="emphasis">every</em> vector space of dimension <span class="process-math">\(n\)</span> is isomorphic to <span class="process-math">\(\IR^n\text{.}\)</span>
-</div></article><article class="activity project-like" id="activity-116"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
+</div> <div class="para" id="p-1019">Note, in particular, that <em class="emphasis">every</em> vector space of dimension <span class="process-math">\(n\)</span> is isomorphic to <span class="process-math">\(\IR^n\text{.}\)</span>
+</div></article><article class="activity project-like" id="activity-118"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-52"><div class="para logical" id="p-1005">
+<div class="introduction" id="introduction-53"><div class="para logical" id="p-1020">
 <div class="para">The matrix space <span class="process-math">\(M_{2,2}=\left\{\left[\begin{array}{cc}
 a&amp;b\\c&amp;d
 \end{array}\right]\middle| a,b,c,d\in\IR\right\}\)</span> has the basis</div>
@@ -628,27 +714,27 @@ a&amp;b\\c&amp;d
 \end{equation*}
 </div>
 </div></div>
-<article class="task exercise-like" id="task-144"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para logical" id="p-1006">
+<article class="task exercise-like" id="task-147"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="p-1021">
 <div class="para">What is the dimension of <span class="process-math">\(M_{2,2}\text{?}\)</span>
 </div>
 <ol class="upper-alpha cols2">
-<li id="li-620"><div class="para" id="p-derived-li-620">2</div></li>
-<li id="li-621"><div class="para" id="p-derived-li-621">3</div></li>
-<li id="li-622"><div class="para" id="p-derived-li-622">4</div></li>
-<li id="li-623"><div class="para" id="p-derived-li-623">5</div></li>
+<li id="li-630"><div class="para" id="p-derived-li-630">2</div></li>
+<li id="li-631"><div class="para" id="p-derived-li-631">3</div></li>
+<li id="li-632"><div class="para" id="p-derived-li-632">4</div></li>
+<li id="li-633"><div class="para" id="p-derived-li-633">5</div></li>
 </ol>
-</div></article><article class="task exercise-like" id="task-145"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical" id="p-1007">
+</div></article><article class="task exercise-like" id="task-148"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="p-1022">
 <div class="para">Which Euclidean space is <span class="process-math">\(M_{2,2}\)</span> isomorphic to?</div>
 <ol class="upper-alpha cols2">
-<li id="li-624"><div class="para" id="p-derived-li-624"><span class="process-math">\(\displaystyle \IR^2\)</span></div></li>
-<li id="li-625"><div class="para" id="p-derived-li-625"><span class="process-math">\(\displaystyle \IR^3\)</span></div></li>
-<li id="li-626"><div class="para" id="p-derived-li-626"><span class="process-math">\(\displaystyle \IR^4\)</span></div></li>
-<li id="li-627"><div class="para" id="p-derived-li-627"><span class="process-math">\(\displaystyle \IR^5\)</span></div></li>
+<li id="li-634"><div class="para" id="p-derived-li-634"><span class="process-math">\(\displaystyle \IR^2\)</span></div></li>
+<li id="li-635"><div class="para" id="p-derived-li-635"><span class="process-math">\(\displaystyle \IR^3\)</span></div></li>
+<li id="li-636"><div class="para" id="p-derived-li-636"><span class="process-math">\(\displaystyle \IR^4\)</span></div></li>
+<li id="li-637"><div class="para" id="p-derived-li-637"><span class="process-math">\(\displaystyle \IR^5\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="task-146"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical" id="p-1008">
+</div></article><article class="task exercise-like" id="task-149"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="p-1023">
 <div class="para">Describe an isomorphism <span class="process-math">\(T:M_{2,2}\to\IR^{\unknown}\text{:}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -660,10 +746,10 @@ a&amp;b\\c&amp;d
 \end{array}\right]
 \end{equation*}
 </div>
-</div></article></article><article class="activity project-like" id="activity-117"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
+</div></article></article><article class="activity project-like" id="activity-119"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-53"><div class="para logical" id="p-1009">
+<div class="introduction" id="introduction-54"><div class="para logical" id="p-1024">
 <div class="para">The polynomial space <span class="process-math">\(\P^4=\left\{a+bx+cx^2+dx^3+ex^4\middle| a,b,c,d,e\in\IR\right\}\)</span> has the basis</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -671,27 +757,27 @@ a&amp;b\\c&amp;d
 \end{equation*}
 </div>
 </div></div>
-<article class="task exercise-like" id="task-147"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para logical" id="p-1010">
+<article class="task exercise-like" id="task-150"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="p-1025">
 <div class="para">What is the dimension of <span class="process-math">\(\P^4\text{?}\)</span>
 </div>
 <ol class="upper-alpha cols2">
-<li id="li-628"><div class="para" id="p-derived-li-628">2</div></li>
-<li id="li-629"><div class="para" id="p-derived-li-629">3</div></li>
-<li id="li-630"><div class="para" id="p-derived-li-630">4</div></li>
-<li id="li-631"><div class="para" id="p-derived-li-631">5</div></li>
+<li id="li-638"><div class="para" id="p-derived-li-638">2</div></li>
+<li id="li-639"><div class="para" id="p-derived-li-639">3</div></li>
+<li id="li-640"><div class="para" id="p-derived-li-640">4</div></li>
+<li id="li-641"><div class="para" id="p-derived-li-641">5</div></li>
 </ol>
-</div></article><article class="task exercise-like" id="task-148"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical" id="p-1011">
+</div></article><article class="task exercise-like" id="task-151"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="p-1026">
 <div class="para">Which Euclidean space is <span class="process-math">\(\P^4\)</span> isomorphic to?</div>
 <ol class="upper-alpha cols2">
-<li id="li-632"><div class="para" id="p-derived-li-632"><span class="process-math">\(\displaystyle \IR^2\)</span></div></li>
-<li id="li-633"><div class="para" id="p-derived-li-633"><span class="process-math">\(\displaystyle \IR^3\)</span></div></li>
-<li id="li-634"><div class="para" id="p-derived-li-634"><span class="process-math">\(\displaystyle \IR^4\)</span></div></li>
-<li id="li-635"><div class="para" id="p-derived-li-635"><span class="process-math">\(\displaystyle \IR^5\)</span></div></li>
+<li id="li-642"><div class="para" id="p-derived-li-642"><span class="process-math">\(\displaystyle \IR^2\)</span></div></li>
+<li id="li-643"><div class="para" id="p-derived-li-643"><span class="process-math">\(\displaystyle \IR^3\)</span></div></li>
+<li id="li-644"><div class="para" id="p-derived-li-644"><span class="process-math">\(\displaystyle \IR^4\)</span></div></li>
+<li id="li-645"><div class="para" id="p-derived-li-645"><span class="process-math">\(\displaystyle \IR^5\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="task-149"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical" id="p-1012">
+</div></article><article class="task exercise-like" id="task-152"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="p-1027">
 <div class="para">Describe an isomorphism <span class="process-math">\(T:\P^4\to\IR^{\unknown}\text{:}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -702,13 +788,13 @@ T\left(a+bx+cx^2+dx^3+ex^4\right)=\left[\begin{array}{c}
 \end{equation*}
 </div>
 </div></article></article><article class="remark remark-like" id="remark-17"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.6.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-1013">Since any finite-dimensional vector space is isomorphic to a Euclidean space <span class="process-math">\(\IR^n\text{,}\)</span> one approach to answering questions about such spaces is to answer the corresponding question about <span class="process-math">\(\IR^n\text{.}\)</span>
-</div></article><article class="activity project-like" id="activity-118"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
+<div class="para" id="p-1028">Since any finite-dimensional vector space is isomorphic to a Euclidean space <span class="process-math">\(\IR^n\text{,}\)</span> one approach to answering questions about such spaces is to answer the corresponding question about <span class="process-math">\(\IR^n\text{.}\)</span>
+</div></article><article class="activity project-like" id="activity-120"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-54"><div class="para logical" id="p-1014">
+<div class="introduction" id="introduction-55"><div class="para logical" id="p-1029">
 <div class="para">Consider how to construct the polynomial <span class="process-math">\(x^3+x^2+5x+1\)</span> as a linear combination of polynomials from the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -717,46 +803,46 @@ T\left(a+bx+cx^2+dx^3+ex^4\right)=\left[\begin{array}{c}
 \end{equation*}
 </div>
 </div></div>
-<article class="task exercise-like" id="task-150"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-1015">Describe the vector space involved in this problem, and an isomorphic Euclidean space and relevant Eucldean vectors that can be used to solve this problem.</div></article><article class="task exercise-like" id="task-151"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-1016">Show how to construct an appropriate Euclidean vector from an approriate set of Euclidean vectors.</div></article><article class="task exercise-like" id="task-152"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="p-1017">Use this result to answer the original question.</div></article></article><article class="observation remark-like" id="observation-21"><h4 class="heading">
-<span class="type">Observation</span><span class="space"> </span><span class="codenumber">3.6.8</span><span class="period">.</span>
+<article class="task exercise-like" id="task-153"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-1030">Describe the vector space involved in this problem, and an isomorphic Euclidean space and relevant Eucldean vectors that can be used to solve this problem.</div></article><article class="task exercise-like" id="task-154"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-1031">Show how to construct an appropriate Euclidean vector from an approriate set of Euclidean vectors.</div></article><article class="task exercise-like" id="task-155"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-1032">Use this result to answer the original question.</div></article></article><article class="observation remark-like" id="observation-21"><h4 class="heading">
+<span class="type">Observation</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-1018">The space of polynomials <span class="process-math">\(\P\)</span> (of <em class="emphasis">any</em> degree) has the basis <span class="process-math">\(\{1,x,x^2,x^3,\dots\}\text{,}\)</span> so it is a natural example of an infinite-dimensional vector space.</div> <div class="para" id="p-1019">Since <span class="process-math">\(\P\)</span> and other infinite-dimensional vector spaces cannot be treated as an isomorphic finite-dimensional Euclidean space <span class="process-math">\(\IR^n\text{,}\)</span> vectors in such vector spaces cannot be studied by converting them into Euclidean vectors. Fortunately, most of the examples we will be interested in for this course will be finite-dimensional.</div></article></section><section class="subsection" id="subsection-82"><h3 class="heading hide-type">
+<div class="para" id="p-1033">The space of polynomials <span class="process-math">\(\P\)</span> (of <em class="emphasis">any</em> degree) has the basis <span class="process-math">\(\{1,x,x^2,x^3,\dots\}\text{,}\)</span> so it is a natural example of an infinite-dimensional vector space.</div> <div class="para" id="p-1034">Since <span class="process-math">\(\P\)</span> and other infinite-dimensional vector spaces cannot be treated as an isomorphic finite-dimensional Euclidean space <span class="process-math">\(\IR^n\text{,}\)</span> vectors in such vector spaces cannot be studied by converting them into Euclidean vectors. Fortunately, most of the examples we will be interested in for this course will be finite-dimensional.</div></article></section><section class="subsection" id="subsection-82"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="space"> </span><span class="title">Videos</span>
 </h3>
 <figure class="figure figure-like" id="figure-39"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/yrKAM3QhOPk?&amp;modestbranding=1&amp;rel=0" id="video-AT6"></iframe></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">39<span class="period">.</span></span><span class="space"> </span>Video: Polynomial and matrix calculations</figcaption></figure></section><section class="subsection" id="subsection-83"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="space"> </span><span class="title">Slideshow</span>
 </h3>
-<div class="para" id="p-1020">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/AT6.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/AT6.slides.html</code></a>.</div></section><section class="exercises" id="exercises-17"><h3 class="heading hide-type">
+<div class="para" id="p-1035">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/AT6.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/AT6.slides.html</code></a>.</div></section><section class="exercises" id="exercises-17"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<div class="para" id="p-1021">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/AT6/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/AT6/</code></a>.</div></section><section class="subsection" id="subsection-84"><h3 class="heading hide-type">
+<div class="para" id="p-1036">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/AT6/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/AT6/</code></a>.</div></section><section class="subsection" id="subsection-84"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="space"> </span><span class="title">Mathematical Writing Explorations</span>
 </h3>
 <article class="exploration project-like" id="exploration-37"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span>
-</h4>Given a matrix <span class="process-math">\(M\)</span> <ul class="disc">
-<li id="li-636"><div class="para" id="p-derived-li-636">the span of the set of all columns is the <dfn class="terminology">column space</dfn>
-</div></li>
-<li id="li-637"><div class="para" id="p-derived-li-637">the span of the set of all rows is the <dfn class="terminology">row space</dfn>
-</div></li>
-<li id="li-638"><div class="para" id="p-derived-li-638">the <dfn class="terminology">rank</dfn> of a matrix is the dimension of the column space.</div></li>
-</ul> Calculate the rank of these matrices. <ul class="disc">
-<li id="li-639"><div class="para" id="p-derived-li-639"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}2 &amp; 1&amp;3\\1&amp;-1&amp;2\\1&amp;0&amp;3\end{array}\right]\)</span></div></li>
-<li id="li-640"><div class="para" id="p-derived-li-640"><span class="process-math">\(\displaystyle \left[\begin{array}{cccc}1&amp;-1&amp;2&amp;3\\3&amp;-3&amp;6&amp;3\\-2&amp;2&amp;4&amp;5\end{array}\right]\)</span></div></li>
-<li id="li-641"><div class="para" id="p-derived-li-641"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}1&amp;3&amp;2\\5&amp;1&amp;1\\6&amp;4&amp;3\end{array}\right]\)</span></div></li>
-<li id="li-642"><div class="para" id="p-derived-li-642"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}0&amp;0&amp;0\\0&amp;0&amp;0\\0&amp;0&amp;0\end{array}\right]\)</span></div></li>
-</ul></article><article class="exploration project-like" id="exploration-38"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span>
-</h4>Calculate a basis for the row space and a basis for the column space of the matrix <span class="process-math">\(\left[\begin{array}{cccc}2&amp;0&amp;3&amp;4\\0&amp;1&amp;1&amp;-1\\3&amp;1&amp;0&amp;2\\10&amp;-4&amp;-1&amp;-1\end{array}\right]\text{.}\)</span></article><article class="exploration project-like" id="exploration-39"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.6.11</span><span class="period">.</span>
+</h4>Given a matrix <span class="process-math">\(M\)</span> <ul class="disc">
+<li id="li-646"><div class="para" id="p-derived-li-646">the span of the set of all columns is the <dfn class="terminology">column space</dfn>
+</div></li>
+<li id="li-647"><div class="para" id="p-derived-li-647">the span of the set of all rows is the <dfn class="terminology">row space</dfn>
+</div></li>
+<li id="li-648"><div class="para" id="p-derived-li-648">the <dfn class="terminology">rank</dfn> of a matrix is the dimension of the column space.</div></li>
+</ul> Calculate the rank of these matrices. <ul class="disc">
+<li id="li-649"><div class="para" id="p-derived-li-649"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}2 &amp; 1&amp;3\\1&amp;-1&amp;2\\1&amp;0&amp;3\end{array}\right]\)</span></div></li>
+<li id="li-650"><div class="para" id="p-derived-li-650"><span class="process-math">\(\displaystyle \left[\begin{array}{cccc}1&amp;-1&amp;2&amp;3\\3&amp;-3&amp;6&amp;3\\-2&amp;2&amp;4&amp;5\end{array}\right]\)</span></div></li>
+<li id="li-651"><div class="para" id="p-derived-li-651"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}1&amp;3&amp;2\\5&amp;1&amp;1\\6&amp;4&amp;3\end{array}\right]\)</span></div></li>
+<li id="li-652"><div class="para" id="p-derived-li-652"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}0&amp;0&amp;0\\0&amp;0&amp;0\\0&amp;0&amp;0\end{array}\right]\)</span></div></li>
+</ul></article><article class="exploration project-like" id="exploration-38"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.6.12</span><span class="period">.</span>
+</h4>Calculate a basis for the row space and a basis for the column space of the matrix <span class="process-math">\(\left[\begin{array}{cccc}2&amp;0&amp;3&amp;4\\0&amp;1&amp;1&amp;-1\\3&amp;1&amp;0&amp;2\\10&amp;-4&amp;-1&amp;-1\end{array}\right]\text{.}\)</span></article><article class="exploration project-like" id="exploration-39"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.6.13</span><span class="period">.</span>
 </h4>If you are given the values of <span class="process-math">\(a,b,\)</span> and <span class="process-math">\(c\text{,}\)</span> what value of <span class="process-math">\(d\)</span> will cause the matrix <span class="process-math">\(\left[\begin{array}{cc}a&amp;b\\c&amp;d\end{array}\right]\)</span> to have rank 1?</article></section><section class="subsection" id="subsection-85"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="space"> </span><span class="title">Sample Problem and Solution</span>
 </h3>
-<div class="para" id="p-1022">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-AT6.html" title="Example B.1.17: AT6">Example B.1.17</a>.</div></section></section></div>
+<div class="para" id="p-1037">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-AT6.html" title="Example B.1.17: AT6">Example B.1.17</a>.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="AT5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="MX.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

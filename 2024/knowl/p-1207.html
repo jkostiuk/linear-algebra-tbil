@@ -13,12 +13,19 @@
 <body class="ignore-math">
 <h5 class="heading"><span class="type">Paragraph</span></h5>
 <div class="para logical">
-<div class="para">Since the transformation given by the standard matrix <span class="process-math">\(AB\)</span> is obtained by applying the transformations given by <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> it follows that</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\det(AB)=\det(A)\det(B)=\det(B)\det(A)=\det(BA)\text{.}
-\end{equation*}
-</div>
+<div class="para">The <dfn class="terminology">determinant</dfn> is the unique function <span class="process-math">\(\det:M_{n,n}\to\IR\)</span> satisfying these  properties:</div>
+<ol class="decimal">
+<li><div class="para"><span class="process-math">\(\displaystyle \det(I)=1\)</span></div></li>
+<li><div class="para">
+<span class="process-math">\(\det(A)=0\)</span> whenever two columns of the matrix are identical.</div></li>
+<li><div class="para">
+<span class="process-math">\(\det[\cdots\hspace{0.5em}c\vec{v}\hspace{0.5em}\cdots]=
+c\det[\cdots\hspace{0.5em}\vec{v}\hspace{0.5em}\cdots]\text{,}\)</span> assuming no other columns change.</div></li>
+<li><div class="para">
+<span class="process-math">\(\det[\cdots\hspace{0.5em}\vec{v}+\vec{w}\hspace{0.5em}\cdots]=
+\det[\cdots\hspace{0.5em}\vec{v}\hspace{0.5em}\cdots]+
+\det[\cdots\hspace{0.5em}\vec{w}\hspace{0.5em}\cdots]\text{,}\)</span> assuming no other columns change.</div></li>
+</ol>
 </div>
 <span class="incontext"><a class="internal" href="GT1.html#p-1207">in-context</a></span>
 </body>

@@ -12,108 +12,128 @@
 </head>
 <body class="ignore-math">
 <article class="activity project-like"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span>
 </h4>
-<div class="introduction"><div class="para">Tweaking the identity matrix slightly allows us to write row operations in terms of matrix multiplication.</div></div>
+<div class="introduction"><div class="para logical">
+<div class="para">Consider the following linear system with a unique solution:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{matrix}
+3x_{1} &amp; - &amp; 2x_{2} &amp; - &amp; 2x_{3} &amp; - &amp; 4x_{4} &amp; = &amp; -7 \\
+2x_{1} &amp; - &amp; x_{2}  &amp; - &amp;  x_{3} &amp; - &amp; x_{4} &amp; = &amp; -1 \\
+-x_{1} &amp;   &amp;        &amp; + &amp;  x_{3} &amp;   &amp;        &amp; = &amp; -1 \\
+&amp; - &amp; x_{2}  &amp;   &amp;        &amp; - &amp; 2x_{4} &amp; = &amp; -5 \\
+\end{matrix}
+\end{equation*}
+</div>
+</div></div>
 <article class="task exercise-like"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para logical">
-<div class="para">Which of these tweaks of the identity matrix yields a matrix that doubles the third row of <span class="process-math">\(A\)</span> when left-multiplying? (<span class="process-math">\(2R_3\to R_3\)</span>)</div>
+<div class="para">Suppose we let</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\left[\begin{array}{ccc} \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \end{array}\right]
-\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 0 &amp; 3 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array}\right]
-=
-\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 0 &amp; 3 &amp; 2 \\ 2 &amp; 2 &amp; -2 \end{array}\right]
+T\left(\left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]\right)=
+\left[\begin{matrix}
+3x_{1} &amp; - &amp; 2x_{2} &amp; - &amp; 2x_{3} &amp; - &amp; 4x_{4} \\
+2x_{1} &amp; - &amp; x_{2}  &amp; - &amp;  x_{3} &amp; - &amp; x_{4} \\
+-x_{1} &amp;   &amp;        &amp; + &amp;  x_{3} &amp;   &amp;        \\
+&amp; - &amp; x_{2}  &amp;   &amp;        &amp; - &amp; 2x_{4} \\
+\end{matrix}\right]\text{.}
 \end{equation*}
 </div>
-<ol class="upper-alpha cols2">
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-2 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 1 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 0 \\
-0 &amp; 2 &amp; 0 \\ 
-0 &amp; 0 &amp; 1 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 2
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-2 &amp; 0 &amp; 0 \\
-0 &amp; 2 &amp; 0 \\ 
-0 &amp; 0 &amp; 2 
-\end{array}\right]\)</span></div></li>
+<div class="para">Which of these choices would help us solve the given system?</div>
+<ol class="upper-alpha">
+<li><div class="para">Compute <span class="process-math">\(T\left(
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]\right)\)</span>
+</div></li>
+<li><div class="para">Find <span class="process-math">\(\left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]\)</span> where <span class="process-math">\(T\left(\left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]\right)=
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]\)</span>
+</div></li>
 </ol>
 </div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical">
-<div class="para">Which of these tweaks of the identity matrix yields a matrix that swaps the first and third rows of <span class="process-math">\(A\)</span> when left-multiplying? (<span class="process-math">\(R_1\leftrightarrow R_3\)</span>)</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\left[\begin{array}{ccc} \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \end{array}\right]
-\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 0 &amp; 3 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array}\right]
+<div class="para">How can we express this in terms of matrix multiplication?</div>
+<ol class="upper-alpha">
+<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{matrix}
+3 &amp; -2 &amp; -2 &amp; - 4 \\
+2 &amp; -1 &amp; -1 &amp; -1  \\
+-1 &amp; 0 &amp; 1 &amp; 0  \\
+0 &amp; -1 &amp; 0  &amp; -2 \\
+\end{matrix}\right]
+\left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]
 =
-\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 1 &amp; 1 &amp; -1 \\ 0 &amp; 3 &amp; 2 \end{array}\right]
-\end{equation*}
-</div>
-<ol class="upper-alpha cols2">
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 1 \\
-0 &amp; 1 &amp; 0 \\ 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 1 \\
-1 &amp; 0 &amp; 0 \\
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-0 &amp; 0 &amp; 1 \\
-0 &amp; 1 &amp; 0 \\ 
-1 &amp; 0 &amp; 0 \\
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-0 &amp; 1 &amp; 0 \\ 
-1 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 1 
-\end{array}\right]\)</span></div></li>
-</ol>
-</div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical">
-<div class="para">Which of these tweaks of the identity matrix yields a matrix that adds <span class="process-math">\(5\)</span> times the third row of <span class="process-math">\(A\)</span> to the first row when left-multiplying? (<span class="process-math">\(R_1+5R_3\to R_1\)</span>)</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\left[\begin{array}{ccc} \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \\ \unknown &amp; \unknown &amp; \unknown \end{array}\right]
-\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 0 &amp; 3 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array}\right]
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]
 =
-\left[\begin{array}{ccc} 2+5(1) &amp; 7+5(1) &amp; -1+5(-1) \\ 0 &amp; 3 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array}\right]
-\end{equation*}
+\left[\begin{matrix}
+3 &amp; -2 &amp; -2 &amp; - 4 \\
+2 &amp; -1 &amp; -1 &amp; -1  \\
+-1 &amp; 0 &amp; 1 &amp; 0  \\
+0 &amp; -1 &amp; 0  &amp; -2 \\
+\end{matrix}\right]
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]
+\left[\begin{matrix}
+3 &amp; -2 &amp; -2 &amp; - 4 \\
+2 &amp; -1 &amp; -1 &amp; -1  \\
+-1 &amp; 0 &amp; 1 &amp; 0  \\
+0 &amp; -1 &amp; 0  &amp; -2 \\
+\end{matrix}\right]
+=
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]
+=
+\left[\begin{matrix}
+-7 \\
+-1 \\
+-1 \\
+-5 \\
+\end{matrix}\right]
+\left[\begin{matrix}
+3 &amp; -2 &amp; -2 &amp; - 4 \\
+2 &amp; -1 &amp; -1 &amp; -1  \\
+-1 &amp; 0 &amp; 1 &amp; 0  \\
+0 &amp; -1 &amp; 0  &amp; -2 \\
+\end{matrix}\right]\)</span></div></li>
+</ol></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical">
+<div class="para">How could a matrix equation of the form <span class="process-math">\(A\vec x=\vec b\)</span> be solved for <span class="process-math">\(\vec x\text{?}\)</span>
 </div>
-<ol class="upper-alpha cols2">
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 1 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 5 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 5 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 1 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-5 &amp; 5 &amp; 5 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 1 
-\end{array}\right]\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \left[\begin{array}{ccc}
-1 &amp; 0 &amp; 5 \\
-0 &amp; 1 &amp; 0 \\ 
-0 &amp; 0 &amp; 5
-\end{array}\right]\)</span></div></li>
+<ol class="upper-alpha">
+<li><div class="para">Multiply: <span class="process-math">\((\RREF A)(A\vec x)=(\RREF A)\vec b\)</span>
+</div></li>
+<li><div class="para">Add: <span class="process-math">\((\RREF A) + A\vec x=(\RREF A)+\vec b\)</span>
+</div></li>
+<li><div class="para">Multiply: <span class="process-math">\((A^{-1})(A\vec x)=(A^{-1})\vec b\)</span>
+</div></li>
+<li><div class="para">Add: <span class="process-math">\((A^{-1}) + A\vec x=(A^{-1})+\vec b\)</span>
+</div></li>
 </ol>
-</div></article></article><span class="incontext"><a class="internal" href="MX4.html#activity-133">in-context</a></span>
+</div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para">Find <span class="process-math">\(\left[\begin{matrix}x_1\\x_2\\x_3\\x_4\end{matrix}\right]\)</span> using the method you chose in (c).</div></article></article><span class="incontext"><a class="internal" href="MX3.html#activity-133">in-context</a></span>
 </body>
 </html>

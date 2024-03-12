@@ -2644,7 +2644,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Polynomial and Matrix Spaces (AT6)",
-  "body": " Polynomial and Matrix Spaces (AT6)     Answer questions about vector spaces of polynomials or matrices.     Class Activities   Nearly every term we've defined for Euclidean vector spaces was actually defined for all kinds of vector spaces:                                                                   Let be a vector space with the basis . Which of these completes the following definition for a bijective linear map ?            Every vector space with finite dimension, that is, every vector space with a basis of the form has a linear bijection with Euclidean space that simply swaps its basis with the standard basis for : This transformation (in fact, any linear bijection between vector spaces) is called an isomorphism isomorphism , and is said to be isomorphic isomorphic to .  Note, in particular, that every vector space of dimension is isomorphic to .      The matrix space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :       The polynomial space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :      Since any finite-dimensional vector space is isomorphic to a Euclidean space , one approach to answering questions about such spaces is to answer the corresponding question about .     Consider how to construct the polynomial as a linear combination of polynomials from the set .    Describe the vector space involved in this problem, and an isomorphic Euclidean space and relevant Eucldean vectors that can be used to solve this problem.    Show how to construct an appropriate Euclidean vector from an approriate set of Euclidean vectors.    Use this result to answer the original question.      The space of polynomials (of any degree) has the basis , so it is a natural example of an infinite-dimensional vector space.  Since and other infinite-dimensional vector spaces cannot be treated as an isomorphic finite-dimensional Euclidean space , vectors in such vector spaces cannot be studied by converting them into Euclidean vectors. Fortunately, most of the examples we will be interested in for this course will be finite-dimensional.      Videos      Video: Polynomial and matrix calculations     Slideshow  Slideshow of activities available at .    Exercises available at .    Mathematical Writing Explorations   Given a matrix   the span of the set of all columns is the column space column space  the span of the set of all rows is the row space row space  the rank rank of a matrix is the dimension of the column space.  Calculate the rank of these matrices.              Calculate a basis for the row space and a basis for the column space of the matrix .    If you are given the values of and , what value of will cause the matrix to have rank 1?     Sample Problem and Solution  Sample problem .   "
+  "body": " Polynomial and Matrix Spaces (AT6)     Answer questions about vector spaces of polynomials or matrices.     Class Activities   Nearly every term we've defined for Euclidean vector spaces was actually defined for all kinds of vector spaces:                                                                   Consider the set of polynomials in the vector space and the following statements about the set :   The polynomial is an element of .    The set of polynomials spans all of .    The set of polynomials is linearly independent.   For each of the statements above, which of the following statements about a vector equation would help you decide if the given statement is true or false?   The vector equation is consistent for all polynomials .    The vector equation has no non-trivial solution in .    The vector equation has at least one solution in .         Let . To determine whether or not is an element of , we must decide whether or not the vector equation is consistent.    Determine a system of linear equations in the variables that helps you make this determination.    Is your system of linear equations consistent? If yes, express as a linear combination of the polynomials in .    Based on your calculations, what else can you conclude about the set ?   The set spans all of .    The set is linearly independent.    The set is a basis for .    We cannot conclude anything further about without additional information.          Let be a vector space with the basis . Which of these completes the following definition for a bijective linear map ?            Every vector space with finite dimension, that is, every vector space with a basis of the form has a linear bijection with Euclidean space that simply swaps its basis with the standard basis for : This transformation (in fact, any linear bijection between vector spaces) is called an isomorphism isomorphism , and is said to be isomorphic isomorphic to .  Note, in particular, that every vector space of dimension is isomorphic to .      The matrix space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :       The polynomial space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :      Since any finite-dimensional vector space is isomorphic to a Euclidean space , one approach to answering questions about such spaces is to answer the corresponding question about .     Consider how to construct the polynomial as a linear combination of polynomials from the set .    Describe the vector space involved in this problem, and an isomorphic Euclidean space and relevant Eucldean vectors that can be used to solve this problem.    Show how to construct an appropriate Euclidean vector from an approriate set of Euclidean vectors.    Use this result to answer the original question.      The space of polynomials (of any degree) has the basis , so it is a natural example of an infinite-dimensional vector space.  Since and other infinite-dimensional vector spaces cannot be treated as an isomorphic finite-dimensional Euclidean space , vectors in such vector spaces cannot be studied by converting them into Euclidean vectors. Fortunately, most of the examples we will be interested in for this course will be finite-dimensional.      Videos      Video: Polynomial and matrix calculations     Slideshow  Slideshow of activities available at .    Exercises available at .    Mathematical Writing Explorations   Given a matrix   the span of the set of all columns is the column space column space  the span of the set of all rows is the row space row space  the rank rank of a matrix is the dimension of the column space.  Calculate the rank of these matrices.              Calculate a basis for the row space and a basis for the column space of the matrix .    If you are given the values of and , what value of will cause the matrix to have rank 1?     Sample Problem and Solution  Sample problem .   "
 },
 {
   "id": "objectives-20",
@@ -2671,6 +2671,24 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.6.2",
   "title": "",
+  "body": "  Consider the set of polynomials in the vector space and the following statements about the set :   The polynomial is an element of .    The set of polynomials spans all of .    The set of polynomials is linearly independent.   For each of the statements above, which of the following statements about a vector equation would help you decide if the given statement is true or false?   The vector equation is consistent for all polynomials .    The vector equation has no non-trivial solution in .    The vector equation has at least one solution in .      "
+},
+{
+  "id": "activity-116",
+  "level": "2",
+  "url": "AT6.html#activity-116",
+  "type": "Activity",
+  "number": "3.6.3",
+  "title": "",
+  "body": "  Let . To determine whether or not is an element of , we must decide whether or not the vector equation is consistent.    Determine a system of linear equations in the variables that helps you make this determination.    Is your system of linear equations consistent? If yes, express as a linear combination of the polynomials in .    Based on your calculations, what else can you conclude about the set ?   The set spans all of .    The set is linearly independent.    The set is a basis for .    We cannot conclude anything further about without additional information.      "
+},
+{
+  "id": "activity-117",
+  "level": "2",
+  "url": "AT6.html#activity-117",
+  "type": "Activity",
+  "number": "3.6.4",
+  "title": "",
   "body": "  Let be a vector space with the basis . Which of these completes the following definition for a bijective linear map ?         "
 },
 {
@@ -2678,25 +2696,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#fact-17",
   "type": "Fact",
-  "number": "3.6.3",
+  "number": "3.6.5",
   "title": "",
   "body": "  Every vector space with finite dimension, that is, every vector space with a basis of the form has a linear bijection with Euclidean space that simply swaps its basis with the standard basis for : This transformation (in fact, any linear bijection between vector spaces) is called an isomorphism isomorphism , and is said to be isomorphic isomorphic to .  Note, in particular, that every vector space of dimension is isomorphic to .   "
 },
 {
-  "id": "activity-116",
+  "id": "activity-118",
   "level": "2",
-  "url": "AT6.html#activity-116",
+  "url": "AT6.html#activity-118",
   "type": "Activity",
-  "number": "3.6.4",
+  "number": "3.6.6",
   "title": "",
   "body": "  The matrix space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :    "
 },
 {
-  "id": "activity-117",
+  "id": "activity-119",
   "level": "2",
-  "url": "AT6.html#activity-117",
+  "url": "AT6.html#activity-119",
   "type": "Activity",
-  "number": "3.6.5",
+  "number": "3.6.7",
   "title": "",
   "body": "  The polynomial space has the basis .    What is the dimension of ?  2  3  4  5      Which Euclidean space is isomorphic to?          Describe an isomorphism :    "
 },
@@ -2705,16 +2723,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#remark-17",
   "type": "Remark",
-  "number": "3.6.6",
+  "number": "3.6.8",
   "title": "",
   "body": " Since any finite-dimensional vector space is isomorphic to a Euclidean space , one approach to answering questions about such spaces is to answer the corresponding question about .  "
 },
 {
-  "id": "activity-118",
+  "id": "activity-120",
   "level": "2",
-  "url": "AT6.html#activity-118",
+  "url": "AT6.html#activity-120",
   "type": "Activity",
-  "number": "3.6.7",
+  "number": "3.6.9",
   "title": "",
   "body": "  Consider how to construct the polynomial as a linear combination of polynomials from the set .    Describe the vector space involved in this problem, and an isomorphic Euclidean space and relevant Eucldean vectors that can be used to solve this problem.    Show how to construct an appropriate Euclidean vector from an approriate set of Euclidean vectors.    Use this result to answer the original question.   "
 },
@@ -2723,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#observation-21",
   "type": "Observation",
-  "number": "3.6.8",
+  "number": "3.6.10",
   "title": "",
   "body": "  The space of polynomials (of any degree) has the basis , so it is a natural example of an infinite-dimensional vector space.  Since and other infinite-dimensional vector spaces cannot be treated as an isomorphic finite-dimensional Euclidean space , vectors in such vector spaces cannot be studied by converting them into Euclidean vectors. Fortunately, most of the examples we will be interested in for this course will be finite-dimensional.   "
 },
@@ -2741,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#exploration-37",
   "type": "Exploration",
-  "number": "3.6.9",
+  "number": "3.6.11",
   "title": "",
   "body": " Given a matrix   the span of the set of all columns is the column space column space  the span of the set of all rows is the row space row space  the rank rank of a matrix is the dimension of the column space.  Calculate the rank of these matrices.            "
 },
@@ -2750,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#exploration-38",
   "type": "Exploration",
-  "number": "3.6.10",
+  "number": "3.6.12",
   "title": "",
   "body": " Calculate a basis for the row space and a basis for the column space of the matrix .  "
 },
@@ -2759,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "AT6.html#exploration-39",
   "type": "Exploration",
-  "number": "3.6.11",
+  "number": "3.6.13",
   "title": "",
   "body": " If you are given the values of and , what value of will cause the matrix to have rank 1?  "
 },
@@ -2791,9 +2809,9 @@ var ptx_lunr_docs = [
   "body": "  If and are linear maps, then the composition map computed as is a linear map from .      The composition of two linear maps.    "
 },
 {
-  "id": "activity-119",
+  "id": "activity-121",
   "level": "2",
-  "url": "MX1.html#activity-119",
+  "url": "MX1.html#activity-121",
   "type": "Activity",
   "number": "4.1.2",
   "title": "",
@@ -2809,45 +2827,45 @@ var ptx_lunr_docs = [
   "body": "  We define the product  of a matrix and a matrix to be the standard matrix of the composition map of the two corresponding linear functions.  For the previous activity, was a map , and was a map , so gave a map with a standard matrix:     "
 },
 {
-  "id": "activity-120",
+  "id": "activity-122",
   "level": "2",
-  "url": "MX1.html#activity-120",
+  "url": "MX1.html#activity-122",
   "type": "Activity",
   "number": "4.1.4",
   "title": "",
   "body": "  Let be given by the matrix and be given by the matrix .   Write the dimensions (rows columns) for , , , and .  Find the standard matrix of .  Find the standard matrix of .  "
 },
 {
-  "id": "activity-121",
+  "id": "activity-123",
   "level": "2",
-  "url": "MX1.html#activity-121",
+  "url": "MX1.html#activity-123",
   "type": "Activity",
   "number": "4.1.5",
   "title": "",
   "body": "  Consider the following three matrices.    Find the domain and codomain of each of the three linear maps corresponding to , , and .  Only one of the matrix products can actually be computed. Compute it.  "
 },
 {
-  "id": "activity-122",
+  "id": "activity-124",
   "level": "2",
-  "url": "MX1.html#activity-122",
+  "url": "MX1.html#activity-124",
   "type": "Activity",
   "number": "4.1.6",
   "title": "",
   "body": "  Let , and let .   Compute the product by hand.  Check your work using technology. Using Octave: B = [3 -4 0 ; 2 0 -1 ; 0 -3 3] A = [2 7 -1 ; 0 3 2 ; 1 1 -1] B*A  "
 },
 {
-  "id": "activity-123",
+  "id": "activity-125",
   "level": "2",
-  "url": "MX1.html#activity-123",
+  "url": "MX1.html#activity-125",
   "type": "Activity",
   "number": "4.1.7",
   "title": "",
   "body": "  Of the following three matrices, only two may be multiplied. Explain which two can be multiplied and why. Then show how to find their product.   "
 },
 {
-  "id": "activity-124",
+  "id": "activity-126",
   "level": "2",
-  "url": "MX1.html#activity-124",
+  "url": "MX1.html#activity-126",
   "type": "Activity",
   "number": "4.1.8",
   "title": "",
@@ -2908,9 +2926,9 @@ var ptx_lunr_docs = [
   "body": "   Determine if a matrix is invertible, and if so, compute its inverse.    "
 },
 {
-  "id": "activity-125",
+  "id": "activity-127",
   "level": "2",
-  "url": "MX2.html#activity-125",
+  "url": "MX2.html#activity-127",
   "type": "Activity",
   "number": "4.2.1",
   "title": "",
@@ -2953,27 +2971,27 @@ var ptx_lunr_docs = [
   "body": "  Let be a linear bijection with standard matrix .  By item (B) from we may define an inverse map inverse map  that defines as the unique solution satisfying , that is, .  Furthermore, let be the standard matrix for . We call the inverse matrix inverse matrix of , and we also say that is an invertible invertible matrix.   "
 },
 {
-  "id": "activity-127",
+  "id": "activity-129",
   "level": "2",
-  "url": "MX2.html#activity-127",
+  "url": "MX2.html#activity-129",
   "type": "Activity",
   "number": "4.2.6",
   "title": "",
   "body": "  Let be the linear bijection given by the standard matrix .   To find , we need to find the unique solution for . Which of these linear systems can be used to find this solution?        Use that system to find the solution for .  Similarly, solve to find , and solve to find .  Use these to write , the standard matrix for .  "
 },
 {
-  "id": "activity-128",
+  "id": "activity-130",
   "level": "2",
-  "url": "MX2.html#activity-128",
+  "url": "MX2.html#activity-130",
   "type": "Activity",
   "number": "4.2.7",
   "title": "",
   "body": "  Find the inverse of the matrix by computing how it transforms each of the standard basis vectors for : , , , and .   "
 },
 {
-  "id": "activity-129",
+  "id": "activity-131",
   "level": "2",
-  "url": "MX2.html#activity-129",
+  "url": "MX2.html#activity-131",
   "type": "Activity",
   "number": "4.2.8",
   "title": "",
@@ -2989,9 +3007,9 @@ var ptx_lunr_docs = [
   "body": "  An matrix is invertible if and only if .   "
 },
 {
-  "id": "activity-130",
+  "id": "activity-132",
   "level": "2",
-  "url": "MX2.html#activity-130",
+  "url": "MX2.html#activity-132",
   "type": "Activity",
   "number": "4.2.10",
   "title": "",
@@ -3061,9 +3079,9 @@ var ptx_lunr_docs = [
   "body": "   Invert an appropriate matrix to solve a system of linear equations.    "
 },
 {
-  "id": "activity-131",
+  "id": "activity-133",
   "level": "2",
-  "url": "MX3.html#activity-131",
+  "url": "MX3.html#activity-133",
   "type": "Activity",
   "number": "4.3.1",
   "title": "",
@@ -3079,9 +3097,9 @@ var ptx_lunr_docs = [
   "body": " The linear system described by the augmented matrix has exactly the same solution set as the matrix equation .  When is invertible, then we have both and , which can be seen as   "
 },
 {
-  "id": "activity-132",
+  "id": "activity-134",
   "level": "2",
-  "url": "MX3.html#activity-132",
+  "url": "MX3.html#activity-134",
   "type": "Activity",
   "number": "4.3.3",
   "title": "",
@@ -3151,9 +3169,9 @@ var ptx_lunr_docs = [
   "body": "   Express row operations through matrix multiplication.    "
 },
 {
-  "id": "activity-133",
+  "id": "activity-135",
   "level": "2",
-  "url": "MX4.html#activity-133",
+  "url": "MX4.html#activity-135",
   "type": "Activity",
   "number": "4.4.1",
   "title": "",
@@ -3169,27 +3187,27 @@ var ptx_lunr_docs = [
   "body": "  If is the result of applying a row operation to , then is the result of applying the same row operation to .    Scaling a row:     Swapping rows:     Adding a row multiple to another row:     Such matrices can be chained together to emulate multiple row operations. In particular, for some sequence of matrices .   "
 },
 {
-  "id": "activity-134",
+  "id": "activity-136",
   "level": "2",
-  "url": "MX4.html#activity-134",
+  "url": "MX4.html#activity-136",
   "type": "Activity",
   "number": "4.4.3",
   "title": "",
   "body": "  What would happen if you right -multiplied by the tweaked identity matrix rather than left-multiplied?  The manipulated rows would be reversed.  Columns would be manipulated instead of rows.  The entries of the resulting matrix would be rotated 180 degrees.     "
 },
 {
-  "id": "activity-135",
+  "id": "activity-137",
   "level": "2",
-  "url": "MX4.html#activity-135",
+  "url": "MX4.html#activity-137",
   "type": "Activity",
   "number": "4.4.4",
   "title": "",
   "body": "  Consider the two row operations and applied as follows to show :   Express these row operations as matrix multiplication by expressing as the product of two matrices and : Check your work using technology.   "
 },
 {
-  "id": "activity-136",
+  "id": "activity-138",
   "level": "2",
-  "url": "MX4.html#activity-136",
+  "url": "MX4.html#activity-138",
   "type": "Activity",
   "number": "4.4.5",
   "title": "",
@@ -3223,18 +3241,18 @@ var ptx_lunr_docs = [
   "body": "   Describe how a row operation affects the determinant of a matrix.    "
 },
 {
-  "id": "activity-137",
+  "id": "activity-139",
   "level": "2",
-  "url": "GT1.html#activity-137",
+  "url": "GT1.html#activity-139",
   "type": "Activity",
   "number": "5.1.1",
   "title": "",
   "body": "  The image in illustrates how the linear transformation given by the standard matrix transforms the unit square.      Transformation of the unit square by the matrix .    What are the lengths of and ?  What is the area of the transformed unit square?  "
 },
 {
-  "id": "activity-138",
+  "id": "activity-140",
   "level": "2",
-  "url": "GT1.html#activity-138",
+  "url": "GT1.html#activity-140",
   "type": "Activity",
   "number": "5.1.2",
   "title": "",
@@ -3268,27 +3286,27 @@ var ptx_lunr_docs = [
   "body": "  We will define the determinant of a square matrix , or for short, to be the factor by which scales areas. In order to figure out how to compute it, we first figure out the properties it must satisfy.      The linear transformation scaling areas by a constant factor, which we call the determinant    "
 },
 {
-  "id": "activity-139",
+  "id": "activity-141",
   "level": "2",
-  "url": "GT1.html#activity-139",
+  "url": "GT1.html#activity-141",
   "type": "Activity",
   "number": "5.1.6",
   "title": "",
   "body": "  The transformation of the unit square by the standard matrix is illustrated below. If is the area of resulting parallelogram, what is the value of ?      The transformation of the unit square by the identity matrix.   The value for is:   0  1  2  4    "
 },
 {
-  "id": "activity-140",
+  "id": "activity-142",
   "level": "2",
-  "url": "GT1.html#activity-140",
+  "url": "GT1.html#activity-142",
   "type": "Activity",
   "number": "5.1.7",
   "title": "",
   "body": "  The transformation of the unit square by the standard matrix is illustrated below: both . If is the area of the generated parallelogram, what is the value of ?      Transformation of the unit square by a matrix with identical columns.   The value of is:   0  1  2  4    "
 },
 {
-  "id": "activity-141",
+  "id": "activity-143",
   "level": "2",
-  "url": "GT1.html#activity-141",
+  "url": "GT1.html#activity-143",
   "type": "Activity",
   "number": "5.1.8",
   "title": "",
@@ -3322,9 +3340,9 @@ var ptx_lunr_docs = [
   "body": " Similarly, represents the shaded area shown below.      Parallelogram generated by and   "
 },
 {
-  "id": "activity-142",
+  "id": "activity-144",
   "level": "2",
-  "url": "GT1.html#activity-142",
+  "url": "GT1.html#activity-144",
   "type": "Activity",
   "number": "5.1.12",
   "title": "",
@@ -3376,9 +3394,9 @@ var ptx_lunr_docs = [
   "body": "  To summarize, we've shown that the column versions of the three row-reducing operations a matrix may be used to simplify a determinant in the following way:   Multiplying a column by a scalar multiplies the determinant by that scalar:   Swapping two columns changes the sign of the determinant:   Adding a multiple of a column to another column does not change the determinant:     "
 },
 {
-  "id": "activity-143",
+  "id": "activity-145",
   "level": "2",
-  "url": "GT1.html#activity-143",
+  "url": "GT1.html#activity-145",
   "type": "Activity",
   "number": "5.1.18",
   "title": "",
@@ -3412,36 +3430,36 @@ var ptx_lunr_docs = [
   "body": "  The determinants of row operation matrices may be computed by manipulating columns to reduce each matrix to the identity:   Scaling a row:   Swapping rows:   Adding a row multiple to another row:     "
 },
 {
-  "id": "activity-144",
+  "id": "activity-146",
   "level": "2",
-  "url": "GT1.html#activity-144",
+  "url": "GT1.html#activity-146",
   "type": "Activity",
   "number": "5.1.22",
   "title": "",
   "body": "  Consider the row operation applied as follows to show :    Find a matrix such that , by applying the same row operation to .  Find by comparing with the previous slide.  If is a matrix with , find   "
 },
 {
-  "id": "activity-145",
+  "id": "activity-147",
   "level": "2",
-  "url": "GT1.html#activity-145",
+  "url": "GT1.html#activity-147",
   "type": "Activity",
   "number": "5.1.23",
   "title": "",
   "body": "  Consider the row operation applied as follows to show :    Find a matrix such that , by applying the same row operation to .  If is a matrix with , find .  "
 },
 {
-  "id": "activity-146",
+  "id": "activity-148",
   "level": "2",
-  "url": "GT1.html#activity-146",
+  "url": "GT1.html#activity-148",
   "type": "Activity",
   "number": "5.1.24",
   "title": "",
   "body": "  Consider the row operation applied as follows to show :    Find a matrix such that .  If is a matrix with , find .  "
 },
 {
-  "id": "activity-147",
+  "id": "activity-149",
   "level": "2",
-  "url": "GT1.html#activity-147",
+  "url": "GT1.html#activity-149",
   "type": "Activity",
   "number": "5.1.25",
   "title": "",
@@ -3475,9 +3493,9 @@ var ptx_lunr_docs = [
   "body": "  Thus we can also use both row operations to simplify determinants:   Multiplying rows by scalars:    Swapping two rows:    Adding multiples of rows\/columns to other rows:      "
 },
 {
-  "id": "activity-148",
+  "id": "activity-150",
   "level": "2",
-  "url": "GT1.html#activity-148",
+  "url": "GT1.html#activity-150",
   "type": "Activity",
   "number": "5.1.29",
   "title": "",
@@ -3538,9 +3556,9 @@ var ptx_lunr_docs = [
   "body": "  We've seen that row reducing all the way into RREF gives us a method of computing determinants.  However, we learned in that this can be tedious for large matrices. Thus, we will try to figure out how to turn the determinant of a larger matrix into the determinant of a smaller matrix.   "
 },
 {
-  "id": "activity-149",
+  "id": "activity-151",
   "level": "2",
-  "url": "GT2.html#activity-149",
+  "url": "GT2.html#activity-151",
   "type": "Activity",
   "number": "5.2.2",
   "title": "",
@@ -3565,27 +3583,27 @@ var ptx_lunr_docs = [
   "body": " If the is not on the main diagonal, you'll need to use row or column swaps in order to cancel.   "
 },
 {
-  "id": "activity-150",
+  "id": "activity-152",
   "level": "2",
-  "url": "GT2.html#activity-150",
+  "url": "GT2.html#activity-152",
   "type": "Activity",
   "number": "5.2.5",
   "title": "",
   "body": "  Remove an appropriate row and column of to simplify the determinant to a determinant.  "
 },
 {
-  "id": "activity-151",
+  "id": "activity-153",
   "level": "2",
-  "url": "GT2.html#activity-151",
+  "url": "GT2.html#activity-153",
   "type": "Activity",
   "number": "5.2.6",
   "title": "",
   "body": "  Simplify to a multiple of a determinant by first doing the following:   Factor out a from a column.  Swap rows or columns to put a on the main diagonal.  "
 },
 {
-  "id": "activity-152",
+  "id": "activity-154",
   "level": "2",
-  "url": "GT2.html#activity-152",
+  "url": "GT2.html#activity-154",
   "type": "Activity",
   "number": "5.2.7",
   "title": "",
@@ -3601,18 +3619,18 @@ var ptx_lunr_docs = [
   "body": "  Using row\/column operations, you can introduce zeros and reduce dimension to whittle down the determinant of a large matrix to a determinant of a smaller matrix.    "
 },
 {
-  "id": "activity-153",
+  "id": "activity-155",
   "level": "2",
-  "url": "GT2.html#activity-153",
+  "url": "GT2.html#activity-155",
   "type": "Activity",
   "number": "5.2.9",
   "title": "",
   "body": "  Rewrite as a multiple of a determinant of a matrix.  "
 },
 {
-  "id": "activity-154",
+  "id": "activity-156",
   "level": "2",
-  "url": "GT2.html#activity-154",
+  "url": "GT2.html#activity-156",
   "type": "Activity",
   "number": "5.2.10",
   "title": "",
@@ -3637,18 +3655,18 @@ var ptx_lunr_docs = [
   "body": "  Recall the formula for a determinant found in : .  There are formulas and algorithms for the determinants of larger matrices, but they can be pretty tedious to use. For example, writing out a formula for a determinant would require 24 different terms!    "
 },
 {
-  "id": "activity-155",
+  "id": "activity-157",
   "level": "2",
-  "url": "GT2.html#activity-155",
+  "url": "GT2.html#activity-157",
   "type": "Activity",
   "number": "5.2.13",
   "title": "",
   "body": "  Based on the previous activities, which technique is easier for computing determinants?   Memorizing formulas.  Using row\/column operations.  Laplace expansion.  Some other technique.    "
 },
 {
-  "id": "activity-156",
+  "id": "activity-158",
   "level": "2",
-  "url": "GT2.html#activity-156",
+  "url": "GT2.html#activity-158",
   "type": "Activity",
   "number": "5.2.14",
   "title": "",
@@ -3736,9 +3754,9 @@ var ptx_lunr_docs = [
   "body": "   Find the eigenvalues of a matrix.    "
 },
 {
-  "id": "activity-157",
+  "id": "activity-159",
   "level": "2",
-  "url": "GT3.html#activity-157",
+  "url": "GT3.html#activity-159",
   "type": "Activity",
   "number": "5.3.1",
   "title": "",
@@ -3772,9 +3790,9 @@ var ptx_lunr_docs = [
   "body": "  Let . An eigenvector eigenvector for is a vector such that is parallel to .      The map stretches out the eigenvector by a factor of (the corresponding eigenvalue).   In other words, for some scalar . If , then we say is a nontrivial eigenvector eigenvector nontrivial and we call this an eigenvalue eigenvalue of .   "
 },
 {
-  "id": "activity-158",
+  "id": "activity-160",
   "level": "2",
-  "url": "GT3.html#activity-158",
+  "url": "GT3.html#activity-160",
   "type": "Activity",
   "number": "5.3.5",
   "title": "",
@@ -3799,36 +3817,36 @@ var ptx_lunr_docs = [
   "body": "  The expression is called characteristic polynomial of .  For example, when , we have .  Thus the characteristic polynomial of is and its eigenvalues are the solutions to .   "
 },
 {
-  "id": "activity-159",
+  "id": "activity-161",
   "level": "2",
-  "url": "GT3.html#activity-159",
+  "url": "GT3.html#activity-161",
   "type": "Activity",
   "number": "5.3.8",
   "title": "",
   "body": "  Let .   Compute to determine the characteristic polynomial of .  Set this characteristic polynomial equal to zero and factor to determine the eigenvalues of .  "
 },
 {
-  "id": "activity-160",
+  "id": "activity-162",
   "level": "2",
-  "url": "GT3.html#activity-160",
+  "url": "GT3.html#activity-162",
   "type": "Activity",
   "number": "5.3.9",
   "title": "",
   "body": "  Find all the eigenvalues for the matrix .   "
 },
 {
-  "id": "activity-161",
+  "id": "activity-163",
   "level": "2",
-  "url": "GT3.html#activity-161",
+  "url": "GT3.html#activity-163",
   "type": "Activity",
   "number": "5.3.10",
   "title": "",
   "body": "  Find all the eigenvalues for the matrix .   "
 },
 {
-  "id": "activity-162",
+  "id": "activity-164",
   "level": "2",
-  "url": "GT3.html#activity-162",
+  "url": "GT3.html#activity-164",
   "type": "Activity",
   "number": "5.3.11",
   "title": "",
@@ -3871,9 +3889,9 @@ var ptx_lunr_docs = [
   "body": "   Find a basis for the eigenspace of a matrix associated with a given eigenvalue.    "
 },
 {
-  "id": "activity-163",
+  "id": "activity-165",
   "level": "2",
-  "url": "GT4.html#activity-163",
+  "url": "GT4.html#activity-165",
   "type": "Activity",
   "number": "5.4.1",
   "title": "",
@@ -3889,27 +3907,27 @@ var ptx_lunr_docs = [
   "body": "  Since the kernel of a linear map is a subspace of , and the kernel obtained from contains all the eigenvectors associated with , we call this kernel the eigenspace eigenspace of associated with .   "
 },
 {
-  "id": "activity-164",
+  "id": "activity-166",
   "level": "2",
-  "url": "GT4.html#activity-164",
+  "url": "GT4.html#activity-166",
   "type": "Activity",
   "number": "5.4.3",
   "title": "",
   "body": "  Find a basis for the eigenspace for the matrix associated with the eigenvalue .   "
 },
 {
-  "id": "activity-165",
+  "id": "activity-167",
   "level": "2",
-  "url": "GT4.html#activity-165",
+  "url": "GT4.html#activity-167",
   "type": "Activity",
   "number": "5.4.4",
   "title": "",
   "body": "  Find a basis for the eigenspace for the matrix associated with the eigenvalue .   "
 },
 {
-  "id": "activity-166",
+  "id": "activity-168",
   "level": "2",
-  "url": "GT4.html#activity-166",
+  "url": "GT4.html#activity-168",
   "type": "Activity",
   "number": "5.4.5",
   "title": "",
@@ -3952,9 +3970,9 @@ var ptx_lunr_docs = [
   "body": "  In engineering, a truss is a structure designed from several beams of material called struts , assembled to behave as a single object.    A simple truss       A simple truss    "
 },
 {
-  "id": "activity-167",
+  "id": "activity-169",
   "level": "2",
-  "url": "truss.html#activity-167",
+  "url": "truss.html#activity-169",
   "type": "Activity",
   "number": "A.1.2",
   "title": "",
@@ -3979,9 +3997,9 @@ var ptx_lunr_docs = [
   "body": "  For example, at the bottom left node there are 3 forces acting.      Truss with forces   Let be the force on given by the compression\/tension of the strut , let be defined similarly, and let be the normal force of the anchor point on .  For the truss to be stable, we must have:    "
 },
 {
-  "id": "activity-168",
+  "id": "activity-170",
   "level": "2",
-  "url": "truss.html#activity-168",
+  "url": "truss.html#activity-170",
   "type": "Activity",
   "number": "A.1.5",
   "title": "",
@@ -4006,9 +4024,9 @@ var ptx_lunr_docs = [
   "body": "  Each vector has a vertical and horizontal component, so it may be treated as a vector in . Note that must have the same magnitude (but opposite direction) as .     "
 },
 {
-  "id": "activity-169",
+  "id": "activity-171",
   "level": "2",
-  "url": "truss.html#activity-169",
+  "url": "truss.html#activity-171",
   "type": "Activity",
   "number": "A.1.8",
   "title": "",
@@ -4042,9 +4060,9 @@ var ptx_lunr_docs = [
   "body": "  Each of the five vector equations found previously represent two linear equations: one for the horizontal component and one for the vertical.      Variables for the truss    Using the approximation , we have   "
 },
 {
-  "id": "activity-170",
+  "id": "activity-172",
   "level": "2",
-  "url": "truss.html#activity-170",
+  "url": "truss.html#activity-172",
   "type": "Activity",
   "number": "A.1.12",
   "title": "",
@@ -4087,9 +4105,9 @@ var ptx_lunr_docs = [
   "body": " Computer Science: PageRank   Activities   The $978,000,000,000 Problem     In the picture below, each circle represents a webpage, and each arrow represents a link from one page to another.      A seven-webpage network   Based on how these pages link to each other, write a list of the 7 webpages in order from most important to least important.     The $978,000,000,000 Idea   Links are endorsements. That is:    A webpage is important if it is linked to (endorsed) by important pages.    A webpage distributes its importance equally among all the pages it links to (endorses).       Consider this small network with only three pages. Let be the importance of the three pages respectively.      A three-webpage network     splits its endorsement in half between and   sends all of its endorsement to   sends all of its endorsement to .   This corresponds to the page rank system :          A three-webpage network           By writing this linear system in terms of matrix multiplication, we obtain the page rank matrix  and page rank vector . Thus, computing the importance of pages on a network is equivalent to solving the matrix equation .      Thus, our $978,000,000,000 problem is what kind of problem?    An antiderivative problem  A bijection problem  A cofactoring problem  A determinant problem  An eigenvector problem      Find a page rank vector satisfying for the following network's page rank matrix .  That is, find the eigenspace associated with for the matrix , and choose a vector from that eigenspace.       A three-webpage network           Row-reducing yields the basic eigenvector . Therefore, we may conclude that pages and are equally important, and both pages are twice as important as page .      Compute the page rank matrix for the following network.      A seven-webpage network   For example, since website distributes its endorsement equally between and , the first column is .      Find a page rank vector for the given page rank matrix.          A seven-webpage network    Which webpage is most important?      Since a page rank vector for the network is given by , it's reasonable to consider page as the most important page.   Based upon this page rank vector, here is a complete ranking of all seven pages from most important to least important:       A seven-webpage network       Given the following diagram, use a page rank vector to rank the pages through in order from most important to least important.      Another seven-webpage network       Slideshow  Slideshow of activities available at .   "
 },
 {
-  "id": "activity-171",
+  "id": "activity-173",
   "level": "2",
-  "url": "pagerank.html#activity-171",
+  "url": "pagerank.html#activity-173",
   "type": "Activity",
   "number": "A.2.1",
   "title": "The $978,000,000,000 Problem.",
@@ -4123,18 +4141,18 @@ var ptx_lunr_docs = [
   "body": "      A three-webpage network           By writing this linear system in terms of matrix multiplication, we obtain the page rank matrix  and page rank vector . Thus, computing the importance of pages on a network is equivalent to solving the matrix equation .   "
 },
 {
-  "id": "activity-172",
+  "id": "activity-174",
   "level": "2",
-  "url": "pagerank.html#activity-172",
+  "url": "pagerank.html#activity-174",
   "type": "Activity",
   "number": "A.2.5",
   "title": "",
   "body": "  Thus, our $978,000,000,000 problem is what kind of problem?    An antiderivative problem  A bijection problem  A cofactoring problem  A determinant problem  An eigenvector problem   "
 },
 {
-  "id": "activity-173",
+  "id": "activity-175",
   "level": "2",
-  "url": "pagerank.html#activity-173",
+  "url": "pagerank.html#activity-175",
   "type": "Activity",
   "number": "A.2.6",
   "title": "",
@@ -4150,18 +4168,18 @@ var ptx_lunr_docs = [
   "body": "  Row-reducing yields the basic eigenvector . Therefore, we may conclude that pages and are equally important, and both pages are twice as important as page .   "
 },
 {
-  "id": "activity-174",
+  "id": "activity-176",
   "level": "2",
-  "url": "pagerank.html#activity-174",
+  "url": "pagerank.html#activity-176",
   "type": "Activity",
   "number": "A.2.8",
   "title": "",
   "body": "  Compute the page rank matrix for the following network.      A seven-webpage network   For example, since website distributes its endorsement equally between and , the first column is .   "
 },
 {
-  "id": "activity-175",
+  "id": "activity-177",
   "level": "2",
-  "url": "pagerank.html#activity-175",
+  "url": "pagerank.html#activity-177",
   "type": "Activity",
   "number": "A.2.9",
   "title": "",
@@ -4177,9 +4195,9 @@ var ptx_lunr_docs = [
   "body": "  Since a page rank vector for the network is given by , it's reasonable to consider page as the most important page.   Based upon this page rank vector, here is a complete ranking of all seven pages from most important to least important:       A seven-webpage network    "
 },
 {
-  "id": "activity-176",
+  "id": "activity-178",
   "level": "2",
-  "url": "pagerank.html#activity-176",
+  "url": "pagerank.html#activity-178",
   "type": "Activity",
   "number": "A.2.11",
   "title": "",
@@ -4213,27 +4231,27 @@ var ptx_lunr_docs = [
   "body": "  Consider the 3 components and the 5 phases:   Geologists already know (or can easily deduce) that since, for example:    "
 },
 {
-  "id": "activity-177",
+  "id": "activity-179",
   "level": "2",
-  "url": "geology.html#activity-177",
+  "url": "geology.html#activity-179",
   "type": "Activity",
   "number": "A.3.3",
   "title": "",
   "body": "  To study this vector space, each of the three components may be considered as the three components of a Euclidean vector.   Determine if the set of phases is linearly dependent or linearly independent.   "
 },
 {
-  "id": "activity-178",
+  "id": "activity-180",
   "level": "2",
-  "url": "geology.html#activity-178",
+  "url": "geology.html#activity-180",
   "type": "Activity",
   "number": "A.3.4",
   "title": "",
   "body": "  Geologists are interested in knowing all the possible chemical reactions among the 5 phases:  That is, they want to find numbers such that    Set up a system of equations equivalent to this vector equation.  Find a basis for its solution space.  Interpret each basis vector as a vector equation and a chemical equation.  "
 },
 {
-  "id": "activity-179",
+  "id": "activity-181",
   "level": "2",
-  "url": "geology.html#activity-179",
+  "url": "geology.html#activity-181",
   "type": "Activity",
   "number": "A.3.5",
   "title": "",
