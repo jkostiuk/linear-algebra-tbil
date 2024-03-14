@@ -179,11 +179,13 @@ was actually defined for all kinds of vector spaces:
     <statement>
         <p>
 Let <m>V</m> be a vector space with the basis <m>\{\vec v_1,\vec v_2,\vec v_3\}</m>.
-Which of these completes the following definition for a bijective linear map
-<m>T:V\to\mathbb R^3</m>?
+Consider the following linear transformations <m>T:V\to\mathbb R^3</m>:
 <me>T(\vec v)=T(a\vec v_1+b\vec v_2+c\vec v_3)=\left[\begin{array}{c}
     \unknown\\\unknown\\\unknown
   \end{array}\right]</me>
+  where <m>\left[\begin{array}{c}
+  \unknown\\\unknown\\\unknown
+\end{array}\right]</m> is which of the following: 
   <ol marker="A." cols="3">
     <li><p><m>\left[\begin{array}{c}
         0\\ 0\\ 0
@@ -195,6 +197,10 @@ Which of these completes the following definition for a bijective linear map
         a\\ b\\ c
         \end{array}\right]</m></p></li>
   </ol>
+        </p>
+
+        <p>
+            Which of them are bijective?
         </p>
     </statement>
 </activity>
