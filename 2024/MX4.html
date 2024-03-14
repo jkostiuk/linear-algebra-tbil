@@ -548,15 +548,15 @@ sagecell.makeSagecell({
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.4</span><span class="space"> </span><span class="title">Row Operations as Matrix Multiplication (MX4)</span>
 </h2>
 <article class="objectives goal-like" id="objectives-25"><h3 class="heading"><span class="type">Learning Outcomes</span></h3>
-<ul class="disc"><li id="li-724"><div class="para" id="p-1131">Express row operations through matrix multiplication.</div></li></ul></article><section class="subsection" id="subsection-100"><h3 class="heading hide-type">
+<ul class="disc"><li id="li-724"><div class="para" id="p-1132">Express row operations through matrix multiplication.</div></li></ul></article><section class="subsection" id="subsection-100"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="space"> </span><span class="title">Class Activities</span>
 </h3>
 <article class="activity project-like" id="activity-135"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-66"><div class="para" id="p-1132">Tweaking the identity matrix slightly allows us to write row operations in terms of matrix multiplication.</div></div>
+<div class="introduction" id="introduction-66"><div class="para" id="p-1133">Tweaking the identity matrix slightly allows us to write row operations in terms of matrix multiplication.</div></div>
 <article class="task exercise-like" id="task-181"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para logical" id="p-1133">
+<div class="para logical" id="p-1134">
 <div class="para">Which of these tweaks of the identity matrix yields a matrix that doubles the third row of <span class="process-math">\(A\)</span> when left-multiplying? (<span class="process-math">\(2R_3\to R_3\)</span>)</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -589,7 +589,7 @@ sagecell.makeSagecell({
 \end{array}\right]\)</span></div></li>
 </ol>
 </div></article><article class="task exercise-like" id="task-182"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical" id="p-1134">
+<div class="para logical" id="p-1135">
 <div class="para">Which of these tweaks of the identity matrix yields a matrix that swaps the first and third rows of <span class="process-math">\(A\)</span> when left-multiplying? (<span class="process-math">\(R_1\leftrightarrow R_3\)</span>)</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -622,7 +622,7 @@ sagecell.makeSagecell({
 \end{array}\right]\)</span></div></li>
 </ol>
 </div></article><article class="task exercise-like" id="task-183"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical" id="p-1135">
+<div class="para logical" id="p-1136">
 <div class="para">Which of these tweaks of the identity matrix yields a matrix that adds <span class="process-math">\(5\)</span> times the third row of <span class="process-math">\(A\)</span> to the first row when left-multiplying? (<span class="process-math">\(R_1+5R_3\to R_1\)</span>)</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -658,30 +658,30 @@ sagecell.makeSagecell({
 <article class="fact theorem-like" id="fact-19"><h4 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-1136">If <span class="process-math">\(R\)</span> is the result of applying a row operation to <span class="process-math">\(I\text{,}\)</span> then <span class="process-math">\(RA\)</span> is the result of applying the same row operation to <span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-1137">If <span class="process-math">\(R\)</span> is the result of applying a row operation to <span class="process-math">\(I\text{,}\)</span> then <span class="process-math">\(RA\)</span> is the result of applying the same row operation to <span class="process-math">\(A\text{.}\)</span>
 </div> <ul class="disc">
-<li id="li-737"><div class="para" id="p-1137">Scaling a row: <span class="process-math">\(R=
+<li id="li-737"><div class="para" id="p-1138">Scaling a row: <span class="process-math">\(R=
 \left[\begin{array}{ccc}
 c &amp; 0 &amp; 0 \\
 0 &amp; 1 &amp; 0 \\
 0 &amp; 0 &amp; 1
 \end{array}\right]\)</span>
 </div></li>
-<li id="li-738"><div class="para" id="p-1138">Swapping rows: <span class="process-math">\(R=
+<li id="li-738"><div class="para" id="p-1139">Swapping rows: <span class="process-math">\(R=
 \left[\begin{array}{ccc}
 0 &amp; 1 &amp; 0 \\
 1 &amp; 0 &amp; 0 \\
 0 &amp; 0 &amp; 1
 \end{array}\right]\)</span>
 </div></li>
-<li id="li-739"><div class="para" id="p-1139">Adding a row multiple to another row: <span class="process-math">\(R=
+<li id="li-739"><div class="para" id="p-1140">Adding a row multiple to another row: <span class="process-math">\(R=
 \left[\begin{array}{ccc}
 1 &amp; 0 &amp; c \\
 0 &amp; 1 &amp; 0 \\
 0 &amp; 0 &amp; 1
 \end{array}\right]\)</span>
 </div></li>
-</ul> <div class="para logical" id="p-1140">
+</ul> <div class="para logical" id="p-1141">
 <div class="para">Such matrices can be chained together to emulate multiple row operations. In particular,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -693,7 +693,7 @@ c &amp; 0 &amp; 0 \\
 </div></article><article class="activity project-like" id="activity-136"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-1141">
+<div class="para logical" id="p-1142">
 <div class="para">What would happen if you <em class="emphasis">right</em>-multiplied by the tweaked identity matrix rather than left-multiplied?</div>
 <ol class="upper-alpha">
 <li id="li-740"><div class="para" id="p-derived-li-740">The manipulated rows would be reversed.</div></li>
@@ -703,7 +703,7 @@ c &amp; 0 &amp; 0 \\
 </div></article><article class="activity project-like" id="activity-137"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-1142">Consider the two row operations <span class="process-math">\(R_2\leftrightarrow R_3\)</span> and <span class="process-math">\(R_1+R_2\to R_1\)</span> applied as follows to show <span class="process-math">\(A\sim B\text{:}\)</span>
+<div class="para" id="p-1143">Consider the two row operations <span class="process-math">\(R_2\leftrightarrow R_3\)</span> and <span class="process-math">\(R_1+R_2\to R_1\)</span> applied as follows to show <span class="process-math">\(A\sim B\text{:}\)</span>
 </div>
 <div class="displaymath process-math" id="md-54">
 \begin{align*}
@@ -736,7 +736,7 @@ A
 B
 \end{align*}
 </div>
-<div class="para logical" id="p-1143">
+<div class="para logical" id="p-1144">
 <div class="para">Express these row operations as matrix multiplication by expressing <span class="process-math">\(B\)</span> as the product of two matrices and <span class="process-math">\(A\text{:}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -760,26 +760,26 @@ A
 <article class="activity project-like" id="activity-138"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.5</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-67"><div class="para" id="p-1144">Let <span class="process-math">\(A\)</span> be <em class="emphasis">any</em> <span class="process-math">\(4 \times 4\)</span> matrix.</div></div>
+<div class="introduction" id="introduction-67"><div class="para" id="p-1145">Let <span class="process-math">\(A\)</span> be <em class="emphasis">any</em> <span class="process-math">\(4 \times 4\)</span> matrix.</div></div>
 <article class="task exercise-like" id="task-184"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-1145">Give a <span class="process-math">\(4 \times 4\)</span> matrix <span class="process-math">\(M\)</span> that may be used to perform the row operation <span class="process-math">\(-5 R_2 \to R_2\text{.}\)</span>
+<div class="para" id="p-1146">Give a <span class="process-math">\(4 \times 4\)</span> matrix <span class="process-math">\(M\)</span> that may be used to perform the row operation <span class="process-math">\(-5 R_2 \to R_2\text{.}\)</span>
 </div></article><article class="task exercise-like" id="task-185"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-1146">Give a <span class="process-math">\(4 \times 4\)</span> matrix <span class="process-math">\(Y\)</span> that may be used to perform the row operation <span class="process-math">\(R_2 \leftrightarrow R_3\text{.}\)</span>
+<div class="para" id="p-1147">Give a <span class="process-math">\(4 \times 4\)</span> matrix <span class="process-math">\(Y\)</span> that may be used to perform the row operation <span class="process-math">\(R_2 \leftrightarrow R_3\text{.}\)</span>
 </div></article><article class="task exercise-like" id="task-186"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="p-1147">Use matrix multiplication to describe the matrix obtained by applying   <span class="process-math">\(-5 R_2 \to R_2\)</span> and then <span class="process-math">\(R_2 \leftrightarrow R_3\)</span>  to <span class="process-math">\(A\)</span> (note the order).</div></article></article><pre id="sage-39" class="ptx-sagecell sagecell-octave"><script type="text/x-sage"></script></pre></section><section class="subsection" id="subsection-101"><h3 class="heading hide-type">
+<div class="para" id="p-1148">Use matrix multiplication to describe the matrix obtained by applying   <span class="process-math">\(-5 R_2 \to R_2\)</span> and then <span class="process-math">\(R_2 \leftrightarrow R_3\)</span>  to <span class="process-math">\(A\)</span> (note the order).</div></article></article><pre id="sage-39" class="ptx-sagecell sagecell-octave"><script type="text/x-sage"></script></pre></section><section class="subsection" id="subsection-101"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="space"> </span><span class="title">Videos</span>
 </h3>
 <figure class="figure figure-like" id="figure-45"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/5kpk67ABLwY?&amp;modestbranding=1&amp;rel=0" id="video-MX4"></iframe></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">45<span class="period">.</span></span><span class="space"> </span>Video: Row operations as matrix multiplication</figcaption></figure></section><section class="subsection" id="subsection-102"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="space"> </span><span class="title">Slideshow</span>
 </h3>
-<div class="para" id="p-1148">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/MX4.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/MX4.slides.html</code></a>.</div></section><section class="exercises" id="exercises-21"><h3 class="heading hide-type">
+<div class="para" id="p-1149">Slideshow of activities available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/MX4.slides.html" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/MX4.slides.html</code></a>.</div></section><section class="exercises" id="exercises-21"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.4.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<div class="para" id="p-1149">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/MX4/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/MX4/</code></a>.</div></section><section class="subsection" id="subsection-103"><h3 class="heading hide-type">
+<div class="para" id="p-1150">Exercises available at <a class="external" href="https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/MX4/" target="_blank"><code class="code-inline tex2jax_ignore">https://teambasedinquirylearning.github.io/linear-algebra/2023/exercises/#/bank/MX4/</code></a>.</div></section><section class="subsection" id="subsection-103"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.5</span><span class="space"> </span><span class="title">Sample Problem and Solution</span>
 </h3>
-<div class="para" id="p-1150">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-MX4.html" title="Example B.1.21: MX4">Example B.1.21</a>.</div></section></section></div>
+<div class="para" id="p-1151">Sample problem <a href="" class="xref" data-knowl="./knowl/sample-MX4.html" title="Example B.1.21: MX4">Example B.1.21</a>.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="MX3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="GT.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
