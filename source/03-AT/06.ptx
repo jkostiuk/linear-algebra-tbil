@@ -149,7 +149,7 @@ was actually defined for all kinds of vector spaces:
                 <ol marker="A.">
                     <li>
                         <p>
-                            The set <m>S</m> spans all of <m>\P^3</m>.
+                            The set <m>S</m> spans all of <m>\P^2</m>.
                         </p>
                     </li>
                     <li>
@@ -159,7 +159,7 @@ was actually defined for all kinds of vector spaces:
                     </li>
                     <li>
                         <p>
-                            The set <m>S</m> is a basis for <m>\P^3</m>.
+                            The set <m>S</m> is a basis for <m>\P^2</m>.
                         </p>
                     </li>
                     <li>
