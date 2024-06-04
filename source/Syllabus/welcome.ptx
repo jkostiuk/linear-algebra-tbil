@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<section xml:id="welcome" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="welcome" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Welcome to Math 0520</title>    
-</section>
+</subsection>

@@ -22,5 +22,6 @@
       <!-- everything except output-dir and deploy-dir is unused -->
     </target>
     <target name="print-latex" format="latex"/>
+    <target name="syllabus" format="pdf" source="standalone-syllabus.ptx" deploy-dir="syllabus"/>
   </targets>
 </project>
