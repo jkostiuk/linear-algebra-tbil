@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="../meta/docinfo.ptx"/>
+    <article xml:id="syllabus">
+        <title>Linear Algebra Syllabus</title>
+        <xi:include href="Syllabus/main.ptx"/>
+    </article>
+</pretext>
+

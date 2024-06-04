@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<chapter xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Syllabus</title>
     <xi:include href="welcome.ptx"/>
     <xi:include href="course-structure.ptx"/>
@@ -7,4 +7,4 @@
     <xi:include href="topics.ptx"/>
     <xi:include href="course-policies.ptx"/>
     <xi:include href="resources.ptx"/>
-</chapter>
+</section>
