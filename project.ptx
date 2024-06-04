@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project ptx-version="2">
   <targets>
+    <!-- Custom targets for Jordan -->
+    <target name="custom-web" format="html" source="custom.ptx" deploy-dir=".">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
+    <target name="syllabus" format="pdf" source="custom/standalone-syllabus.ptx" deploy-dir="syllabus"/>
+    <!-- Official targets -->
     <target name="web" format="html" deploy-dir="2024">
       <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
@@ -22,6 +28,5 @@
       <!-- everything except output-dir and deploy-dir is unused -->
     </target>
     <target name="print-latex" format="latex"/>
-    <target name="syllabus" format="pdf" source="standalone-syllabus.ptx" deploy-dir="syllabus"/>
   </targets>
 </project>
