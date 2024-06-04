@@ -5,8 +5,8 @@
         <title>Linear Algebra for Team-Based Inquiry Learning</title>
         <subtitle component="main">2024 Edition PREVIEW</subtitle>
         <subtitle component="instructor">2024 Edition PREVIEW (Instructor Version)</subtitle>
+
         <xi:include href="meta/frontmatter.ptx"/>
-        
         <xi:include href="Syllabus/main.ptx"/>
         <xi:include href="01-LE/main.ptx"/>
         <xi:include href="02-EV/main.ptx"/>

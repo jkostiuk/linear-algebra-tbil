@@ -1,28 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="course-policies" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Course Policies</title>  
-
-
-    <subsection xml:id="communication-policies">
-        <title>Communication Policies</title>
-        
-    </subsection>
-    <subsection xml:id="Academic-Integrity">
-        <title>Academic Integrity</title>
-        
-    </subsection>
-
-    <subsection xml:id="Late-Policies">
-        <title>Late Policies</title>
-    
-    </subsection>
-
-    <subsection xml:id="Attendance-Policy">
-        <title>Attendance Policy</title>
-        <p>
-            Attendance in class sessions makes up 7.5% of your total grade; it will be recorded by the teaching team on Canvas during each of our sessions after shopping period. 
-
-Each student will be provided one week's worth of personal days (3 sessions for MWF folk; 2 sessions for TTh folk) to use for absences of any kind. Absences other than these personal days will not be excused. If you are ill for a long period of time, please contact your instructor to come up with a plan to keep you on pace for the term.
-        </p>
-    </subsection>
+    <title>Course Policies</title>    
 </section>
