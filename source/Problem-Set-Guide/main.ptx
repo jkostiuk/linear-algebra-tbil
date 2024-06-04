@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chapter xml:id="psetguide" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Problem Set Guide</title>
+    <xi:include href="instructions.ptx"/>
+    <xi:include href="problemset1.ptx"/>
+</chapter>

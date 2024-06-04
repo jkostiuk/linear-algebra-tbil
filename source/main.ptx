@@ -7,12 +7,13 @@
         <subtitle component="instructor">2024 Edition PREVIEW (Instructor Version)</subtitle>
 
         <xi:include href="meta/frontmatter.ptx"/>
-
+        <xi:include href="Syllabus/main.ptx"/>
         <xi:include href="01-LE/main.ptx"/>
         <xi:include href="02-EV/main.ptx"/>
         <xi:include href="03-AT/main.ptx"/>
         <xi:include href="04-MX/main.ptx"/>
         <xi:include href="05-GT/main.ptx"/>
+        <xi:include href="Problem-Set-Guide/main.ptx"/>
 
         <xi:include href="meta/backmatter.ptx"/>
 
