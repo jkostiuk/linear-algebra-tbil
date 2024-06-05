@@ -2,12 +2,12 @@
 <project ptx-version="2">
   <targets>
     <!-- Custom targets for Jordan -->
-    <target name="custom-web" format="html" source="custom.ptx" deploy-dir=".">
+    <target name="web" format="html" source="custom.ptx" deploy-dir=".">
       <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
     <target name="syllabus" format="pdf" source="custom/standalone-syllabus.ptx" deploy-dir="syllabus"/>
     <!-- Official targets -->
-    <target name="web" format="html" deploy-dir="2024">
+    <target name="web-original" format="html" deploy-dir="2024">
       <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
     <target name="print" format="pdf" output-filename="TBIL-LA-2024.pdf" deploy-dir="2024/pdf">
