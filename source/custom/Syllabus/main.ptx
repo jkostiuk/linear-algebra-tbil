@@ -1,10 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Syllabus</title>
-    <xi:include href="welcome.ptx"/>
-    <xi:include href="course-structure.ptx"/>
-    <xi:include href="assessment.ptx"/>
-    <xi:include href="topics.ptx"/>
-    <xi:include href="course-policies.ptx"/>
-    <xi:include href="resources.ptx"/>
-</section>
+    <section xml:id="sec-welcome">
+        <title>Welcome to Math 0520</title>
+        
+    </section>
+
+    <section xml:id="sec-course-structure">
+        <title>Course Structure</title>
+        
+    </section>
+
+    <section xml:id="sec-assessment">
+        <title>Assessment</title>
+        
+    </section>
+
+    <section xml:id="sec-Topics">
+        <title>Topics</title>
+
+    </section>
+    <section xml:id="sec-course-policies">
+        <title>Course Policies</title>
+        <subsection xml:id="subsec-attendance">
+            <title>Attendance</title>
+            <p>
+                Here is a sentence.
+            </p>
+        </subsection>
+    </section>
+
+    <section xml:id="sec-resources">
+        <title>Resources</title>
+        
+    </section>
+</chapter>
