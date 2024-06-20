@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<section xml:id="success-guide" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Student Success Guide</title>
+    <p>
+        Opening paragraphing re-articulating the goal for <em>fluency</em>.
+    </p>
+    <subsection xml:id="subsec-classtime">
+        <title>Getting the most out of Class Time</title>
+        
+    </subsection>
+
+    <subsection xml:id="subsec-Getting the most outside of Class Time">
+        <title>Getting the most outside of Class Time</title>
+        
+    </subsection>
+</section>

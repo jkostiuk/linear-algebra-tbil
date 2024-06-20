@@ -6,7 +6,7 @@
         <subtitle component="main">Jordan's custom version</subtitle>
 
         <xi:include href="meta/frontmatter.ptx"/>
-        <preface><xi:include href="custom/Syllabus/main.ptx"/></preface>
+        <preface><xi:include href="custom/Syllabus/main.ptx"/><xi:include href="custom/Success-Guide/main.ptx"/></preface>
         <xi:include href="01-LE/main.ptx"/>
         <xi:include href="02-EV/main.ptx"/>
         <xi:include href="03-AT/main.ptx"/>

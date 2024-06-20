@@ -1,37 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<chapter xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Syllabus</title>
-    <section xml:id="sec-welcome">
+    <subsection xml:id="sec-welcome">
         <title>Welcome to Math 0520</title>
         
-    </section>
+    </subsection>
 
-    <section xml:id="sec-course-structure">
+    <subsection xml:id="subsec-course-structure">
         <title>Course Structure</title>
         
-    </section>
+    </subsection>
 
-    <section xml:id="sec-assessment">
+    <subsection xml:id="subsec-assessment">
         <title>Assessment</title>
-        
-    </section>
+        <subsubsection xml:id="subsubsec-FluencyAssessments">
+            <title>Fluency Assessments</title>
+            
+        </subsubsection>
 
-    <section xml:id="sec-Topics">
+        <subsubsection xml:id="subsubsec-ProblemSets">
+            <title>Problem Sets</title>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Reflections">
+            <title>Reflections</title>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Teamwork">
+            <title>Team Work and Attendance</title>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-YourFinalGrade">
+            <title>Your Final Grade</title>
+            
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-Topics">
         <title>Topics</title>
 
-    </section>
-    <section xml:id="sec-course-policies">
+    </subsection>
+    <subsection xml:id="subsec-course-policies">
         <title>Course Policies</title>
-        <subsection xml:id="subsec-attendance">
+        <subsubsection xml:id="subsubsec-attendance">
             <title>Attendance</title>
             <p>
                 Here is a sentence.
             </p>
-        </subsection>
-    </section>
+        </subsubsection>
 
-    <section xml:id="sec-resources">
+        <subsubsection xml:id="subsubsec-LatePolicies">
+            <title>Late Policies</title>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-AcademicIntegrity">
+            <title>Academic Integrity</title>
+            
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-resources">
         <title>Resources</title>
         
-    </section>
-</chapter>
+    </subsection>
+</section>
