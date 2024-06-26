@@ -2,17 +2,243 @@
 <section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Syllabus</title>
     <subsection xml:id="sec-welcome">
-        <title>Welcome to Math 0520</title>
-        
+        <title>Welcome</title>
+        <p>
+        Welcome to Math 0520! This page is our official syllabus; it's main purpose is to orient you to our course structure, learning outcomes, and resources that you will access throughout the semester. 
+        Please familiarize yourself with the information on this page and refer back to it as needed.
+        </p>
+        <subsubsection xml:id="subsubsec-LinearAlgebra">
+            <title>Linear Algebra</title>
+            <p>
+                Linear algebra is a branch of mathematics devoted to theory of linear equations and transformations.
+                A solid understanding of linear algebra allows you to (among other things):
+                <ul>
+                    <li>
+                        <p>
+                            solve systems of linear equations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            determine the geometry of the set of solutions to such a system;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            analyze the geometry and identify important properties of a linear transformation;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            use linear algebra tto model problems in a variety of disciplines. 
+                        </p>
+                    </li>
+                </ul> 
+                These skills will no doubt be used in your future mathematics and STEM courses and we'll feature a few such applications throughout the term. 
+            </p>
+            <p>
+                Math 0520 is a first course in linear algebra that will focus on the development of the standard algorithms in the subject via student inquiry, as well as the underlying geometry. 
+                Along the way, you will also develop your ability to understand proofs<mdash/>the logical arguments that form the foundation of mathematical reasoning<mdash/>and get the opportunity to write many of your own. 
+            </p>
+            <objectives>
+                <introduction>
+                    <p>
+                        By the end of this course, you will be able to:
+                    </p>
+                </introduction>
+                <ol>
+                    <li>
+                        <p>
+                            hold a conversation with an expert about linear algebra concepts using correct terminology;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            use the critical and abstract thinking skills developed in this course as a foundation for future courses in geometry and algebra;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            work productively with a team to analyze different approaches to solving the same problem;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            use introspective methods to help you monitor the development of your mathematical maturity;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            produce accurate, well-written arguments that communicate solutions to problems that are audience-appropriate;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            use your knowledge of algorithms in linear algebra to solve systems of linear equations and to calculate optimal coordinate systems for linear transformations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            explain phenomena surrounding the nature of systems of linear equations, and properties of transformations, in both geometric and algebraic terms;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            apply your linear algebra skills to solve problems from a variety of other disciplines.
+                        </p>
+                    </li>
+                </ol>
+            </objectives>
+
+            <p>
+                Here are some of the topics that we will cover in Math 0520:
+                <ul>
+                    <li>
+                        <p>
+                            vectors and vector operations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            systems of linear equations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            matrix operations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            linear transformations;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            vector spaces;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            determinants;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            dot-products and orthogonality;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            eigenvalues and eigenvectors
+                        </p>
+                    </li>
+                </ul>
+                Additional topics will be covered depending on time and class interests.
+            </p>
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-prerequisites">
+            <title>Am I Ready for Math 0520?</title>
+            <p>
+                Almost certainly!
+                There are no prerequisities for Math 0520.
+                Most students have usually taken one semester of college-level math (typically calculus), but this is not at all necessary and the contents will not draw upon previous knowledge. 
+                This is a great option for a first-year college-level mathematics course. 
+            </p>
+            <p>
+                If it has been a whhile since you've taken a college-level math course, you may find yourself needing more time to adjust than your classmates. 
+                That is normal and we can talk about strategies to accelerate your adaption if this is a concern of yours. 
+            </p>
+            <p>
+                In addition to Math 0520, Brown also offers Math 0540: Linear Algebra with Theory. 
+                Math 0540 is a higher-level introduction to linear algebra with a greater emphasis on the development of axiomatic principles and proof-writing skills. 
+            </p>
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-inclusiveteaching">
+            <title>Inclusive Teaching</title>
+            <p>
+                Large, introductory STEM courses are well-documented as playing an outsized role in dissuading members of historically excluded groups from pursuing STEM careers. 
+                I recognize that, as an instructor of this large, introductory mathematics course, the course design decisions that I have made will affect your perceived ability and desire to concentrate in a STEM field. 
+                My sincere hope is that you leave Math 0520 a more capable and resilient problem solver and that you feel supported in this journey.
+            </p>
+
+            <p>
+                I acknowledge that not every student will have this idealized experience.
+            </p>
+
+            <p>
+                I am committed to continuing my education about evidenced-based and equity-focussed approaches to teaching, and to learning from the hundreds of students I have the pleasure of teaching each semester. 
+                If you have thoughts, questions, or concerns about this course, or STEM education at Brown, I welcome your perspective and encourage you to reach out to me.
+            </p>
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-accessibility">
+            <title>Accessibility Roadmap</title>
+            <p>
+                It's important to me that you feel you have all the tools you need to succeed in this course. 
+                Here are some high-level accessibility features that may help you:
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        Lesson Recordings
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Jordan's lessons are recorded on Zoom and uploaded to the Media Library on Canvas. 
+                                These may be helpful to you if you miss class, or otherwise want to consult or remind yourself of the flow of a particular lesson. 
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Activity Book and Vidoes
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                This open-access Activity Book is e-reader compatible; we also have the ability to print a braille version!
+                                The Activity Book contains short videos at the bottom of each section that may assist you in reviewing after lessons. 
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        If you have SAS accommodations, I will receive your letter through the online portal and send you an email with a detailed plan of your accommodations will be be implemented. 
+                        Whether or not you have SAS accommodations, you are invited to speak with me about how we can work to better include you in our course.
+                    </p>
+                </li>
+            </ul>
+        </subsubsection>
     </subsection>
 
     <subsection xml:id="subsec-course-structure">
-        <title>Course Structure</title>
-        
+        <title>Course Design</title>
+        <p>
+            But why? Why is this course weird?
+        </p>
+        <subsubsection xml:id="subsubsec-TBIL">
+            <title>Team Based Inquiry Learning</title>
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-Teams">
+            <title>Team Structure &amp; Accountability</title>
+            
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-schedule">
+            <title>Schedule</title>
+    
+        </subsubsection>
     </subsection>
 
     <subsection xml:id="subsec-assessment">
         <title>Assessment</title>
+        <subsubsection xml:id="subsubsec-readiness">
+            <title>Readiness Assurance Tests</title>
+            
+        </subsubsection>
+
         <subsubsection xml:id="subsubsec-FluencyAssessments">
             <title>Fluency Assessments</title>
             
@@ -39,32 +265,171 @@
         </subsubsection>
     </subsection>
 
-    <subsection xml:id="subsec-Topics">
-        <title>Topics</title>
 
-    </subsection>
     <subsection xml:id="subsec-course-policies">
         <title>Course Policies</title>
         <subsubsection xml:id="subsubsec-attendance">
             <title>Attendance</title>
             <p>
-                Here is a sentence.
+                Attendance in class sessions is recorded and contributes 7.5% towards your final grade; it is recorded by the teaching team in Canvas beginning after shopping period.
+                Each student is provided <em>one week's worth of personal days</em> (3 sessions for MWF students; 2 sessions to TTh students) to use for absences of any kind. 
+                Absences other than these personal days will not be excused, unless accompanied by a Dean's Note. 
+                If you are ill or otherwise unable to attend class for a long period of time, please contact your instructor to come up with a plan to keep you on pace for the term. 
+                Late attendances (defined as entering class sometime after the first activity of class has begun) are worth 50% of attendances.
+            </p>
+
+            <p>
+                Our classroom is equipped with Zoom and I (Jordan) will record all of my class meetings. 
+                The recordings will appear in the Media Library on Canvas shortly after class. 
             </p>
         </subsubsection>
 
         <subsubsection xml:id="subsubsec-LatePolicies">
-            <title>Late Policies</title>
-            
+            <title>Late Work</title>
+            <p>
+                Deadlines help me keep my workload balanced and keep you on track, ultimately resulting in a better learning experience for all of us. 
+                Every assessment in this course has a deadline; some of them are hard deadlines, but there are others for which there is flexibility. 
+                Here are the descriptions of the deadlines of our most common assessments:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Readiness Assurance Tests
+                            <ul>
+                                <li>
+                                    <p>
+                                        First attempt due prior to first class of new module (will be indicated on Canvas)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Hard deadline for first attempt. 
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Fluency Assessments
+                            <ul>
+                                <li>
+                                    <p>
+                                        Hard deadline of Sunday 11:59pm Eastern every week.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If you miss an attempt, you have two others remaining.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Problem Sets
+                            <ul>
+                                <li>
+                                    <p>
+                                        Due 11:59pm Eastern Tuesdays, as/when indicated on Canvas (there are 5 total)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        24-hour no-questions-asked grace period. 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        No extensions beyond the grace period, unless communicated prior to the due date and accompanied by a Dean's Note.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Reflections
+                            <ul>
+                                <li>
+                                    <p>
+                                        Due Sundays 11:59pm Eastern as indicated on Canvas (there are 5 total)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        May turn in within one week after deadline, after which submission closes.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ul>
+            </p>
         </subsubsection>
 
-        <subsubsection xml:id="subsubsec-AcademicIntegrity">
-            <title>Academic Integrity</title>
-            
+        <subsubsection xml:id="subsubsec-Communication">
+            <title>Communication</title>
+            <p>
+                This course has two primary channels for communicating outside of class and office hours: <em>Ed STEM</em> and <em>e-mail</em>.
+                If you have a question about an assignment, course, policy, concept, or anything else that might benefit the class as a whole, please post on Ed STEM; you're welcome to post anonymously if you are shy. 
+                On the other hand, if you need to talk to us about something that is personal to your situation, please do send us an e-mail. 
+            </p>
+
+            <p>
+                Everyone has different workflows and boundaries around email communication.
+                Here are my expectations when it comes to email communication in this course; your instructor's expectations may differ from these, so take note when they share their own expectations.
+                <ul>
+                    <li>
+                        <p>
+                            I will work to respond to your message within 24 hours, or else on Monday if you write to me on Friday. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            I will generally not respond or check email outside of 7:00am-4:30pm Eastern.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            You are welcome to refer to me as <q>Jordan</q> via email. 
+                            If you prefer to use a salutation, then please use one of the following (and no others):
+                            <ul>
+                                <li>
+                                    <p>
+                                        Prof.(essor) Jordan
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Prof.(essor) Kostiuk
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Dr. Kostiuk
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ul>
+            </p>
         </subsubsection>
+
+    
     </subsection>
-
-    <subsection xml:id="subsec-resources">
-        <title>Resources</title>
-        
+    <subsection xml:id="subsec-AcademicIntegrity">
+        <title>Academic Integrity</title>
+        <subsubsection xml:id="subsubsec-Plagiarism">
+            <title>Plagiarism</title>
+            
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-Collaboration">
+            <title>Collaboration</title>
+            
+        </subsubsection>
     </subsection>
 </section>
