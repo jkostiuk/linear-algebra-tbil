@@ -1,4 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="problemset1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Problem Set 1</title>    
+    <title>Problem Set 1</title>   
+    <problem>
+        <statement>
+            <p>
+                Statement of the problem. 
+            </p>
+        </statement>
+        <answer>
+            <p>
+                Answer to the problem.
+            </p>
+        </answer>
+        <hint>
+            <p>
+                A hint to the problem. 
+            </p>
+        </hint>
+       <solution>
+            <p>
+                Solution to the problem. 
+            </p>
+        </solution>
+    </problem> 
 </section>

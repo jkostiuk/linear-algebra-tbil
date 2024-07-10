@@ -1,4 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="instructions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Instructions and Resources</title>    
+    <title>Problem Set Success Guide</title>  
+    <subsection>
+        <title>What are Problem Sets?</title>
+        
+    </subsection>  
+
+    <subsection>
+        <title>Mathematical Writing</title>
+        <remark>
+            <p>
+                Like all forms of writing, it will take practice, and the incorporation of feedback, to feel confident in writing mathematics well. 
+                While it may feel like it at the beginning, we want to stress that our goal is not to have you write the exact same way that we do. 
+                Rather, we want you to be able to express yourself precisely, so that you may share your ideas and perspectives accurately with the greater community.
+            </p>
+        </remark>
+    </subsection>
+
+    <subsection>
+        <title>Getting the Most Out of Your Problem Sets</title>
+        
+    </subsection>
 </section>

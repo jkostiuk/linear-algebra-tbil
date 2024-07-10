@@ -3,17 +3,19 @@
     <xi:include href="meta/docinfo.ptx"/>
     <book xml:id="linear-algebra-for-team-based-inquiry-learning">
         <title>Linear Algebra for Team-Based Inquiry Learning</title>
-        <subtitle component="main">Jordan's custom version</subtitle>
+        <subtitle component="main">Math 0520 Edition</subtitle>
 
         <xi:include href="meta/frontmatter.ptx"/>
-        <preface><xi:include href="custom/Syllabus/main.ptx"/><xi:include href="custom/Success-Guide/main.ptx"/></preface>
+        <preface>
+            <xi:include href="custom/Syllabus/main.ptx"/>
+            <xi:include href="custom/Problem-Set-Guide/instructions.ptx"/>
+            <xi:include href="custom/Problem-Set-Guide/problemset1.ptx" />
+        </preface>
         <xi:include href="01-LE/main.ptx"/>
         <xi:include href="02-EV/main.ptx"/>
         <xi:include href="03-AT/main.ptx"/>
         <xi:include href="04-MX/main.ptx"/>
         <xi:include href="05-GT/main.ptx"/>
-        <xi:include href="custom/Problem-Set-Guide/main.ptx"/>
-
         <xi:include href="meta/backmatter.ptx"/>
 
     </book>
