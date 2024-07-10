@@ -228,7 +228,120 @@
         </subsubsection>
         <subsubsection xml:id="subsubsec-schedule">
             <title>Schedule</title>
-    
+            <table>
+                <title>Tentative Schedule</title>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell>Week</cell>
+                        <cell>Sections Covered</cell>
+                        <cell>Assignments Due</cell>
+                        <cell>Additional Notes</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>One (Sept. 1st-8th) </cell>
+                        <cell>Stage Setting, LE RAP</cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                              First Week of Class
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Two (Sept. 8th-15th)</cell>
+                        <cell>LE1, LE2, LE3</cell>
+                        <cell> <p>Reflection 1</p><p>Fluency Assessment(s)</p><p>Team Creation Form</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Three (Sept. 15th-22nd)</cell>
+                        <cell>LE4, EV RAP, EV1</cell>
+                        <cell> Fluency Assessments(s)</cell>
+                        <cell>Teams Assigned</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Four (Sept. 22nd-29th)</cell>
+                        <cell>EV2, EV3</cell>
+                        <cell> <p>Problem Set 1</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Five (Sept. 29th-Oct. 6th)</cell>
+                        <cell>EV4, EV5</cell>
+                        <cell> <p>Reflection 2</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Six (Oct. 6th-13th)</cell>
+                        <cell>EV6, EV7, AT RAP</cell>
+                        <cell> <p>Problem Set 2</p><p>AT RAP</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Seven (Oct. 13th-20th)</cell>
+                        <cell>AT1, AT2, AT3</cell>
+                        <cell> <p>Formative Team Feedback</p><p>Fluency Assessment(s)</p></cell>
+                        <cell><p>No Class on Monday for Indigenous Peoples' Day</p></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Eight (Oct. 20th-27th)</cell>
+                        <cell>AT4, AT5</cell>
+                        <cell> <p>Problem Set 3</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Nine (Oct. 27th-Nov. 3rd)</cell>
+                        <cell>AT6, MX RAP, MX1</cell>
+                        <cell> <p>Reflection 3</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Ten (Nov. 3rd-10th)</cell>
+                        <cell>MX2, MX3</cell>
+                        <cell> <p>Problem Set 4</p><p>Fluency Assessment(s)</p></cell>
+                        <cell><p>
+                            No Class Tuesday US Election
+                        </p></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Eleven (Nov. 10th-17th)</cell>
+                        <cell>MX3, MX4, GT RAP</cell>
+                        <cell> <p>Reflection 4</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Twelve (Nov. 17th-24th)</cell>
+                        <cell>GT1, GT2</cell>
+                        <cell> <p>Problem Set 5</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Thirteen (Nov. 24th-Dec. 1st)</cell>
+                        <cell>GT3, GT4</cell>
+                        <cell><p>Fluency Assessment(s)</p></cell>
+                        <cell><p>
+                            No Class Wednesday-Friday for Thanksgiving
+                        </p></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Fourteen (Dec. 1st-8th)</cell>
+                        <cell>GT4, Applications</cell>
+                        <cell> <p>Reflection 5</p><p>Summative Team Feedback</p><p>Fluency Assessment(s)</p></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Fifteen (Dec. 8th-15th)</cell>
+                        <cell>Class as Needed</cell>
+                        <cell><p>Fluency Assessment(s)</p></cell>
+                        <cell>Reading Period</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Sixteen (Dec. 15th-22nd)</cell>
+                        <cell></cell>
+                        <cell> <p>Capstone Problem Set</p></cell>
+                        <cell>Final Exam Period</cell>
+                    </row>
+                </tabular>
+            </table>
         </subsubsection>
     </subsection>
 
@@ -261,6 +374,11 @@
 
         <subsubsection xml:id="subsubsec-YourFinalGrade">
             <title>Your Final Grade</title>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-TimeExpectation">
+            <title>Time Expectations</title>
             
         </subsubsection>
     </subsection>
