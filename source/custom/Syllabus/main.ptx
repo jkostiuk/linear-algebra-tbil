@@ -91,6 +91,11 @@
             </objectives>
 
             <p>
+                In addition to the high-level learning outcomes for the course described above, each section of our Activity Book corresponds to a single <em>targeted learning outcome</em><mdash/>a specific learning outcome that will be assessed throughout our Fluency Assessment protocol that is described below. 
+                These targeted learning outcomes are chosen to form a strong foundation for your continued exploration of the course material, with all further knowledge being built up, in some way, from these outcomes. 
+            </p>
+
+            <p>
                 Here are some of the topics that we will cover in Math 0520:
                 <ul>
                     <li>
@@ -226,8 +231,12 @@
             <title>Team Structure &amp; Accountability</title>
             
         </subsubsection>
+        <subsubsection>
+            <title>Office Hours</title>
+            
+        </subsubsection>
         <subsubsection xml:id="subsubsec-schedule">
-            <title>Schedule</title>
+            <title>Schedule and Time Expectations</title>
             <table>
                 <title>Tentative Schedule</title>
                 <tabular halign="center">
@@ -342,44 +351,235 @@
                     </row>
                 </tabular>
             </table>
+            <p>
+                In this course, you'll spend three hours each week in your in-person class sessions and about an hour preparing for class activities. 
+                Outside of these sessions, you will be studying, working on problem sets, reflecting on your progress, and preparing your major assessments. 
+                We expect a typical students in this course to spend the following time allocations throughout the term:
+                <ol>
+                    <li>
+                        <p>
+                            3 hours/week preparing for an attending class
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            6 hours/week working on problem sets
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            1hour/week working on self-assessments
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2 hours/week reviewing and/or attending office hours
+                        </p>
+                    </li>
+                </ol> 
+                for a total for 180 hours throughout the semester. 
+            </p>
         </subsubsection>
     </subsection>
 
     <subsection xml:id="subsec-assessment">
         <title>Assessment</title>
+        <p>
+            This section describes the key assessments for this course and how the fit into your overall grade. 
+            More detailed instructions and evaluation criteria are located on Canvas. 
+        </p>
         <subsubsection xml:id="subsubsec-readiness">
             <title>Readiness Assurance Tests</title>
-            
+            <p>
+                To prepare for each of our course modules, you will work through a Readiness Assurance Process (RAP). 
+                The RAP consists of three separate phases. 
+                First, you will be provided learning outcomes and review materials to refresh yourself on knowledge that you will need for the upcoming module.
+                These materials are found directly in our Activity Book (on the title page of each section) but will also be linked to in Canvas. 
+            </p>
+            <p>
+                After reviewing material, you will then complete the Readiness Assurance Test (RAT). 
+                This test has two phases: first you complete the quiz individually (this is known as the individual-RAT or i-RAT) on your own. 
+                Then, you will complete the test a second time with your teammates in class (this is known as the team-RAT or t-RAT). 
+                You will find these quizzes on Canvas and we will only remember the greater of your two scores on the test. 
+                The RATs contribute 7.5% towards your overall grade.
+            </p>
         </subsubsection>
 
         <subsubsection xml:id="subsubsec-FluencyAssessments">
             <title>Fluency Assessments</title>
-            
+            <p>
+                Each section of our Activity Book corresponds to a single targeted learning outcome, each of which is assessed via a <em>Fluency Assessment</em>.
+                On a fluency assessment, you will be asked to complete a number of tasks to demonstrate fluency on the corresponding outcome. 
+                If you complete all of these tasks correctly, and provide adequate explanations using our principles of mathematical writing, you will receive a score of <em>Fluent</em>. 
+            </p>
+
+            <p>
+                If you fall short, you will receive a score of <em>Not Yet Fluent</em>. 
+                In this case, you will recieve a second opportunity to earn a score of <em>Fluent</em> by completing a new version of the Fluency Assessment. 
+                If you still fall short on the second attempt, you will have yet another third (and final) opportunity a few weeks later. 
+                Note that the last handful of objectives in the semester will only have two opportunities total due to logistical constraints. 
+            </p>
+            <p>
+                At the end of the term, your Fluency Assessment score, which is worth 25% of your overall course grade, will be equal to the number of objectives you earned Fluent in out of the total number of objectives we assessed.
+            </p>
+
+            <p>
+                The main purpose of the Fluency Assessments is to ensure that you are able to accurately complete the tasks that are aligned with our targeted learning outcomes. 
+                In turn, this ensures that you are adequately prepared for further explorations both inside and outside of this course. 
+                Since it is important for us to ensure you are doing these tasks accurately, we have a high bar to earn fluency. 
+                However, we do not care if you earn fluency on your first attempt, or on a subsequent attempt; all that matters is that, by some combination of practice, review, and the incorporation of feedback, you can eventually demonstrate you are fluent in the objective. 
+            </p>
+
+            <p>
+                Fluency Assessments are to be completed individually, without the use of your notes or external resources. 
+                Representive Fluency Assessments and sample solutions are contained at the bottom of each section of our Activity Book, and an exercise bank of Fluency Assessments is available to you on CheckIt, which is linked throughout the Activity Book and also on Canvas.
+            </p>
+             
+
         </subsubsection>
 
-        <subsubsection xml:id="subsubsec-ProblemSets">
+        <subsubsection>
             <title>Problem Sets</title>
-            
+            <p>
+              In this course, Problem Sets make up the most significant portion of assessment. 
+              Their main purpose is to assess your ability to make sense of new problems, apply concepts in new settings, and further develop your ability to communicate mathematical ideas to an audience of your peers and professionals alike. 
+              Problem Sets are significant assignments that we expect students to devote substantial time throughout the available two week period to complete them; they are not designed to be successfully completed within a single sitting. 
+            </p>
+            <p>
+                There are <alert>five (5) Problem Sets total</alert> throughout the semester and they combine to account for 25% of your overall grade. 
+                After receiving your Problem Set back from the teach team, you will have an opportunity to reflect on feedback to earn an additional 4% of credit. 
+                Note that <alert>this course does not drop any Problem Sets</alert>.  
+            </p>
+
+            <p>
+                To support your success in Problem Sets, we have created a Problem Set Success Guide that is included in this Activity Book. 
+                It contains more detailed instructions, expands on our evaluation criteria, and shares resources and strategies to help you succeed on these assessments.
+            </p>
+
+            <p>
+                Collaborating on solving the problems on a problem set with other classmates is permitted, though our expectation is that all written work is produced by you and represents your authentic thinking. 
+                Written work that closely resembles that of another classmate may be investigated for plagiarism, as is described below on this syllabus. 
+            </p>
         </subsubsection>
 
-        <subsubsection xml:id="subsubsec-Reflections">
+        <subsubsection>
+            <title>Capstone Problem Set</title>
+            <p>
+                The Final Assessment for this course is a Capstone Problem Set. 
+                The Capstone Problem Set is structured identically to a standard Problem Set, but is comprehensive in nature. 
+                Students will have about one week to complete this assessment throughout the Final Exam Period. 
+                The Capstone Problem Set is worth 20% of your overall grade. 
+                More detailed instructions will be provided on Canvas closer to the end of the semester. 
+            </p>
+        </subsubsection>
+
+        <subsubsection>
             <title>Reflections</title>
-            
+            <p>
+                Critical reflection is an integral part of the deep learning process. 
+                It helps us digest and personalize what we learn which, in turn, makes our learnings more valuable. 
+                Roughly every other week, you'll be asked to share your perspective on a variety of applications and topics in this course, as well as your thought processes. 
+                In doing so, we hope you'll be better able to contextualize your learning and identify your growth as a problem solver and mathematician over the course of the term. 
+                In other words, these reflections will help you consolidate your learning gains over the term.
+                Reflections are worth 7.5% of your overall grade.
+            </p>
         </subsubsection>
 
-        <subsubsection xml:id="subsubsec-Teamwork">
+        <subsubsection>
             <title>Team Work and Attendance</title>
-            
+            <p>
+                To assess teamwork, your team will provide both formative and summative feedback to each other throughout the term. 
+                Near the half-way mark of the semester, an anonymous form will be shared for your team to provide formative feedback to each other. 
+                The main purpose of this feedback is to help you and your team identify way to improve your processes and further cultivate a strong working group. 
+                The results of this survey do not affect one's grade, but completion of the survey is worth 2.5% of your overall grade. 
+                At the end of the semester, teammates will score their teamwork using criteria co-created by our class; this will make up 5% of your overall grade. 
+            </p>
+
+            <p>
+                Attendance will be recorded after the end of shopping period. 
+                It accounts for 7.5% of a student's overall grade.
+            </p>
         </subsubsection>
 
-        <subsubsection xml:id="subsubsec-YourFinalGrade">
+        <subsubsection>
             <title>Your Final Grade</title>
-            
-        </subsubsection>
+            <p>
+                Your final grade is calculated as a weighted average of the assessments described above.
+                <xref ref="OverallGradetable"/> summarizes this calculation.  
+            </p>
 
-        <subsubsection xml:id="subsubsec-TimeExpectation">
-            <title>Time Expectations</title>
-            
+            <table xml:id="OverallGradetable">
+                <title>Overall Course Grade</title>
+                <tabular>
+                    <row header="yes" bottom="minor">
+                        <cell>Assessment</cell>
+                        <cell>Contribution</cell>
+                    </row>
+                    <row>
+                        <cell>Readiness Assurance</cell>
+                        <cell>7.5%</cell>
+                    </row>
+                    <row>
+                        <cell>Attendance</cell>
+                        <cell>7.5%</cell>
+                    </row>
+                    <row>
+                        <cell>Teamwork</cell>
+                        <cell>7.5%</cell>
+                    </row>
+                    <row>
+                        <cell>Attendance</cell>
+                        <cell>7.5%</cell>
+                    </row>
+                    <row>
+                        <cell>Fluency Assessments</cell>
+                        <cell>25%</cell>
+                    </row>
+                    <row>
+                        <cell>Problem Sets</cell>
+                        <cell>25%</cell>    
+                    </row>
+                    <row bottom="minor">
+                        <cell>Capstone Problem Set</cell>
+                        <cell>20%</cell>
+                    </row>
+                    <row>
+                        <cell>Total</cell>
+                        <cell>100%</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                In turn, your overall course grade will be translated into a letter grade using the cutoffs in
+            </p>
+            <table xml:id="lettergrade">
+                <title>Letter Grades</title>
+                <tabular>
+                    <row header="yes" bottom="minor">
+                        <cell>Overall Grade </cell>
+                        <cell>Letter Grade</cell>
+                    </row>
+                    <row>
+                        <cell>90<mdash/>100%</cell>
+                        <cell>A</cell>
+                    </row>
+                    <row>
+                        <cell>80<mdash/>89.9%</cell>
+                        <cell>B</cell>
+                    </row>
+                    <row>
+                        <cell>65<mdash/>79.9%</cell>
+                        <cell>C</cell>
+                    </row>
+                    <row>
+                        <cell>0<mdash/>64.9%</cell>
+                        <cell>NC</cell>
+                    </row>
+                </tabular>
+            </table>
+           <p>
+            Students taking this course S/NC will receive a grade of S provided that their overall grade is above 65%.
+           </p>
         </subsubsection>
     </subsection>
 
