@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TBIL-LA Syllabus</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Linear Algebra for Team-Based Inquiry Learning">
+<meta property="book:author" content="Steven Clontz">
+<meta property="book:author" content="Drew Lewis">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.32</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.32/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.32/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.32/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.82/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/shell_crc.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/banner_crc.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/navbar_crc.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/toc_crc.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/colors_blue_green.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="tbilla" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="linear-algebra-for-team-based-inquiry-learning.html"><span class="title">Linear Algebra for Team-Based Inquiry Learning:</span> <span class="subtitle">Math 0520 Edition</span></a></h1>
+<p class="byline">Steven Clontz, Drew Lewis</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="preface-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="preface-4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="instructions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\markedPivot}[1]{\boxed{#1}}
+\newcommand{\IR}{\mathbb{R}}
+\newcommand{\IC}{\mathbb{C}}
+\renewcommand{\P}{\mathcal{P}}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\RREF}{\operatorname{RREF}}
+\newcommand{\vspan}{\operatorname{span}}
+\newcommand{\setList}[1]{\left\{#1\right\}}
+\newcommand{\setBuilder}[2]{\left\{#1\,\middle|\,#2\right\}}
+\newcommand{\unknown}{\,{\color{gray}?}\,}
+\newcommand{\drawtruss}[2][1]{
+\begin{tikzpicture}[scale=#1, every node/.style={scale=#1}]
+\draw (0,0) node[left,magenta]{C} -- 
+      (1,1.71) node[left,magenta]{A} -- 
+      (2,0) node[above,magenta]{D} -- cycle;
+\draw (2,0) -- 
+      (3,1.71) node[right,magenta]{B} -- 
+      (1,1.71) -- cycle;
+\draw (3,1.71) -- (4,0) node[right,magenta]{E} -- (2,0) -- cycle;
+\draw[blue] (0,0) -- (0.25,-0.425) -- (-0.25,-0.425) -- cycle;
+\draw[blue] (4,0) -- (4.25,-0.425) -- (3.75,-0.425) -- cycle;
+\draw[thick,red,-&gt;] (2,0) -- (2,-0.75);
+#2
+\end{tikzpicture}
+}
+\newcommand{\trussNormalForces}{
+\draw [thick, blue,-&gt;] (0,0) -- (0.5,0.5);
+\draw [thick, blue,-&gt;] (4,0) -- (3.5,0.5);
+}
+\newcommand{\trussCompletion}{
+\trussNormalForces
+\draw [thick, magenta,&lt;-&gt;] (0.4,0.684) -- (0.6,1.026);
+\draw [thick, magenta,&lt;-&gt;] (3.4,1.026) -- (3.6,0.684);
+\draw [thick, magenta,&lt;-&gt;] (1.8,1.71) -- (2.2,1.71);
+\draw [thick, magenta,-&gt;] (1.6,0.684) -- (1.5,0.855);
+\draw [thick, magenta,&lt;-] (1.5,0.855) -- (1.4,1.026);
+\draw [thick, magenta,-&gt;] (2.4,0.684) -- (2.5,0.855);
+\draw [thick, magenta,&lt;-] (2.5,0.855) -- (2.6,1.026);
+}
+\newcommand{\trussCForces}{
+\draw [thick, blue,-&gt;] (0,0) -- (0.5,0.5);
+\draw [thick, magenta,-&gt;] (0,0) -- (0.4,0.684);
+\draw [thick, magenta,-&gt;] (0,0) -- (0.5,0);
+}
+\newcommand{\trussStrutVariables}{
+\node[above] at (2,1.71) {\(x_1\)};
+\node[left] at (0.5,0.866) {\(x_2\)};
+\node[left] at (1.5,0.866) {\(x_3\)};
+\node[right] at (2.5,0.866) {\(x_4\)};
+\node[right] at (3.5,0.866) {\(x_5\)};
+\node[below] at (1,0) {\(x_6\)};
+\node[below] at (3,0) {\(x_7\)};
+}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="tbil-rl.html" class="internal"><span class="title">TBIL Resource Library</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="instructor-notes.html" class="internal"><span class="title">For Instructors</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="video-resources.html" class="internal"><span class="title">Video Resources</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-preface contains-active">
+<div class="toc-title-box"><a href="preface-4.html" class="internal"><span class="title">Preface</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="codenumber">1</span> <span class="title">Syllabus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="syllabus.html#sec-welcome" class="internal"><span class="codenumber">1.1</span> <span class="title">Welcome</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-LinearAlgebra" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Linear Algebra</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-prerequisites" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Am I Ready for Math 0520?</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-inclusiveteaching" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Inclusive Teaching</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-accessibility" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Accessibility Roadmap</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="syllabus.html#subsec-course-structure" class="internal"><span class="codenumber">1.2</span> <span class="title">Course Design</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-TBIL" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Team Based Inquiry Learning</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-Teams" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Team Structure &amp; Accountability</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Office Hours</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-schedule" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Schedule and Time Expectations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="syllabus.html#subsec-assessment" class="internal"><span class="codenumber">1.3</span> <span class="title">Assessment</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-readiness" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Readiness Assurance Tests</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-FluencyAssessments" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Fluency Assessments</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-11" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Problem Sets</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-12" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Capstone Problem Set</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-13" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Reflections</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-14" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Team Work and Attendance</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsection-15" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Your Final Grade</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="syllabus.html#subsec-course-policies" class="internal"><span class="codenumber">1.4</span> <span class="title">Course Policies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-attendance" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Attendance</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-LatePolicies" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Late Work</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-Communication" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Communication</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="syllabus.html#subsec-AcademicIntegrity" class="internal"><span class="codenumber">1.5</span> <span class="title">Academic Integrity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-Plagiarism" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Plagiarism</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="syllabus.html#subsubsec-Collaboration" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Collaboration</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="instructions.html" class="internal"><span class="codenumber">2</span> <span class="title">Problem Set Success Guide</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="instructions.html#subsection-6" class="internal"><span class="codenumber">2.1</span> <span class="title">What are Problem Sets?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="instructions.html#subsection-7" class="internal"><span class="codenumber">2.2</span> <span class="title">What Kinds of Problems Will Appear on Problem Sets?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="instructions.html#subsection-8" class="internal"><span class="codenumber">2.3</span> <span class="title">Mathematical Writing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="instructions.html#subsection-9" class="internal"><span class="codenumber">2.4</span> <span class="title">Getting the Most Out of Your Problem Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problemset1.html" class="internal"><span class="codenumber">3</span> <span class="title">Problem Set 1</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="LE.html" class="internal"><span class="codenumber">1</span> <span class="title">Systems of Linear Equations (LE)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="LE1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Linear Systems, Vector Equations, and Augmented Matrices (LE1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-10" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-11" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-12" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-13" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="LE1.html#exercises-1" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-14" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE1.html#subsection-15" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="LE2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Row Reduction of Matrices (LE2)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE2.html#subsection-16" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE2.html#subsection-17" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="LE2.html#exercises-2" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE2.html#subsection-18" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE2.html#subsection-19" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="LE3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Counting Solutions for Linear Systems (LE3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-20" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-21" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-22" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-23" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="LE3.html#exercises-3" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-24" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE3.html#subsection-25" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="LE4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Systems with Infinitely-Many Solutions (LE4)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-26" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-27" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-28" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-29" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="LE4.html#exercises-4" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-30" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="LE4.html#subsection-31" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="EV.html" class="internal"><span class="codenumber">2</span> <span class="title">Euclidean Vectors (EV)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Linear Combinations (EV1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-32" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-33" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-34" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-35" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV1.html#exercises-5" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-36" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV1.html#subsection-37" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Spanning Sets (EV2)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-38" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-39" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-40" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-41" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV2.html#exercises-6" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-42" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV2.html#subsection-43" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Subspaces (EV3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-44" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-45" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-46" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-47" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV3.html#exercises-7" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-48" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV3.html#subsection-49" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Independence (EV4)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-50" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-51" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-52" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-53" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV4.html#exercises-8" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-54" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV4.html#subsection-55" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Identifying a Basis (EV5)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-56" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-57" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-58" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-59" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV5.html#exercises-9" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-60" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV5.html#subsection-61" class="internal"><span class="codenumber">2.5.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV6.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Subspace Basis and Dimension (EV6)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-62" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-63" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-64" class="internal"><span class="codenumber">2.6.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-65" class="internal"><span class="codenumber">2.6.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV6.html#exercises-10" class="internal"><span class="codenumber">2.6.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-66" class="internal"><span class="codenumber">2.6.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV6.html#subsection-67" class="internal"><span class="codenumber">2.6.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="EV7.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Homogeneous Linear Systems (EV7)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-68" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Warmup</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-69" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-70" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-71" class="internal"><span class="codenumber">2.7.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="EV7.html#exercises-11" class="internal"><span class="codenumber">2.7.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-72" class="internal"><span class="codenumber">2.7.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="EV7.html#subsection-73" class="internal"><span class="codenumber">2.7.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="AT.html" class="internal"><span class="codenumber">3</span> <span class="title">Algebraic Properties of Linear Maps (AT)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Transformations (AT1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-74" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-75" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-76" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-77" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT1.html#exercises-12" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-78" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT1.html#subsection-79" class="internal"><span class="codenumber">3.1.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Standard Matrices (AT2)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-80" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-81" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-82" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-83" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT2.html#exercises-13" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-84" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT2.html#subsection-85" class="internal"><span class="codenumber">3.2.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Image and Kernel (AT3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-86" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-87" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-88" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-89" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT3.html#exercises-14" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-90" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT3.html#subsection-91" class="internal"><span class="codenumber">3.3.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Injective and Surjective Linear Maps (AT4)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT4.html#subsection-92" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT4.html#subsection-93" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="AT4.html#subsubsection-21" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT4.html#subsection-94" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT4.html#exercises-15" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT4.html#subsection-95" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT4.html#subsection-96" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Vector Spaces (AT5)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-97" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-98" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-99" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Cooldown</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-100" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT5.html#exercises-16" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-101" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT5.html#subsection-102" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="AT6.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Polynomial and Matrix Spaces (AT6)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-103" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-104" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-105" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-106" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="AT6.html#exercises-17" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-107" class="internal"><span class="codenumber">3.6.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AT6.html#subsection-108" class="internal"><span class="codenumber">3.6.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="MX.html" class="internal"><span class="codenumber">4</span> <span class="title">Matrices (MX)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="MX1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Matrices and Multiplication (MX1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-109" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-110" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-111" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-112" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="MX1.html#exercises-18" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-113" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX1.html#subsection-114" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="MX2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Inverse of a Matrix (MX2)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-115" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-116" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-117" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-118" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="MX2.html#exercises-19" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-119" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX2.html#subsection-120" class="internal"><span class="codenumber">4.2.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="MX3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Solving Systems with Matrix Inverses (MX3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-121" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-122" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-123" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-124" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="MX3.html#exercises-20" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-125" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX3.html#subsection-126" class="internal"><span class="codenumber">4.3.7</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="MX4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Row Operations as Matrix Multiplication (MX4)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX4.html#subsection-127" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Warm Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX4.html#subsection-128" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX4.html#subsection-129" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Cool Down</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX4.html#subsection-130" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="MX4.html#exercises-21" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="MX4.html#subsection-131" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="GT.html" class="internal"><span class="codenumber">5</span> <span class="title">Geometric Properties of Linear Maps (GT)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="GT1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Row Operations and Determinants (GT1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT1.html#subsection-132" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT1.html#subsection-133" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="GT1.html#exercises-22" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT1.html#subsection-134" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT1.html#subsection-135" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="GT2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Computing Determinants (GT2)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT2.html#subsection-136" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT2.html#subsection-137" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="GT2.html#exercises-23" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT2.html#subsection-138" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT2.html#subsection-139" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="GT3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Eigenvalues and Characteristic Polynomials (GT3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT3.html#subsection-140" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT3.html#subsection-141" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="GT3.html#exercises-24" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT3.html#subsection-142" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT3.html#subsection-143" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="GT4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Eigenvectors and Eigenspaces (GT4)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT4.html#subsection-144" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Class Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT4.html#subsection-145" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="GT4.html#exercises-25" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT4.html#subsection-146" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Mathematical Writing Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="GT4.html#subsection-147" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Sample Problem and Solution</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="applications.html" class="internal"><span class="codenumber">A</span> <span class="title">Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="truss.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Civil Engineering: Trusses and Struts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="truss.html#subsection-148" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="truss.html#subsection-149" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Slideshow</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="pagerank.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Computer Science: PageRank</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="pagerank.html#subsection-150" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="pagerank.html#subsection-151" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Slideshow</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="geology.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Geology: Phases and Components</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="geology.html#subsection-152" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="geology.html#subsection-153" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Slideshow</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-extras.html" class="internal"><span class="codenumber">B</span> <span class="title">Appendix</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sample-exercises.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Sample Exercises with Solutions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="list-of-definitions.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Definitions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="syllabus"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1</span><span class="space"> </span><span class="title">Syllabus</span>
+</h2>
+<section class="subsection" id="sec-welcome"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Welcome</span>
+</h3>
+<div class="para" id="p-11">Welcome to Math 0520! This page is our official syllabus; it’s main purpose is to orient you to our course structure, learning outcomes, and resources that you will access throughout the semester. Please familiarize yourself with the information on this page and refer back to it as needed.</div>
+<section class="subsubsection" id="subsubsec-LinearAlgebra"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Linear Algebra</span>
+</h4>
+<div class="para logical" id="p-12">
+<div class="para">Linear algebra is a branch of mathematics devoted to theory of linear equations and transformations. A solid understanding of linear algebra allows you to (among other things):</div>
+<ul class="disc">
+<li id="li-7"><div class="para" id="p-13">solve systems of linear equations;</div></li>
+<li id="li-8"><div class="para" id="p-14">determine the geometry of the set of solutions to such a system;</div></li>
+<li id="li-9"><div class="para" id="p-15">analyze the geometry and identify important properties of a linear transformation;</div></li>
+<li id="li-10"><div class="para" id="p-16">use linear algebra to model problems in a variety of disciplines.</div></li>
+</ul>
+<div class="para">These skills will no doubt be used in your future mathematics and STEM courses and we’ll feature a few such applications throughout the term.</div>
+</div>
+<div class="para" id="p-17">Math 0520 is a first course in linear algebra that will focus on the development of the standard algorithms in the subject via student inquiry, as well as the underlying geometry. Along the way, you will also develop your ability to understand proofs—the logical arguments that form the foundation of mathematical reasoning—and get the opportunity to write many of your own.</div>
+<article class="objectives goal-like" id="objectives-1"><h5 class="heading"><span class="type">Learning Outcomes</span></h5>
+<div class="introduction" id="introduction-1"><div class="para" id="p-18">By the end of this course, you will be able to:</div></div>
+<ol class="decimal">
+<li id="li-11"><div class="para" id="p-19">hold a conversation with an expert about linear algebra concepts using correct terminology;</div></li>
+<li id="li-12"><div class="para" id="p-20">use the critical and abstract thinking skills developed in this course as a foundation for future courses in geometry and algebra;</div></li>
+<li id="li-13"><div class="para" id="p-21">work productively with a team to analyze different approaches to solving the same problem;</div></li>
+<li id="li-14"><div class="para" id="p-22">use introspective methods to help you monitor the development of your mathematical maturity;</div></li>
+<li id="li-15"><div class="para" id="p-23">produce accurate, well-written arguments that communicate solutions to problems that are audience-appropriate;</div></li>
+<li id="li-16"><div class="para" id="p-24">use your knowledge of algorithms in linear algebra to solve systems of linear equations and to calculate optimal coordinate systems for linear transformations;</div></li>
+<li id="li-17"><div class="para" id="p-25">explain phenomena surrounding the nature of systems of linear equations, and properties of transformations, in both geometric and algebraic terms;</div></li>
+<li id="li-18"><div class="para" id="p-26">apply your linear algebra skills to solve problems from a variety of other disciplines.</div></li>
+</ol></article><div class="para" id="p-27">In addition to the high-level learning outcomes for the course described above, each section of our Activity Book corresponds to a single <em class="emphasis">targeted learning outcome</em>—a specific learning outcome that will be assessed throughout our Fluency Assessment protocol that is described below. These targeted learning outcomes are chosen to form a strong foundation for your continued exploration of the course material, with all further knowledge being built up, in some way, from these outcomes.</div>
+<div class="para logical" id="p-28">
+<div class="para">Here are some of the topics that we will cover in Math 0520:</div>
+<ul class="disc">
+<li id="li-19"><div class="para" id="p-29">vectors and vector operations;</div></li>
+<li id="li-20"><div class="para" id="p-30">systems of linear equations;</div></li>
+<li id="li-21"><div class="para" id="p-31">matrix operations;</div></li>
+<li id="li-22"><div class="para" id="p-32">linear transformations;</div></li>
+<li id="li-23"><div class="para" id="p-33">vector spaces;</div></li>
+<li id="li-24"><div class="para" id="p-34">determinants;</div></li>
+<li id="li-25"><div class="para" id="p-35">dot-products and orthogonality;</div></li>
+<li id="li-26"><div class="para" id="p-36">eigenvalues and eigenvectors</div></li>
+</ul>
+<div class="para">Additional topics will be covered depending on time and class interests.</div>
+</div></section><section class="subsubsection" id="subsubsec-prerequisites"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Am I Ready for Math 0520?</span>
+</h4>
+<div class="para" id="p-37">Almost certainly! There are no prerequisities for Math 0520. Most students have usually taken one semester of college-level math (typically calculus), but this is not at all necessary and the contents will not draw upon previous knowledge. This is a great option for a first-year college-level mathematics course.</div>
+<div class="para" id="p-38">If it has been a whhile since you’ve taken a college-level math course, you may find yourself needing more time to adjust than your classmates. That is normal and we can talk about strategies to accelerate your adaption if this is a concern of yours.</div>
+<div class="para" id="p-39">In addition to Math 0520, Brown also offers Math 0540: Linear Algebra with Theory. Math 0540 is a higher-level introduction to linear algebra with a greater emphasis on the development of axiomatic principles and proof-writing skills.</div></section><section class="subsubsection" id="subsubsec-inclusiveteaching"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Inclusive Teaching</span>
+</h4>
+<div class="para" id="p-40">Large, introductory STEM courses are well-documented as playing an outsized role in dissuading members of historically excluded groups from pursuing STEM careers. I recognize that, as an instructor of this large, introductory mathematics course, the course design decisions that I have made will affect your perceived ability and desire to concentrate in a STEM field. My sincere hope is that you leave Math 0520 a more capable and resilient problem solver and that you feel supported in this journey.</div>
+<div class="para" id="p-41">I acknowledge that not every student will have this idealized experience.</div>
+<div class="para" id="p-42">I am committed to continuing my education about evidenced-based and equity-focussed approaches to teaching, and to learning from the hundreds of students I have the pleasure of teaching each semester. If you have thoughts, questions, or concerns about this course, or STEM education at Brown, I welcome your perspective and encourage you to reach out to me.</div></section><section class="subsubsection" id="subsubsec-accessibility"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">Accessibility Roadmap</span>
+</h4>
+<div class="para" id="p-43">It’s important to me that you feel you have all the tools you need to succeed in this course. Here are some high-level accessibility features that may help you:</div>
+<ul class="disc">
+<li id="li-27">
+<div class="para" id="p-44">Lesson Recordings</div>
+<ul class="circle"><li id="li-28"><div class="para" id="p-45">Jordan’s lessons are recorded on Zoom and uploaded to the Media Library on Canvas. These may be helpful to you if you miss class, or otherwise want to consult or remind yourself of the flow of a particular lesson.</div></li></ul>
+</li>
+<li id="li-29">
+<div class="para" id="p-46">Activity Book and Vidoes</div>
+<ul class="circle"><li id="li-30"><div class="para" id="p-47">This open-access Activity Book is e-reader compatible; we also have the ability to print a braille version! The Activity Book contains short videos at the bottom of each section that may assist you in reviewing after lessons.</div></li></ul>
+</li>
+<li id="li-31"><div class="para" id="p-48">If you have SAS accommodations, I will receive your letter through the online portal and send you an email with a detailed plan of your accommodations will be be implemented. Whether or not you have SAS accommodations, you are invited to speak with me about how we can work to better include you in our course.</div></li>
+</ul></section></section><section class="subsection" id="subsec-course-structure"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Course Design</span>
+</h3>
+<div class="para" id="p-49">But why? Why is this course weird?</div>
+<section class="subsubsection" id="subsubsec-TBIL"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Team Based Inquiry Learning</span>
+</h4></section><section class="subsubsection" id="subsubsec-Teams"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">Team Structure &amp; Accountability</span>
+</h4></section><section class="subsubsection" id="subsubsection-7"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="space"> </span><span class="title">Office Hours</span>
+</h4></section><section class="subsubsection" id="subsubsec-schedule"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="space"> </span><span class="title">Schedule and Time Expectations</span>
+</h4>
+<figure class="table table-like" id="table-1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1<span class="period">.</span></span><span class="space"> </span>Tentative Schedule</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Week</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Sections Covered</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Assignments Due</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Additional Notes</th>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">One (Sept. 1st-8th)</td>
+<td class="c m b1 r0 l0 t0 lines">Stage Setting, LE RAP</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines">First Week of Class</td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Two (Sept. 8th-15th)</td>
+<td class="c m b1 r0 l0 t0 lines">LE1, LE2, LE3</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-50">Reflection 1</div>
+<div class="para" id="p-51">Fluency Assessment(s)</div>
+<div class="para" id="p-52">Team Creation Form</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Three (Sept. 15th-22nd)</td>
+<td class="c m b1 r0 l0 t0 lines">LE4, EV RAP, EV1</td>
+<td class="c m b1 r0 l0 t0 lines">Fluency Assessments(s)</td>
+<td class="c m b1 r0 l0 t0 lines">Teams Assigned</td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Four (Sept. 22nd-29th)</td>
+<td class="c m b1 r0 l0 t0 lines">EV2, EV3</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-53">Problem Set 1</div>
+<div class="para" id="p-54">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Five (Sept. 29th-Oct. 6th)</td>
+<td class="c m b1 r0 l0 t0 lines">EV4, EV5</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-55">Reflection 2</div>
+<div class="para" id="p-56">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Six (Oct. 6th-13th)</td>
+<td class="c m b1 r0 l0 t0 lines">EV6, EV7, AT RAP</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-57">Problem Set 2</div>
+<div class="para" id="p-58">AT RAP</div>
+<div class="para" id="p-59">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Seven (Oct. 13th-20th)</td>
+<td class="c m b1 r0 l0 t0 lines">AT1, AT2, AT3</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-60">Formative Team Feedback</div>
+<div class="para" id="p-61">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-62">No Class on Monday for Indigenous Peoples’ Day</div></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Eight (Oct. 20th-27th)</td>
+<td class="c m b1 r0 l0 t0 lines">AT4, AT5</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-63">Problem Set 3</div>
+<div class="para" id="p-64">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Nine (Oct. 27th-Nov. 3rd)</td>
+<td class="c m b1 r0 l0 t0 lines">AT6, MX RAP, MX1</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-65">Reflection 3</div>
+<div class="para" id="p-66">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Ten (Nov. 3rd-10th)</td>
+<td class="c m b1 r0 l0 t0 lines">MX2, MX3</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-67">Problem Set 4</div>
+<div class="para" id="p-68">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-69">No Class Tuesday US Election</div></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Eleven (Nov. 10th-17th)</td>
+<td class="c m b1 r0 l0 t0 lines">MX3, MX4, GT RAP</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-70">Reflection 4</div>
+<div class="para" id="p-71">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Twelve (Nov. 17th-24th)</td>
+<td class="c m b1 r0 l0 t0 lines">GT1, GT2</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-72">Problem Set 5</div>
+<div class="para" id="p-73">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Thirteen (Nov. 24th-Dec. 1st)</td>
+<td class="c m b1 r0 l0 t0 lines">GT3, GT4</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-74">Fluency Assessment(s)</div></td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-75">No Class Wednesday-Friday for Thanksgiving</div></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Fourteen (Dec. 1st-8th)</td>
+<td class="c m b1 r0 l0 t0 lines">GT4, Applications</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120">
+<div class="para" id="p-76">Reflection 5</div>
+<div class="para" id="p-77">Summative Team Feedback</div>
+<div class="para" id="p-78">Fluency Assessment(s)</div>
+</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Fifteen (Dec. 8th-15th)</td>
+<td class="c m b1 r0 l0 t0 lines">Class as Needed</td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-79">Fluency Assessment(s)</div></td>
+<td class="c m b1 r0 l0 t0 lines">Reading Period</td>
+</tr>
+<tr>
+<td class="c m b1 r0 l0 t0 lines">Sixteen (Dec. 15th-22nd)</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0" style="max-width:120"><div class="para" id="p-80">Capstone Problem Set</div></td>
+<td class="c m b1 r0 l0 t0 lines">Final Exam Period</td>
+</tr>
+</table></div></figure><div class="para logical" id="p-81">
+<div class="para">In this course, you’ll spend three hours each week in your in-person class sessions and about an hour preparing for class activities. Outside of these sessions, you will be studying, working on problem sets, reflecting on your progress, and preparing your major assessments. We expect a typical students in this course to spend the following time allocations throughout the term:</div>
+<ol class="decimal">
+<li id="li-32"><div class="para" id="p-82">3 hours/week preparing for an attending class</div></li>
+<li id="li-33"><div class="para" id="p-83">6 hours/week working on problem sets</div></li>
+<li id="li-34"><div class="para" id="p-84">1hour/week working on self-assessments</div></li>
+<li id="li-35"><div class="para" id="p-85">2 hours/week reviewing and/or attending office hours</div></li>
+</ol>
+<div class="para">for a total for 180 hours throughout the semester.</div>
+</div></section></section><section class="subsection" id="subsec-assessment"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Assessment</span>
+</h3>
+<div class="para" id="p-86">This section describes the key assessments for this course and how the fit into your overall grade. More detailed instructions and evaluation criteria are located on Canvas.</div>
+<section class="subsubsection" id="subsubsec-readiness"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Readiness Assurance Tests</span>
+</h4>
+<div class="para" id="p-87">To prepare for each of our course modules, you will work through a Readiness Assurance Process (RAP). The RAP consists of three separate phases. First, you will be provided learning outcomes and review materials to refresh yourself on knowledge that you will need for the upcoming module. These materials are found directly in our Activity Book (on the title page of each section) but will also be linked to in Canvas.</div>
+<div class="para" id="p-88">After reviewing material, you will then complete the Readiness Assurance Test (RAT). This test has two phases: first you complete the quiz individually (this is known as the individual-RAT or i-RAT) on your own. Then, you will complete the test a second time with your teammates in class (this is known as the team-RAT or t-RAT). You will find these quizzes on Canvas and we will only remember the greater of your two scores on the test. The RATs contribute 7.5% towards your overall grade.</div></section><section class="subsubsection" id="subsubsec-FluencyAssessments"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Fluency Assessments</span>
+</h4>
+<div class="para" id="p-89">Each section of our Activity Book corresponds to a single targeted learning outcome, each of which is assessed via a <em class="emphasis">Fluency Assessment</em>. On a fluency assessment, you will be asked to complete a number of tasks to demonstrate fluency on the corresponding outcome. If you complete all of these tasks correctly, and provide adequate explanations using our principles of mathematical writing, you will receive a score of <em class="emphasis">Fluent</em>.</div>
+<div class="para" id="p-90">If you fall short, you will receive a score of <em class="emphasis">Not Yet Fluent</em>. In this case, you will recieve a second opportunity to earn a score of <em class="emphasis">Fluent</em> by completing a new version of the Fluency Assessment. If you still fall short on the second attempt, you will have yet another third (and final) opportunity a few weeks later. Note that the last handful of objectives in the semester will only have two opportunities total due to logistical constraints.</div>
+<div class="para" id="p-91">At the end of the term, your Fluency Assessment score, which is worth 25% of your overall course grade, will be equal to the number of objectives you earned Fluent in out of the total number of objectives we assessed.</div>
+<div class="para" id="p-92">The main purpose of the Fluency Assessments is to ensure that you are able to accurately complete the tasks that are aligned with our targeted learning outcomes. In turn, this ensures that you are adequately prepared for further explorations both inside and outside of this course. Since it is important for us to ensure you are doing these tasks accurately, we have a high bar to earn fluency. However, we do not care if you earn fluency on your first attempt, or on a subsequent attempt; all that matters is that, by some combination of practice, review, and the incorporation of feedback, you can eventually demonstrate you are fluent in the objective.</div>
+<div class="para" id="p-93">Fluency Assessments are to be completed individually, without the use of your notes or external resources. Representive Fluency Assessments and sample solutions are contained at the bottom of each section of our Activity Book, and an exercise bank of Fluency Assessments is available to you on CheckIt, which is linked throughout the Activity Book and also on Canvas.</div></section><section class="subsubsection" id="subsubsection-11"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Problem Sets</span>
+</h4>
+<div class="para" id="p-94">In this course, Problem Sets make up the most significant portion of assessment. Their main purpose is to assess your ability to make sense of new problems, apply concepts in new settings, and further develop your ability to communicate mathematical ideas to an audience of your peers and professionals alike. Problem Sets are significant assignments that we expect students to devote substantial time throughout the available two week period to complete them; they are not designed to be successfully completed within a single sitting.</div>
+<div class="para" id="p-95">There are <em class="alert">five (5) Problem Sets total</em> throughout the semester and they combine to account for 25% of your overall grade. After receiving your Problem Set back from the teach team, you will have an opportunity to reflect on feedback to earn an additional 4% of credit. Note that <em class="alert">this course does not drop any Problem Sets</em>.</div>
+<div class="para" id="p-96">To support your success in Problem Sets, we have created a Problem Set Success Guide that is included in this Activity Book. It contains more detailed instructions, expands on our evaluation criteria, and shares resources and strategies to help you succeed on these assessments.</div>
+<div class="para" id="p-97">Collaborating on solving the problems on a problem set with other classmates is permitted, though our expectation is that all written work is produced by you and represents your authentic thinking. Written work that closely resembles that of another classmate may be investigated for plagiarism, as is described below on this syllabus.</div></section><section class="subsubsection" id="subsubsection-12"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Capstone Problem Set</span>
+</h4>
+<div class="para" id="p-98">The Final Assessment for this course is a Capstone Problem Set. The Capstone Problem Set is structured identically to a standard Problem Set, but is comprehensive in nature. Students will have about one week to complete this assessment throughout the Final Exam Period. The Capstone Problem Set is worth 20% of your overall grade. More detailed instructions will be provided on Canvas closer to the end of the semester.</div></section><section class="subsubsection" id="subsubsection-13"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="space"> </span><span class="title">Reflections</span>
+</h4>
+<div class="para" id="p-99">Critical reflection is an integral part of the deep learning process. It helps us digest and personalize what we learn which, in turn, makes our learnings more valuable. Roughly every other week, you’ll be asked to share your perspective on a variety of applications and topics in this course, as well as your thought processes. In doing so, we hope you’ll be better able to contextualize your learning and identify your growth as a problem solver and mathematician over the course of the term. In other words, these reflections will help you consolidate your learning gains over the term. Reflections are worth 7.5% of your overall grade.</div></section><section class="subsubsection" id="subsubsection-14"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="space"> </span><span class="title">Team Work and Attendance</span>
+</h4>
+<div class="para" id="p-100">To assess teamwork, your team will provide both formative and summative feedback to each other throughout the term. Near the half-way mark of the semester, an anonymous form will be shared for your team to provide formative feedback to each other. The main purpose of this feedback is to help you and your team identify way to improve your processes and further cultivate a strong working group. The results of this survey do not affect one’s grade, but completion of the survey is worth 2.5% of your overall grade. At the end of the semester, teammates will score their teamwork using criteria co-created by our class; this will make up 5% of your overall grade.</div>
+<div class="para" id="p-101">Attendance will be recorded after the end of shopping period. It accounts for 7.5% of a student’s overall grade.</div></section><section class="subsubsection" id="subsubsection-15"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="space"> </span><span class="title">Your Final Grade</span>
+</h4>
+<div class="para" id="p-102">Your final grade is calculated as a weighted average of the assessments described above. <a href="" class="xref" data-knowl="./knowl/OverallGradetable.html" title="Table 2: Overall Course Grade">Table 2</a> summarizes this calculation.</div>
+<figure class="table table-like" id="OverallGradetable"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2<span class="period">.</span></span><span class="space"> </span>Overall Course Grade</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r0 l0 t0 lines">Assessment</th>
+<th scope="col" class="l m b1 r0 l0 t0 lines">Contribution</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Readiness Assurance</td>
+<td class="l m b0 r0 l0 t0 lines">7.5%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Attendance</td>
+<td class="l m b0 r0 l0 t0 lines">7.5%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Teamwork</td>
+<td class="l m b0 r0 l0 t0 lines">7.5%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Attendance</td>
+<td class="l m b0 r0 l0 t0 lines">7.5%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Fluency Assessments</td>
+<td class="l m b0 r0 l0 t0 lines">25%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Problem Sets</td>
+<td class="l m b0 r0 l0 t0 lines">25%</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines">Capstone Problem Set</td>
+<td class="l m b1 r0 l0 t0 lines">20%</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Total</td>
+<td class="l m b0 r0 l0 t0 lines">100%</td>
+</tr>
+</table></div></figure><div class="para" id="p-103">In turn, your overall course grade will be translated into a letter grade using the cutoffs in</div>
+<figure class="table table-like" id="lettergrade"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3<span class="period">.</span></span><span class="space"> </span>Letter Grades</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r0 l0 t0 lines">Overall Grade</th>
+<th scope="col" class="l m b1 r0 l0 t0 lines">Letter Grade</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">90—100%</td>
+<td class="l m b0 r0 l0 t0 lines">A</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">80—89.9%</td>
+<td class="l m b0 r0 l0 t0 lines">B</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">65—79.9%</td>
+<td class="l m b0 r0 l0 t0 lines">C</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">0—64.9%</td>
+<td class="l m b0 r0 l0 t0 lines">NC</td>
+</tr>
+</table></div></figure><div class="para" id="p-104">Students taking this course S/NC will receive a grade of S provided that their overall grade is above 65%.</div></section></section><section class="subsection" id="subsec-course-policies"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Course Policies</span>
+</h3>
+<section class="subsubsection" id="subsubsec-attendance"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="space"> </span><span class="title">Attendance</span>
+</h4>
+<div class="para" id="p-105">Attendance in class sessions is recorded and contributes 7.5% towards your final grade; it is recorded by the teaching team in Canvas beginning after shopping period. Each student is provided <em class="emphasis">one week’s worth of personal days</em> (3 sessions for MWF students; 2 sessions to TTh students) to use for absences of any kind. Absences other than these personal days will not be excused, unless accompanied by a Dean’s Note. If you are ill or otherwise unable to attend class for a long period of time, please contact your instructor to come up with a plan to keep you on pace for the term. Late attendances (defined as entering class sometime after the first activity of class has begun) are worth 50% of attendances.</div>
+<div class="para" id="p-106">Our classroom is equipped with Zoom and I (Jordan) will record all of my class meetings. The recordings will appear in the Media Library on Canvas shortly after class.</div></section><section class="subsubsection" id="subsubsec-LatePolicies"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="space"> </span><span class="title">Late Work</span>
+</h4>
+<div class="para" id="p-107">Deadlines help me keep my workload balanced and keep you on track, ultimately resulting in a better learning experience for all of us. Every assessment in this course has a deadline; some of them are hard deadlines, but there are others for which there is flexibility. Here are the descriptions of the deadlines of our most common assessments:</div>
+<div class="para logical" id="p-108"><ul class="disc">
+<li id="li-36"><div class="para logical" id="p-109">
+<div class="para">Readiness Assurance Tests</div>
+<ul class="circle">
+<li id="li-37"><div class="para" id="p-110">First attempt due prior to first class of new module (will be indicated on Canvas)</div></li>
+<li id="li-38"><div class="para" id="p-111">Hard deadline for first attempt.</div></li>
+</ul>
+</div></li>
+<li id="li-39"><div class="para logical" id="p-112">
+<div class="para">Fluency Assessments</div>
+<ul class="circle">
+<li id="li-40"><div class="para" id="p-113">Hard deadline of Sunday 11:59pm Eastern every week.</div></li>
+<li id="li-41"><div class="para" id="p-114">If you miss an attempt, you have two others remaining.</div></li>
+</ul>
+</div></li>
+<li id="li-42"><div class="para logical" id="p-115">
+<div class="para">Problem Sets</div>
+<ul class="circle">
+<li id="li-43"><div class="para" id="p-116">Due 11:59pm Eastern Tuesdays, as/when indicated on Canvas (there are 5 total)</div></li>
+<li id="li-44"><div class="para" id="p-117">24-hour no-questions-asked grace period.</div></li>
+<li id="li-45"><div class="para" id="p-118">No extensions beyond the grace period, unless communicated prior to the due date and accompanied by a Dean’s Note.</div></li>
+</ul>
+</div></li>
+<li id="li-46"><div class="para logical" id="p-119">
+<div class="para">Reflections</div>
+<ul class="circle">
+<li id="li-47"><div class="para" id="p-120">Due Sundays 11:59pm Eastern as indicated on Canvas (there are 5 total)</div></li>
+<li id="li-48"><div class="para" id="p-121">May turn in within one week after deadline, after which submission closes.</div></li>
+</ul>
+</div></li>
+</ul></div></section><section class="subsubsection" id="subsubsec-Communication"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="space"> </span><span class="title">Communication</span>
+</h4>
+<div class="para" id="p-122">This course has two primary channels for communicating outside of class and office hours: <em class="emphasis">Ed STEM</em> and <em class="emphasis">e-mail</em>. If you have a question about an assignment, course, policy, concept, or anything else that might benefit the class as a whole, please post on Ed STEM; you’re welcome to post anonymously if you are shy. On the other hand, if you need to talk to us about something that is personal to your situation, please do send us an e-mail.</div>
+<div class="para logical" id="p-123">
+<div class="para">Everyone has different workflows and boundaries around email communication. Here are my expectations when it comes to email communication in this course; your instructor’s expectations may differ from these, so take note when they share their own expectations.</div>
+<ul class="disc">
+<li id="li-49"><div class="para" id="p-124">I will work to respond to your message within 24 hours, or else on Monday if you write to me on Friday.</div></li>
+<li id="li-50"><div class="para" id="p-125">I will generally not respond or check email outside of 7:00am-4:30pm Eastern.</div></li>
+<li id="li-51"><div class="para logical" id="p-126">
+<div class="para">You are welcome to refer to me as “Jordan” via email. If you prefer to use a salutation, then please use one of the following (and no others):</div>
+<ul class="circle">
+<li id="li-52"><div class="para" id="p-127">Prof.(essor) Jordan</div></li>
+<li id="li-53"><div class="para" id="p-128">Prof.(essor) Kostiuk</div></li>
+<li id="li-54"><div class="para" id="p-129">Dr. Kostiuk</div></li>
+</ul>
+</div></li>
+</ul>
+</div></section></section><section class="subsection" id="subsec-AcademicIntegrity"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">Academic Integrity</span>
+</h3>
+<section class="subsubsection" id="subsubsec-Plagiarism"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="space"> </span><span class="title">Plagiarism</span>
+</h4></section><section class="subsubsection" id="subsubsec-Collaboration"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.5.2</span><span class="space"> </span><span class="title">Collaboration</span>
+</h4></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="preface-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="instructions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
