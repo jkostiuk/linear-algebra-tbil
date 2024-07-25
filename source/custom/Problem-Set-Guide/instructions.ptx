@@ -46,7 +46,102 @@
     </subsection>
 
     <subsection>
-        <title>Mathematical Writing</title>
+        <title>How Will You Be Evaluated?</title>
+        <p>
+            Each Problem Set in this course will contain five (5) problems. 
+            For each problem, your task is to solve the problem and prepare a written solution to it.
+            You will then upload your solutions to Gradescope as a single .pdf file, as instruced on Canvas. 
+        </p>
+
+        <p>
+            <alert>Written solutions are more than just answers.</alert>
+            A complete solution to a problem:
+            <ol>
+                <li>
+                    <p>
+                        clearly states what the answer to the problem is;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        explains why the claimed answer is indeed the correct answer;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        is grounded in sound mathematical reasoning that builds on and/or refers directly to results, Facts, or Activities that we have explored in class;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        is written for an audience of a typical classmate; that is, someone who is generally new to these ideas and has the resources and experiences provided in this Activity Book.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+            For each problem on your problem set, you will receive a total score of at most 5 points; three (3) of those points are for <em>Problem Solving</em> and two (2) of those points are for <em>Communication</em>.
+            <ul>
+                <li>
+                    <p>
+                        Problem Solving (3 Points)
+                        <ul>
+                            <li>
+                                <p>
+                                    The solution uses methods covered in class, is grounded in mathematical reasoning, and solves the problem, when executed accurately.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    All key ideas required to solve the problem are introduced in a clear and concise manner.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Communication (2 Points)
+                        <ul>
+                            <li>
+                                <p>
+                                    The solution is well-written, audience appropriate, and follows principles of good mathematical writing (explained more below).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mathematical terms and notations are used correctly, and Theorem and Facts are cited appropriately.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Solutions are uploaded to gradescope properly with all relevant pages selected for each question.
+                                </p>
+                            </li>
+                        </ul>
+                    </p> 
+                </li>
+            </ul> 
+
+            In order to grade your work fairly and consistently among our varied sections, the teaching team will meet prior to assessing the Problem Sets in order to decide how to interpret these criteria for each problem on your Problem Set.
+        </p>
+        <p>
+            After your Problem Set is returned to you, <alert>you will be provided an opportunity to reflect on the feedback that you were given and earn one (1) additional point on your Problem Set</alert>.
+        </p>
+ 
+
+    </subsection>
+
+    <subsection>
+        <title>Writing Mathematics Well</title>
+
+        <p>
+            
+        </p>
+
+        <image source="custom/assets/Su-MathWriting.png" width="100%"/>
+
         <remark>
             <p>
                 Like all forms of writing, it will take practice, and the incorporation of feedback, to feel confident in writing mathematics well. 
