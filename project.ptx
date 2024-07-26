@@ -2,7 +2,7 @@
 <project ptx-version="2">
   <targets>
     <!-- Custom targets for Jordan -->
-    <target name="web" format="html" source="custom.ptx" deploy-dir=".">
+    <target name="web" format="html" source="custom.ptx" deploy-dir="jkostiuk">
       <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
     <target name="syllabus" format="pdf" source="custom/standalone-syllabus.ptx" deploy-dir="syllabus"/>
