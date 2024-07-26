@@ -13,22 +13,23 @@
 <body class="ignore-math">
 <h5 class="heading"><span class="type">Paragraph</span></h5>
 <div class="para logical">
-<div class="para">If <span class="process-math">\(S\)</span> is any set of vectors in <span class="process-math">\(\IR^n\text{,}\)</span> then the set <span class="process-math">\(\vspan(S)\)</span> has the following properties:</div>
-<ul class="disc">
-<li><div class="para">the set <span class="process-math">\(\vspan(S)\)</span> is non-empty.</div></li>
-<li><div class="para">the set <span class="process-math">\(\vspan(S)\)</span> is closed under addition: for any <span class="process-math">\(\vec{u},\vec{v}\in \vspan(S)\text{,}\)</span> the sum <span class="process-math">\(\vec{u}+\vec{v}\)</span> is also in <span class="process-math">\(\vspan(S)\text{.}\)</span>
-</div></li>
-<li><div class="para">the set <span class="process-math">\(\vspan(S)\)</span> is closed under scalar multiplication: for any <span class="process-math">\(\vec{u}\in\vspan(S)\)</span> and scalar <span class="process-math">\(c\in\IR\text{,}\)</span> the product <span class="process-math">\(c\vec{u}\)</span> is also in <span class="process-math">\(\vspan(S)\text{.}\)</span>
-</div></li>
-</ul>
-<div class="para">Likewise, if <span class="process-math">\(W\)</span> is the solution set to a homogenous vector equation, it too satisfies:</div>
-<ul class="disc">
-<li><div class="para">the set <span class="process-math">\(W\)</span> is non-empty.</div></li>
-<li><div class="para">the set <span class="process-math">\(W\)</span> is closed under addition: for any <span class="process-math">\(\vec{u},\vec{v}\in W\text{,}\)</span> the sum <span class="process-math">\(\vec{u}+\vec{v}\)</span> is also in <span class="process-math">\(W\text{.}\)</span>
-</div></li>
-<li><div class="para">the set <span class="process-math">\(\vspan(S)\)</span> is closed under scalar multiplication: for any <span class="process-math">\(\vec{u}\in W\)</span> and scalar <span class="process-math">\(c\in\IR\text{,}\)</span> the product <span class="process-math">\(c\vec{u}\)</span> is also in <span class="process-math">\(W\text{.}\)</span>
-</div></li>
-</ul>
+<div class="para">This system is equivalent to the vector equation:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_1 \vec{v}_1 + \cdots+x_n \vec{v}_n = \vec{0}
+\end{equation*}
+</div>
+<div class="para">and the augmented matrix:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[\begin{array}{cccc|c}
+a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} &amp; 0\\
+a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} &amp; 0\\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots\\
+a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn} &amp; 0
+\end{array}\right]
+\end{equation*}
+</div>
 </div>
 <span class="incontext"><a class="internal" href="EV3.html#p-501">in-context</a></span>
 </body>

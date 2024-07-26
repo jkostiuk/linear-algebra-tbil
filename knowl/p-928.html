@@ -11,12 +11,25 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h5 class="heading"><span class="type">Paragraph</span></h5>
 <div class="para logical">
-<div class="para">Given two vectors <span class="process-math">\(\vec{v} = \left[\begin{array}{c}v_1\\v_2\\ \vdots \\ v_n\end{array}\right]\)</span> and <span class="process-math">\(\vec{w} = \left[\begin{array}{c}w_1 \\ w_2\\ \vdots \\ w_n\end{array}\right]\text{,}\)</span> we define the <dfn class="terminology">dot product</dfn> as</div>
+<div class="para">Since the formula for a linear transformation <span class="process-math">\(T\)</span> and its standard matrix <span class="process-math">\(A\)</span> may both be used to compute the transformation of a vector <span class="process-math">\(\vec x\text{,}\)</span> we will often write <span class="process-math">\(T(\vec x)\)</span> and <span class="process-math">\(A\vec x\)</span> interchangably:</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\vec{v}\cdot \vec{w} = v_1w_1 + v_2w_2 + \cdots v_nw_n.
+T\left(\left[\begin{array}{c}x_1\\x_2\\x_3\\x_4\end{array}\right]\right)
+=
+\left[\begin{array}{c}
+ax_1+bx_2+cx_3+dx_4 \\
+ex_1+fx_2+gx_3+hx_4
+\end{array}\right]
+=
+A\left[\begin{array}{c}x_1\\x_2\\x_3\\x_4\end{array}\right]
+=
+\left[\begin{array}{cccc}
+a &amp; b &amp; c &amp; d \\
+e &amp; f &amp; g &amp; h
+\end{array}\right]
+\left[\begin{array}{c}x_1\\x_2\\x_3\\x_4\end{array}\right]
 \end{equation*}
 </div>
 </div>
