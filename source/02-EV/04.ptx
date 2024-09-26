@@ -130,7 +130,7 @@
             \end{array}\right]=  \unknown .</me>
         </p>
         <p>   
-            What does this tell you about solution set for the vector equation 
+            What does this tell you about solution set for the (homogenous) vector equation 
             <m>x_1\vec{v}_1+x_2\vec{v}_2+x_3\vec{v}_3 + x_4\vec w=\vec{0}</m>?
             <ol marker="A.">
                 <li>

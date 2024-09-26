@@ -79,16 +79,113 @@ was actually defined for all kinds of vector spaces:
         </ul>
     </p>
 </observation>
+<activity>
+    <statement>
+        <p>
+            Consider the set <m>S=\{t^2,t^2-1,1+t\}</m> of polynomials in the vector space <m>\P^3</m> and the following statements about the set <m>S</m>:
+            <ol>
+                <li>
+                    <p>
+                        The polynomial <m>t^2-t-1</m> is an element of <m>\vspan(S)</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The set of polynomials <m>S</m> spans all of <m>\P^3</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The set of polynomials <m>S</m> is linearly independent. 
+                    </p>
+                </li>
+            </ol>
+            For each of the statements above, which of the following statements about a vector equation would help you decide if the given statement is true or false?
+            <ol marker="A.">
+                <li>
+                    <p>
+                        The vector equation <me>x_1t^2+x_2(t^2-1)+x_3(1+t)=p(t)</me> is consistent for all polynomials <m>p(t)\in\P^3</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The vector equation <me>x_1t^2+x_2(t^2-1)+x_3(1+t)=0</me> has no non-trivial solution in <m>x_1,x_2,x_3</m>. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The vector equation <me>x_1t^2+x_2(t^2-1)+x_3(1+t)=t^2-t-1</me> has at least one solution in <m>x_1,x_2,x_3</m>. 
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>
+
+<activity>
+    <introduction>
+        <p> Let <m>S=\{t^2,t^2-1,1+t\}</m>.
+            To determine whether or not <m>t^2-t-1</m> is an element of <m>\vspan(S)</m>, we must decide whether or not the vector equation <me>x_1t^2+x_2(t^2-1)+x_3(1+t)=t^2-t-1</me> is consistent.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Determine a system of linear equations in the variables <m>x_1,x_2,x_3</m> that helps you make this determination. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Is your system of linear equations consistent? If yes, express <m>t^2-t-1</m> as a linear combination of the polynomials in <m>S</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Based on your calculations, what else can you conclude about the set <m>S</m>?
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            The set <m>S</m> spans all of <m>\P^2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set <m>S</m> is linearly independent. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set <m>S</m> is a basis for <m>\P^2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            We cannot conclude anything further about <m>S</m> without additional information.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </task>
+</activity>
+<sage language="octave">
+</sage>
 
 <activity>
     <statement>
         <p>
 Let <m>V</m> be a vector space with the basis <m>\{\vec v_1,\vec v_2,\vec v_3\}</m>.
-Which of these completes the following definition for a bijective linear map
-<m>T:V\to\mathbb R^3</m>?
+Consider the following linear transformations <m>T:V\to\mathbb R^3</m>:
 <me>T(\vec v)=T(a\vec v_1+b\vec v_2+c\vec v_3)=\left[\begin{array}{c}
     \unknown\\\unknown\\\unknown
   \end{array}\right]</me>
+  where <m>\left[\begin{array}{c}
+  \unknown\\\unknown\\\unknown
+\end{array}\right]</m> is which of the following: 
   <ol marker="A." cols="3">
     <li><p><m>\left[\begin{array}{c}
         0\\ 0\\ 0
@@ -100,6 +197,10 @@ Which of these completes the following definition for a bijective linear map
         a\\ b\\ c
         \end{array}\right]</m></p></li>
   </ol>
+        </p>
+
+        <p>
+            Which of them are bijective?
         </p>
     </statement>
 </activity>

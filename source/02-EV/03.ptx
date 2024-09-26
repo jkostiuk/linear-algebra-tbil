@@ -80,7 +80,7 @@
             </p>
             <p>
       This system is equivalent to the vector equation:
-      <me>x_1 \vec{v}_1 + \cdots+x_n \vec{v}_n = \vec{0}</me>
+      <me>x_1 \left[\begin{array}{c} a_{11} \\ \vdots \\ a_{m1} \end{array}\right] + \cdots+x_n \left[\begin{array}{c} a_{1n} \\ \vdots \\ a_{mn} \end{array}\right] = \vec{0}</me>
       and the augmented matrix:
       <me>
         \left[\begin{array}{cccc|c}
@@ -101,40 +101,28 @@
             </p>
         </introduction>
         <task>
-            <p>
-        Is this equation consistent?
-                </p>
-        <ol marker="A.">
-        <li>
-            <p>
-                no.
-            </p>
-          </li>
-        <li>
-            <p>
-                yes.
-            </p>
-          </li>
-          <li>
-              <p>
-                  more information is required.
-              </p>
-            </li>
-        </ol>
-            </task>
-        <task>
         <p>
-    Note that if <m>\left[\begin{array}{c} a_1 \\ \vdots \\ a_n \end{array}\right] </m> and
-    <m>\left[\begin{array}{c} b_1 \\ \vdots \\ b_n \end{array}\right] </m> are both solutions,
+    Note that if <m>\left[\begin{array}{c} x_1 \\ \vdots \\ x_n \end{array}\right] </m> and
+    <m>\left[\begin{array}{c} y_1 \\ \vdots \\ y_n \end{array}\right] </m> are both solutions,
     we know that
-    <me>a_1 \vec{v}_1+\cdots+a_n \vec{v}_n = \vec{0}
+    <me>x_1 \vec{v}_1+\cdots+x_n \vec{v}_n = \vec{0}
     \text{ and }
-    b_1 \vec{v}_1+\cdots+b_n \vec{v}_n = \vec{0} </me>.
-    Therefore by adding these equations:
-    <me>(a_1 + b_1) \vec{v}_1+\cdots+(a_n+b_n) \vec{v}_n = \vec{0},</me>
+    y_1 \vec{v}_1+\cdots+y_n \vec{v}_n = \vec{0} </me>.
+    Adding these equations, we obtain:
+    <md>
+        <mrow>
+            x_1 \vec{v}_1+\cdots+x_n \vec{v}_n &amp;=\vec{0}
+        </mrow>
+        <mrow>
+            y_1 \vec{v}_1+\cdots+y_n \vec{v}_n &amp;=\vec{0}
+        </mrow>
+        <mrow>
+            \Rightarrow (x_1+y_1)\vec{v}_1+\cdots+(x_n+y_n) \vec{v}_n &amp;=\vec{0}.
+        </mrow>
+    </md>
             </p>
         <p>
-    we may conclude that the vector <m>\left[\begin{array}{c} a_1+ b_1 \\ \vdots \\ a_n+b_n \end{array}\right] </m> 
+    Therefore, we may conclude that the vector <m>\left[\begin{array}{c} x_1+ y_1 \\ \vdots \\ x_n+y_n \end{array}\right] </m> 
     is...
         </p>
     <ol marker="A.">
@@ -157,10 +145,16 @@
         </task>
         <task>
         <p>
-    Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: <me>
-        (ca_1)\vec{v}_1+\cdots+(ca_n)\vec{v}_n=\vec{0},
-    </me>
-    we may conclude that the vector <m>\left[\begin{array}{c} ca_1 \\ \vdots \\ ca_n \end{array}\right] </m> is...
+    Similarly, if <m>c \in \IR</m>, then since multiplying by <m>c</m> yields: 
+    <md>
+        <mrow>
+            c(x_1 \vec{v}_1+\cdots+x_n \vec{v}_n )&amp;=c\cdot \vec{0}
+        </mrow>
+        <mrow>
+            \Rightarrow (cx_1) \vec{v}_1+\cdots+(cx_n) \vec{v}_n &amp;=\vec{0}
+        </mrow>
+    </md>
+    we may conclude that the vector <m>\left[\begin{array}{c} cx_1 \\ \vdots \\ cx_n \end{array}\right] </m> is...
         </p>
     <ol marker="A.">
     <li>
@@ -178,13 +172,30 @@
           is equal to <m>\vec{0}</m>.
           </p>
         </li>
-    <li>
-        <p>
-        The empty set.
-        </p>
-      </li>
     </ol>
         </task>
+        <task>
+            <p>
+        Is this equation consistent?
+                </p>
+        <ol marker="A.">
+        <li>
+            <p>
+                no.
+            </p>
+          </li>
+        <li>
+            <p>
+                yes.
+            </p>
+          </li>
+          <li>
+              <p>
+                  more information is required.
+              </p>
+            </li>
+        </ol>
+            </task>
     </activity>
 
     <observation>
@@ -221,7 +232,7 @@
                 </li>
                 <li>
                     <p>
-                        the set <m>\vspan(S)</m> is closed under scalar multiplication: for any <m>\vec{u}\in W</m> and scalar <m>c\in\IR</m>, the product <m>c\vec{u}</m> is also in <m>W</m>.    
+                        the set <m>W</m> is closed under scalar multiplication: for any <m>\vec{u}\in W</m> and scalar <m>c\in\IR</m>, the product <m>c\vec{u}</m> is also in <m>W</m>.    
                     </p>
                 </li>
             </ul>
@@ -358,7 +369,7 @@ Let <m>W=\setBuilder{\left[\begin{array}{c} x \\ y \\ z \end{array}\right]}{ x+2
     </task>
     <task>
         <p>
-Use the assumptions from (a) to verify the equation from (b).
+Use the assumptions from (b) to verify the equation from (c).
         </p>
     </task>
     <task>
@@ -527,7 +538,7 @@ by doing <em>all</em> of the following:
   <li>
     <p>
 For all <m>\vec v,\vec w\in W</m> (not just specific values), 
-<m>\vec u+\vec v\in W</m>.
+<m>\vec v+\vec w\in W</m>.
     </p>
   </li>
   <li>
